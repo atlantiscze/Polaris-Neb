@@ -73,7 +73,7 @@
 	name = "bar holosign"
 	desc = "Small wall-mounted holographic projector. This one reads OPEN."
 	icon_state = "barclosed"
-	on_icon = "baropen"
+	on_icon = "sign_on"
 	sign_light_color = COLOR_LIGHT_CYAN
 
 ////////////////////SWITCH///////////////////////////////////////
