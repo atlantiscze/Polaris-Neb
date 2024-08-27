@@ -3,9 +3,13 @@
 /turf/simulated/mineral/floor/@SUBTYPES : /turf/floor/natural/barren
 /turf/simulated/mineral : /turf/wall/natural
 /turf/simulated/sky/@SUBTYPES : /turf/open/sky/@SUBTYPES
-/turf/simulated/floor/water/pool : /obj/abstract/landmark/mapped_fluid{fluid_initial = 300; name = "mapped shallow pool"}, /turf/floor/pool
-/turf/simulated/floor/water/deep/pool : /obj/abstract/landmark/mapped_fluid{fluid_initial = 800; name = "mapped deep pool"}, /turf/floor/pool/deep
+/turf/simulated/floor/water/pool : /turf/simulated/floor/pool
+/turf/simulated/shuttle/plating/airless : /turf/simulated/floor/airless{@OLD}
 /turf/simulated/shuttle/plating/airless/carry : @DELETE
+/turf/simulated/shuttle/plating/@SUBTYPES : /turf/simulated/floor/@SUBTYPES{@OLD}
+/turf/simulated/shuttle/floor/@SUBTYPES : /turf/simulated/floor/shuttle/@SUBTYPES{@OLD}
+/turf/simulated/floor/shuttle : /turf/simulated/floor/shuttle/blue{@OLD}
+/turf/simulated/floor/shuttle/airless : /turf/simulated/floor/shuttle/blue/airless{@OLD}
 /turf/unsimulated/wall/seperator : /turf/unsimulated/dark_filler
 # natural turfs don't need planetary subtypes, they use level data
 /turf/simulated/floor/outdoors/mud/@SUBTYPES : /turf/floor/natural/mud
@@ -19,34 +23,9 @@
 /turf/simulated/mineral/ignore_mapgen/sif : /turf/wall/natural/ignore_mapgen
 #other turfs
 /turf/simulated/wall/r_concrete : /turf/wall/concrete/reinforced{@OLD}
-/turf/snow : /turf/unsimulated/floor/snow
-/turf/simulated/wall/skipjack : /turf/wall/raidershuttle{@OLD}
-/turf/simulated/floor/carpet/blucarpet : /turf/floor/carpet/blue
-/turf/simulated/floor/carpet/bcarpet : /turf/simulated/floor/carpet/blue{@OLD}
-/turf/simulated/floor/carpet/oracarpet : /turf/simulated/floor/carpet/orange{@OLD}
-/turf/simulated/floor/carpet/purcarpet : /turf/simulated/floor/carpet/purple{@OLD}
-/turf/simulated/floor/carpet/sblucarpet : /turf/simulated/floor/carpet/blue3{@OLD}
-/turf/simulated/floor/carpet/turcarpet : /turf/simulated/floor/carpet/blue2{@OLD}
-/turf/simulated/floor/tiled/steel : /turf/simulated/floor/tiled{@OLD}
-/turf/simulated/wall/thull : /turf/wall/titanium{@OLD}
-/turf/simulated/wall/rthull : /turf/wall/r_titanium{@OLD}
-/turf/simulated/shuttle/plating/@SUBTYPES : /turf/floor/shuttle/@SUBTYPES{@OLD}
-/turf/unsimulated/shuttle/wall/dark : /turf/wall/shuttle/dark{@OLD}
-/turf/unsimulated/shuttle/wall/dark/no_join : /turf/wall/shuttle/dark{@OLD; unique_merge_identifier = "CHANGEMETOO"}
-/turf/wall/dshull : /turf/wall/ocp_wall{@OLD}
-/turf/wall/durasteel : /turf/wall/ocp_wall{@OLD}
-/turf/wall/pshull : /turf/wall/raidershuttle
-/turf/wall/rshull : /turf/wall/r_wall/hull
-/turf/wall/shuttle/dark/hard_corner : /turf/wall/shuttle/dark{@OLD}
-/turf/wall/shuttle/hard_corner : /turf/wall/shuttle{@OLD}
-/turf/wall/shuttle/no_join : /turf/wall/shuttle{@OLD; unique_merge_identifier = "CHANGEME"}
-/turf/wall/shuttle/voidcraft/hard_corner : /turf/wall/shuttle/voidcraft{@OLD}
 
 # Misc. cooking
-/obj/item/reagent_containers/food/condiment/small/peppershaker : /obj/item/chems/condiment/small/peppermill{@OLD}
-/obj/item/reagent_containers/food/condiment/soysauce : /obj/item/chems/condiment/small/soysauce{@OLD}
-/obj/item/reagent_containers/food/snacks/xenomeat/spidermeat : /obj/item/food/spider{@OLD}
-/obj/item/reagent_containers/food/drinks/britcup : /obj/item/chems/drinks/glass2/coffeecup/britcup{@OLD}
+/obj/item/chems/food/condiment/small/peppershaker : /obj/item/chems/condiment/small/peppermill{@OLD}
 
 # Misc. bureaucracy
 /obj/item/deskbell : /obj/item/bell{@OLD}
@@ -58,6 +37,10 @@
 /mob/living/simple_animal/passive/opossum/@SUBTYPES : /mob/living/simple_animal/opossum/@SUBTYPES{@OLD}
 /mob/living/simple_animal/passive/dog/corgi/Ian : /mob/living/simple_animal/corgi/Ian{@OLD}
 /mob/living/simple_mob/slime/xenobio/@SUBTYPES : /mob/living/simple_animal/slime/@SUBTYPES{@OLD}
+
+# Turfs
+/turf/simulated/floor/carpet/blucarpet : /turf/floor/carpet/blue
+/turf/simulated/floor/water/deep/pool : /turf/floor/pool/deep
 
 # Vehicles
 /obj/vehicle/train/engine : /obj/vehicle/train/cargo/engine{@OLD}
@@ -76,7 +59,6 @@
 /obj/machinery/atmospherics/tvalve/digital/mirrored : /obj/machinery/atmospherics/tvalve/mirrored/digital{@OLD}
 
 # our networks are different
-/obj/machinery/blackbox_recorder : @DELETE
 /obj/machinery/exonet_node : @DELETE
 /obj/machinery/ntnet_relay : @DELETE
 /obj/machinery/pda_multicaster/prebuilt : @DELETE
@@ -85,8 +67,6 @@
 /obj/effect/decal/mecha_wreckage/@SUBTYPES : @DELETE
 /obj/item/circuitboard/mecha_control/@SUBTYPES : @DELETE
 /obj/machinery/computer/mecha : @DELETE
-/obj/item/kit/paint/durand/@SUBTYPES : @DELETE
-/obj/item/kit/paint/gygax/@SUBTYPES : @DELETE
 
 # we don't have shieldcaps anymore
 /obj/machinery/shield_capacitor : @DELETE
@@ -161,7 +141,6 @@
 # XENOBIO
 /obj/machinery/processor : /obj/machinery/optable{@OLD}
 /obj/item/slime_extract/grey : /obj/item/slime_extract{@OLD}
-/obj/item/reagent_containers/food/snacks/cube/monkeycube/@SUBTYPES : /obj/item/food/monkeycube/@SUBTYPES{@OLD}
 
 # LANDMARKS
 /obj/effect/landmark/@SUBTYPES : /obj/abstract/landmark/@SUBTYPES{@OLD}
@@ -226,10 +205,6 @@
 /obj/structure/sign/science : /obj/structure/sign/department/science_2{@OLD}
 /obj/structure/sign/signnew/secure : /obj/structure/sign/warning/secure_area{@OLD}
 /obj/structure/sign/xenobio : /obj/structure/sign/department/xenobio_3{@OLD}
-/obj/structure/sign/examroom : /obj/structure/sign/department/examroom{@OLD}
-/obj/structure/sign/chemistry : /obj/structure/sign/department/chemistry{@OLD}
-/obj/structure/sign/atmosplaque : /obj/structure/sign/plaque/atmos{@OLD}
-/obj/structure/sign/warning/falling : /obj/structure/sign/warning/fall{@OLD}
 
 # CLOTHING REPATHS
 /obj/item/clothing/accessory/hawaii/@SUBTYPES : /obj/item/clothing/shirt/hawaii{@OLD}
@@ -322,7 +297,6 @@
 /obj/item/clothing/accessory/scarf/@SUBTYPES : /obj/item/clothing/neck/scarf/@SUBTYPES
 /obj/item/clothing/glasses/gglasses : /obj/item/clothing/glasses/prescription/gglasses
 /obj/item/clothing/mask/smokable/cigarette/joint : /obj/item/clothing/mask/smokable/cigarette/rolled
-/obj/item/clothing/under/swimsuit/stripper/mankini : /obj/item/clothing/pants/mankini{@OLD}
 
 /obj/item/cell/device/weapon : /obj/item/cell/gun{@OLD}
 /obj/structure/closet/fireaxecabinet : /obj/structure/fireaxecabinet{@OLD}
@@ -341,7 +315,6 @@
 /obj/item/storage/fancy/whitecandle_box : /obj/item/box/candles/white{@OLD}
 /obj/item/storage/fancy/blackcandle_box : /obj/item/box/candles/black{@OLD}
 /obj/item/storage/fancy/cigar/havana : /obj/item/clothing/mask/smokable/cigarette/cigar/havana{@OLD}
-/obj/item/storage/firstaid/surgery/simple : /obj/item/firstaid/surgery{@OLD}
 /obj/item/toy/plushie/coffee_fox : /obj/item/toy/plushie/fox/coffee{@OLD}
 /obj/item/toy/plushie/marble_fox : /obj/item/toy/plushie/fox/marble{@OLD}
 /obj/item/toy/plushie/mouse/fluff : /obj/item/toy/plushie/mouse{@OLD}
@@ -352,21 +325,6 @@
 
 /obj/item/fishing_rod/built : /obj/item/fishing_rod{@OLD}
 /obj/fiftyspawner/log/sif : /obj/item/stack/material/log/mapped/ebony/fifty
-
-/obj/item/pill_bottle/dermaline : /obj/item/pill_bottle/burn_meds{@OLD}
-/obj/item/pill_bottle/dexalin_plus : /obj/item/pill_bottle/oxygen/plus{@OLD}
-/obj/item/pill_bottle/dylovene : /obj/item/pill_bottle/antitoxins{@OLD}
-
-/obj/item/gun/magic/firestaff : /obj/item/gun/energy/staff/fire
-/obj/item/gun/launcher/crossbow : /obj/item/gun/launcher/bow/crossbow/powered
-
-/obj/structure/girder/reinforced : /obj/structure/girder{@OLD}
-
-# SHUTTLE AREAS
-/area/shuttle/arrival/pre_game : /area/shuttle/arrival
-/area/shuttle/arrival/station : /area/shuttle/arrival
-/area/shuttle/escape/station : /area/shuttle/escape
-/area/shuttle/escape/transit : /area/shuttle/escape
 
 #############
 # DELETIONS #
