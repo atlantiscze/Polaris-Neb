@@ -477,3 +477,37 @@ corgi statue for central hall
 		. += /obj/item/backpack/satchel/grey
 	if(prob(75))
 		. += /obj/item/knife/tacknife/survival
+
+// Medical closets
+/obj/structure/closet/secure_closet/anesthetics
+	name = "anesthetics closet"
+	desc = "Used to knock people out."
+	closet_appearance = /decl/closet_appearance/secure_closet/medical/alt
+	req_access = list(access_surgery)
+
+/obj/structure/closet/secure_closet/anesthetics/WillContain()
+	return list(
+		/obj/item/tank/anesthetic = 3,
+		/obj/item/clothing/mask/breath/medical = 3
+	)
+
+/obj/structure/closet/secure_closet/medical_wall/anesthetics
+	name = "anesthetics wall closet"
+	desc = "Used to knock people out."
+	req_access = list(access_surgery)
+
+/obj/structure/closet/secure_closet/medical_wall/anesthetics/WillContain()
+	return list(
+		/obj/item/tank/anesthetic = 3,
+		/obj/item/clothing/mask/breath/medical = 3
+	)
+
+/obj/structure/closet/secure_closet/medical_wall/anesthetics/robotics
+	name = "robotics anesthetics wall closet"
+	desc = "Used to knock people out... but in the Robotics lab."
+	req_access = list(access_robotics)
+
+/obj/item/eftpos/departmental/service
+/obj/item/eftpos/departmental/security
+/obj/item/eftpos/departmental/cargo
+/obj/item/eftpos/departmental/command

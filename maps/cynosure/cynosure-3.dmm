@@ -1764,7 +1764,7 @@
 /turf/floor/tiled/old_cargo/gray,
 /area/surface/station/security/tactical)
 "bpV" = (
-/obj/item/banner/nt,
+/obj/item/banner/nanotrasen,
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/borderfloor{
 	dir = 8
@@ -6186,10 +6186,8 @@
 "erC" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/atmospherics/pipe/manifold/hidden,
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "roof_airlock_inner";
-	locked = 1;
 	name = "Internal Access"
 	},
 /obj/effect/map_helper/airlock/door/int_door,
@@ -7065,7 +7063,7 @@
 /turf/wall,
 /area/surface/station/engineering/hallway/snd)
 "eUJ" = (
-/obj/item/banner/nt,
+/obj/item/banner/nanotrasen,
 /turf/floor/wood,
 /area/surface/station/command/meeting_room)
 "eVk" = (
@@ -7196,10 +7194,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
 	},
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "eng_airlock_inner";
-	locked = 1;
 	name = "Engineering Internal Access"
 	},
 /obj/effect/map_helper/airlock/door/int_door,
@@ -9101,10 +9097,8 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
 	},
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "eng_airlock_outer";
-	locked = 1;
 	name = "Engineering External Access"
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
@@ -10008,10 +10002,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
 	},
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "roof_airlock_inner";
-	locked = 1;
 	name = "Internal Access"
 	},
 /obj/effect/map_helper/airlock/door/int_door,
@@ -13652,10 +13644,8 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "com_airlock_inner";
-	locked = 1;
 	name = "Internal Access"
 	},
 /obj/effect/map_helper/airlock/door/int_door,
@@ -17850,10 +17840,8 @@
 	pixel_x = 35;
 	dir = 8
 	},
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "com_airlock_outer";
-	locked = 1;
 	name = "External Access"
 	},
 /turf/floor/tiled/techfloor,
@@ -18396,10 +18384,8 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
 	},
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "eng_airlock_outer";
-	locked = 1;
 	name = "Engineering External Access"
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
@@ -23122,7 +23108,7 @@
 	pixel_y = 10
 	},
 /obj/structure/table,
-/obj/item/chems/drinks/britcup{
+/obj/item/chems/glass2/coffeecup/britcup{
 	pixel_x = 10;
 	pixel_y = -2
 	},
@@ -23274,10 +23260,8 @@
 	pixel_x = -24
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "ai_airlock_outer";
-	locked = 1;
 	name = "External Access"
 	},
 /turf/floor/tiled/steel_grid,
@@ -23293,10 +23277,8 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "ai_airlock_inner";
-	locked = 1;
 	name = "Internal Access"
 	},
 /obj/machinery/button/access/interior{
@@ -24313,10 +24295,8 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "com_airlock_inner";
-	locked = 1;
 	name = "Internal Access"
 	},
 /obj/effect/map_helper/airlock/door/int_door,
@@ -25790,10 +25770,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
 	},
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "eng_airlock_inner";
-	locked = 1;
 	name = "Engineering Internal Access"
 	},
 /obj/effect/map_helper/airlock/door/int_door,
@@ -26651,10 +26629,8 @@
 	dir = 10
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "ai_airlock_outer";
-	locked = 1;
 	name = "External Access"
 	},
 /turf/floor/tiled/steel_grid,
@@ -31237,10 +31213,8 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "ai_airlock_inner";
-	locked = 1;
 	name = "Internal Access"
 	},
 /obj/effect/map_helper/airlock/door/int_door,
@@ -31856,10 +31830,8 @@
 	id_tag = "roof_airlock";
 	pixel_y = -35
 	},
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "roof_airlock_outer";
-	locked = 1;
 	name = "External Access"
 	},
 /turf/floor/tiled/techfloor,
@@ -32831,7 +32803,7 @@
 /turf/floor/tiled,
 /area/surface/station/engineering/hallway/sndaccess)
 "wGP" = (
-/obj/structure/sign/atmosplaque,
+/obj/structure/sign/plaque/atmos,
 /turf/wall,
 /area/surface/station/engineering/atmos/monitoring)
 "wHk" = (
@@ -32944,7 +32916,7 @@
 /turf/floor/tiled/techfloor,
 /area/surface/station/engineering/reactor_room)
 "wJL" = (
-/obj/item/banner/nt,
+/obj/item/banner/nanotrasen,
 /turf/floor/tiled/dark,
 /area/surface/station/hallway/primary/secondfloor/east)
 "wKh" = (
@@ -32956,10 +32928,8 @@
 "wLt" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/effect/map_helper/airlock/door/ext_door,
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "roof_airlock_outer";
-	locked = 1;
 	name = "External Access"
 	},
 /turf/floor/tiled/techfloor,
@@ -34303,10 +34273,8 @@
 "xwO" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/effect/map_helper/airlock/door/ext_door,
-/obj/machinery/door/airlock/external/glass{
-	icon_state = "door_locked";
+/obj/machinery/door/airlock/external/glass/bolted{
 	id_tag = "com_airlock_outer";
-	locked = 1;
 	name = "External Access"
 	},
 /turf/floor/tiled/techfloor,
@@ -34482,7 +34450,7 @@
 /turf/floor/tiled/old_tile/gray,
 /area/surface/station/construction/office)
 "xDN" = (
-/obj/structure/sign/examroom,
+/obj/structure/sign/department/examroom,
 /turf/wall,
 /area/surface/station/medical/exam_room)
 "xDU" = (
@@ -34882,7 +34850,7 @@
 /turf/floor/tiled,
 /area/surface/station/security/hallway/snd)
 "xQF" = (
-/obj/item/banner/nt,
+/obj/item/banner/nanotrasen,
 /turf/floor/tiled/dark,
 /area/surface/station/crew_quarters/captain)
 "xRp" = (
