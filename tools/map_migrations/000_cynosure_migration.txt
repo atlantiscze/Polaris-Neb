@@ -3,7 +3,8 @@
 /turf/simulated/mineral/floor/@SUBTYPES : /turf/floor/natural/barren
 /turf/simulated/mineral : /turf/wall/natural
 /turf/simulated/sky/@SUBTYPES : /turf/open/sky/@SUBTYPES
-/turf/simulated/floor/water/pool : /turf/simulated/floor/pool
+/turf/simulated/floor/water/pool : /obj/abstract/landmark/mapped_fluid{fluid_initial = 300; name = "mapped shallow pool"}, /turf/floor/pool
+/turf/simulated/floor/water/deep/pool : /obj/abstract/landmark/mapped_fluid{fluid_initial = 800; name = "mapped deep pool"}, /turf/floor/pool/deep
 /turf/simulated/shuttle/plating/airless/carry : @DELETE
 /turf/unsimulated/wall/seperator : /turf/unsimulated/dark_filler
 # natural turfs don't need planetary subtypes, they use level data
@@ -63,6 +64,8 @@
 /obj/effect/decal/mecha_wreckage/@SUBTYPES : @DELETE
 /obj/item/circuitboard/mecha_control/@SUBTYPES : @DELETE
 /obj/machinery/computer/mecha : @DELETE
+/obj/item/kit/paint/durand/@SUBTYPES : @DELETE
+/obj/item/kit/paint/gygax/@SUBTYPES : @DELETE
 
 # we don't have shieldcaps anymore
 /obj/machinery/shield_capacitor : @DELETE
@@ -294,6 +297,7 @@
 /obj/item/clothing/accessory/scarf/@SUBTYPES : /obj/item/clothing/neck/scarf/@SUBTYPES
 /obj/item/clothing/glasses/gglasses : /obj/item/clothing/glasses/prescription/gglasses
 /obj/item/clothing/mask/smokable/cigarette/joint : /obj/item/clothing/mask/smokable/cigarette/rolled
+/obj/item/clothing/under/swimsuit/stripper/mankini : /obj/item/clothing/pants/mankini{@OLD}
 
 /obj/item/cell/device/weapon : /obj/item/cell/gun{@OLD}
 /obj/structure/closet/fireaxecabinet : /obj/structure/fireaxecabinet{@OLD}
@@ -326,6 +330,11 @@
 /obj/item/pill_bottle/dermaline : /obj/item/pill_bottle/burn_meds{@OLD}
 /obj/item/pill_bottle/dexalin_plus : /obj/item/pill_bottle/oxygen/plus{@OLD}
 /obj/item/pill_bottle/dylovene : /obj/item/pill_bottle/antitoxins{@OLD}
+
+/obj/item/gun/magic/firestaff : /obj/item/gun/energy/staff/fire
+/obj/item/gun/launcher/crossbow : /obj/item/gun/launcher/bow/crossbow/powered
+
+/obj/structure/girder/reinforced : /obj/structure/girder{@OLD}
 
 #############
 # DELETIONS #
