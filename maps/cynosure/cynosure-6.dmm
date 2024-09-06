@@ -500,7 +500,7 @@
 	health = 1e+006
 	},
 /turf/wall/shuttle/dark/no_join,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "axn" = (
 /obj/machinery/light{
 	dir = 8
@@ -1056,7 +1056,7 @@
 	dir = 4
 	},
 /turf/floor/tiled/milspec/raised,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "biP" = (
 /obj/structure/undies_wardrobe,
 /obj/item/radio/intercom{
@@ -1366,7 +1366,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "bBh" = (
 /obj/effect/floor_decal/steeldecal/steel_decals4,
 /turf/unsimulated/floor{
@@ -1534,7 +1534,7 @@
 	dir = 8
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "bJF" = (
 /obj/machinery/door/airlock,
 /turf/unsimulated/floor{
@@ -1618,7 +1618,7 @@
 /obj/effect/floor_decal/milspec/color/blue,
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "bQE" = (
 /obj/structure/rack,
 /obj/item/energy_blade/sword/pirate,
@@ -1759,7 +1759,7 @@
 /obj/effect/floor_decal/milspec/color/blue,
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "bYU" = (
 /obj/machinery/door/airlock/external{
 	icon_state = "door_locked";
@@ -1795,14 +1795,14 @@
 	icon_state = "white_window2"
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "cbu" = (
 /obj/structure/shuttle/falsewall_no_join/window{
 	icon = 'icons/turf/wall_masks_tgmc_win.dmi';
 	icon_state = "white_rwindow2"
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "cbv" = (
 /obj/structure/closet/crate/freezer,
 /obj/effect/floor_decal/borderfloorwhite{
@@ -2285,7 +2285,7 @@
 /obj/item/book/codex/corp_regs,
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "cDr" = (
 /obj/structure/target_stake,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -2484,7 +2484,7 @@
 	dir = 4
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "cSr" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "crescent_thunderdome";
@@ -2772,7 +2772,7 @@
 	icon_state = "white_window1"
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "dmM" = (
 /obj/structure/rack,
 /obj/item/clothing/jumpsuit/green,
@@ -3428,7 +3428,7 @@
 	dir = 1
 	},
 /turf/wall/shuttle/dark/no_join,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "dZT" = (
 /obj/machinery/light/no_nightshift,
 /obj/effect/floor_decal/milspec/color/blue,
@@ -3437,7 +3437,7 @@
 	pixel_y = -2
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "ebh" = (
 /obj/structure/hygiene/shower{
 	dir = 8
@@ -4017,7 +4017,7 @@
 	dir = 4
 	},
 /turf/wall/shuttle/plating/carry,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "eJH" = (
 /obj/machinery/door/airlock,
 /turf/wall/shuttle/floor/black,
@@ -4463,7 +4463,7 @@
 /obj/machinery/light/no_nightshift,
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "fjB" = (
 /obj/effect/floor_decal/borderfloorblack/corner{
 	dir = 1
@@ -4593,7 +4593,7 @@
 	dir = 8
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "fnR" = (
 /obj/effect/floor_decal/carpet,
 /obj/effect/floor_decal/carpet{
@@ -4702,7 +4702,7 @@
 /obj/effect/floor_decal/milspec/color/red,
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/shuttle/blue,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "fvA" = (
 /obj/structure/rack,
 /obj/item/box/shotgunammo/large,
@@ -4847,11 +4847,11 @@
 	},
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "fED" = (
 /obj/machinery/ai_status_display,
 /turf/wall/thull,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "fEH" = (
 /obj/item/robot_parts/l_leg,
 /turf/unsimulated/floor{
@@ -7197,7 +7197,7 @@
 	dir = 10
 	},
 /turf/wall/shuttle/plating/carry,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "inZ" = (
 /obj/structure/table/reinforced,
 /obj/item/plate/tray{
@@ -7964,7 +7964,7 @@
 /obj/effect/floor_decal/milspec/color/blue,
 /obj/effect/floor_decal/milspec/color/white/half,
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "jbx" = (
 /obj/machinery/door/window/holowindoor{
 	dir = 1
@@ -8083,7 +8083,7 @@
 	icon_state = "white1"
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "jgo" = (
 /obj/item/ore,
 /turf/unsimulated/floor{
@@ -8335,7 +8335,7 @@
 /obj/effect/floor_decal/milspec/color/red,
 /obj/effect/floor_decal/milspec/color/white/half,
 /turf/floor/tiled/milspec/raised,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "jAm" = (
 /obj/item/chems/condiment/small/saltshaker{
 	pixel_x = -6
@@ -8941,7 +8941,7 @@
 	dir = 1
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "kiG" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Special Operations";
@@ -10146,7 +10146,7 @@
 	dir = 1
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "lpK" = (
 /obj/effect/forcefield{
 	desc = "You can't get in. Heh.";
@@ -10168,7 +10168,7 @@
 /obj/effect/floor_decal/milspec/color/blue,
 /obj/effect/floor_decal/milspec/hatchmarks,
 /turf/floor/tiled/milspec,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "lse" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/firstaid/fire,
@@ -10212,7 +10212,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/red,
 /turf/floor/tiled/milspec/raised,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "lvQ" = (
 /obj/effect/floor_decal/steeldecal/steel_decals4{
 	dir = 10
@@ -11424,7 +11424,7 @@
 /obj/item/book/codex/lore/vir,
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "mMW" = (
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/effect/floor_decal/corner/paleblue/border,
@@ -11643,7 +11643,7 @@
 	health = 1e+006
 	},
 /turf/wall/shuttle/dark/no_join,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "mZs" = (
 /turf/floor/tiled/milspec/raised,
 /area/shuttle/escape/centcom)
@@ -11932,7 +11932,7 @@
 	pixel_y = 2
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "noE" = (
 /obj/item/robot_parts/head,
 /turf/unsimulated/floor{
@@ -13106,7 +13106,7 @@
 	dir = 5
 	},
 /turf/wall/shuttle/plating/carry,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "oNc" = (
 /obj/structure/table,
 /obj/item/food/chips,
@@ -13455,7 +13455,7 @@
 	icon_state = "white2"
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "piF" = (
 /turf/unsimulated/floor{
 	icon = 'icons/turf/flooring/tiles.dmi';
@@ -13587,7 +13587,7 @@
 "pol" = (
 /obj/structure/hull_corner,
 /turf/wall/shuttle/plating/carry,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "poo" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced,
@@ -13638,7 +13638,7 @@
 	dir = 1
 	},
 /turf/wall/shuttle/plating/carry,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "pte" = (
 /obj/item/stool/padded{
 	dir = 8
@@ -13934,7 +13934,7 @@
 /area/centcom/specops)
 "pFt" = (
 /turf/space/transit/north,
-/area/shuttle/escape/transit)
+/area/shuttle/escape)
 "pFK" = (
 /obj/machinery/button/access{
 	command = "cycle_interior";
@@ -14061,12 +14061,12 @@
 "pNU" = (
 /obj/effect/floor_decal/milspec/color/blue,
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "pNX" = (
 /obj/effect/floor_decal/milspec/color/blue,
 /obj/effect/floor_decal/emblem/nt2,
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "pOm" = (
 /obj/structure/lattice,
 /obj/structure/window/reinforced{
@@ -14586,7 +14586,7 @@
 "qrS" = (
 /obj/effect/shuttle_landmark/cynosure/escape/transit,
 /turf/space/transit/north,
-/area/shuttle/escape/transit)
+/area/shuttle/escape)
 "qsn" = (
 /obj/structure/signpost,
 /turf/unsimulated/beach/sand,
@@ -14719,7 +14719,7 @@
 /obj/effect/floor_decal/milspec/color/blue,
 /obj/effect/floor_decal/milspec/hatchmarks,
 /turf/floor/tiled/milspec,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "qAv" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -14941,7 +14941,7 @@
 	dir = 9
 	},
 /turf/wall/shuttle/plating/carry,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "qLH" = (
 /obj/structure/table/woodentable_reinforced,
 /obj/machinery/recharger,
@@ -14952,7 +14952,7 @@
 /area/ninja_dojo/dojo)
 "qMP" = (
 /turf/wall/shuttle/plating/carry,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "qOh" = (
 /obj/effect/floor_decal/carpet{
 	dir = 4
@@ -15057,7 +15057,7 @@
 /obj/effect/floor_decal/milspec/color/blue,
 /obj/effect/floor_decal/emblem/nt3,
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "qSo" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 9
@@ -15146,7 +15146,7 @@
 "qWz" = (
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "qWM" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
@@ -15847,7 +15847,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "rBz" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 1
@@ -16411,7 +16411,7 @@
 	icon_state = "white_rwindow1"
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "sfb" = (
 /obj/item/chems/drinks/cans/cola,
 /obj/item/chems/drinks/cans/cola,
@@ -16494,7 +16494,7 @@
 	dir = 8
 	},
 /turf/wall/shuttle/plating/carry,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "sko" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "spawnred";
@@ -17410,7 +17410,7 @@
 	dir = 1
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "thr" = (
 /obj/machinery/door/airlock/double/glass,
 /turf/wall/shuttle/floor/black,
@@ -17424,7 +17424,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "tim" = (
 /obj/structure/table/steel,
 /obj/item/toolbox/syndicate/powertools,
@@ -17513,7 +17513,7 @@
 	name = "Doorstop"
 	},
 /turf/floor/tiled/milspec/raised,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "trt" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/button/alternate{
@@ -17533,7 +17533,7 @@
 	name = "JoinLate"
 	},
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "tsG" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -17666,7 +17666,7 @@
 /obj/effect/floor_decal/milspec/color/red,
 /obj/effect/floor_decal/milspec/color/white/half,
 /turf/floor/tiled/milspec/raised,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "txG" = (
 /obj/effect/floor_decal/milspec/color/blue,
 /obj/effect/floor_decal/emblem/nt1,
@@ -17725,7 +17725,7 @@
 	dir = 6
 	},
 /turf/wall/shuttle/plating/carry,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "tDh" = (
 /obj/machinery/constructable_frame/computerframe,
 /obj/machinery/light{
@@ -17943,7 +17943,7 @@
 /area/ninja_dojo/start)
 "tQa" = (
 /turf/wall/thull,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "tQt" = (
 /turf/space/transit/east,
 /area/space)
@@ -18279,7 +18279,7 @@
 "ucH" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/wall/shuttle/dark/no_join,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "ucM" = (
 /obj/machinery/door/airlock/external/white{
 	icon_state = "door_locked";
@@ -18369,7 +18369,7 @@
 "ukN" = (
 /obj/structure/sign/warning/secure_area,
 /turf/wall/thull,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "ulh" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/neck/stethoscope,
@@ -18648,7 +18648,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "uAX" = (
 /obj/machinery/singularity_generator,
 /turf/unsimulated/floor{
@@ -18766,7 +18766,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "uHS" = (
 /obj/structure/bed/chair/comfy/red{
 	dir = 4
@@ -19072,7 +19072,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "uWu" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
@@ -19152,7 +19152,7 @@
 "vfj" = (
 /obj/effect/floor_decal/milspec/color/red,
 /turf/floor/tiled/milspec/raised,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "vft" = (
 /turf/floor/holofloor/tiled,
 /area/holodeck/source_boxingcourt)
@@ -19339,7 +19339,7 @@
 	dir = 1
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "vqL" = (
 /obj/structure/table/reinforced,
 /obj/machinery/faxmachine,
@@ -19518,7 +19518,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/red,
 /turf/floor/tiled/milspec/raised,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "vBy" = (
 /turf/floor/tiled/milspec,
 /area/shuttle/supply)
@@ -19734,7 +19734,7 @@
 /obj/effect/floor_decal/milspec/color/red,
 /obj/effect/floor_decal/milspec/color/white/half,
 /turf/floor/tiled/milspec/raised,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "vPo" = (
 /obj/machinery/vending/medical{
 	dir = 8
@@ -21112,7 +21112,7 @@
 	icon_state = "white_window3"
 	},
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "xid" = (
 /obj/machinery/dna_scannernew,
 /obj/effect/floor_decal/borderfloorwhite{
@@ -21191,7 +21191,7 @@
 	dir = 8
 	},
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "xkU" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 6
@@ -21717,7 +21717,7 @@
 "xNP" = (
 /obj/machinery/status_display,
 /turf/wall/thull,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "xNV" = (
 /obj/machinery/sleeper{
 	dir = 4
@@ -21927,7 +21927,7 @@
 /obj/effect/floor_decal/milspec/color/blue,
 /obj/effect/floor_decal/emblem/nt1,
 /turf/floor/tiled/milspec/dark,
-/area/shuttle/arrival/pre_game)
+/area/shuttle/arrival)
 "yae" = (
 /obj/structure/flora/bush/fullgrass,
 /obj/effect/floor_decal/spline/fancy/wood{
