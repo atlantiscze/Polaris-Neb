@@ -264,7 +264,7 @@
 	icon_state_closed = "medpump_n2o"
 	icon_state_open = "medpump_n2o_open"
 	icon_state_active = "medpump_n2o_active"
-	mask_type = /obj/item/clothing/mask/breath/anesthetic
+	mask_type = /obj/item/clothing/mask/breath // /obj/item/clothing/mask/breath/anesthetic // TODO implement
 
 /obj/machinery/oxygen_pump/mobile/stabilizer
 	name = "portable patient stabilizer"
