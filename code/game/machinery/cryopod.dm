@@ -123,6 +123,11 @@
 			frozen_items -= I
 		. = TOPIC_REFRESH
 
+// TODO implement
+/obj/machinery/computer/cryopod/checkpoint
+
+/obj/machinery/computer/cryopod/dorms
+
 /obj/item/stock_parts/circuitboard/cryopodcontrol
 	name = "circuit board (Cryogenic Oversight Console)"
 	build_path = /obj/machinery/computer/cryopod
@@ -576,3 +581,5 @@
 	on_store_name = "Residential Oversight"
 	on_enter_occupant_message = "The elevator door closes slowly, ready to bring you down to the residential district."
 	on_store_visible_message = "$TARGET$ makes a ding as it moves $USER$ to the residential district."
+// TODO implement
+/obj/machinery/cryopod/robot/door/checkpoint
