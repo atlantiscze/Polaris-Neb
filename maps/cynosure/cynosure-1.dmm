@@ -5607,7 +5607,7 @@
 /obj/structure/marker_beacon{
 	mapped_in_color = "Olive"
 	},
-/turf/floor/natural/grass/sif,
+/turf/floor/grass/sif,
 /area/surface/cave/explored/normal)
 "mI" = (
 /obj/machinery/door/firedoor/border_only,
@@ -10097,7 +10097,7 @@
 /turf/floor/plating,
 /area/surface/station/maintenance/medical/south)
 "wJ" = (
-/obj/machinery/mining/brace,
+/obj/structure/drill_brace,
 /turf/floor/asteroid,
 /area/surface/station/mining_main/exterior)
 "wK" = (
@@ -10258,11 +10258,7 @@
 /obj/effect/floor_decal/rust/part_rusted3{
 	dir = 8
 	},
-/turf/floor/tiled{
-	icon_state = "steel_dirty";
-	initial_flooring = /decl/flooring/tiling/steel_dirty;
-	is_outside = 0
-	},
+/turf/floor/tiled/steel_dirty,
 /area/surface/outpost/research/xenoarcheology/smes)
 "xe" = (
 /obj/structure/cable{
@@ -10604,7 +10600,7 @@
 /turf/floor/tiled,
 /area/surface/station/hallway/primary/bmt/west)
 "xW" = (
-/turf/floor/natural/grass/sif,
+/turf/floor/grass/sif,
 /area/surface/cave/explored/deep)
 "xY" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -14616,7 +14612,7 @@
 /area/surface/station/engineering/auxiliary_engineering)
 "Hh" = (
 /obj/structure/grille,
-/turf/floor/natural/grass/sif,
+/turf/floor/grass/sif,
 /area/surface/outpost/research/xenoarcheology/smes)
 "Hi" = (
 /obj/structure/disposalpipe/segment,
@@ -15438,7 +15434,7 @@
 /turf/floor/tiled,
 /area/surface/station/hallway/primary/bmt/west)
 "Jk" = (
-/turf/floor/natural/grass/sif,
+/turf/floor/grass/sif,
 /area/surface/cave/explored/normal)
 "Jm" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -16720,7 +16716,7 @@
 /area/surface/station/medical/hallway/bmt)
 "Mi" = (
 /obj/item/caution/cone,
-/turf/floor/natural/grass/sif,
+/turf/floor/grass/sif,
 /area/surface/cave/explored/normal)
 "Mj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -17790,11 +17786,7 @@
 /obj/machinery/door/window/eastleft{
 	name = "Garbage Outlet"
 	},
-/turf/floor/tiled{
-	icon_state = "steel_dirty";
-	initial_flooring = /decl/flooring/tiling/steel_dirty;
-	is_outside = 0
-	},
+/turf/floor/tiled/steel_dirty,
 /area/surface/outpost/research/xenoarcheology/smes)
 "Oy" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -20090,7 +20082,7 @@
 	},
 /obj/structure/table,
 /obj/item/box/gloves,
-/obj/item/box/monkeycubes,
+/obj/item/box/animal_cubes/monkeys,
 /obj/structure/cable/cyan{
 	icon_state = "2-8"
 	},
@@ -21381,7 +21373,7 @@
 /turf/floor/plating,
 /area/surface/station/maintenance/security)
 "Wu" = (
-/obj/machinery/mining/drill,
+/obj/machinery/mining_drill,
 /turf/floor/asteroid,
 /area/surface/station/mining_main/exterior)
 "Wv" = (

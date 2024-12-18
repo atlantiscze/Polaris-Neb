@@ -305,6 +305,9 @@
 
 /turf/floor/asteroid // /decl/flooring/tiling/asteroidfloor
 
+/obj/item/chems/condiment/mustard
+/obj/item/chems/condiment/spacespice
+
 /turf/wall/sifwood
 /turf/wall/natural/airless
 /turf/wall/natural/solidrock
