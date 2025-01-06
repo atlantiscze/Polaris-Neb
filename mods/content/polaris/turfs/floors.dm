@@ -51,6 +51,7 @@ WOOD_TILE_SUBTYPE("rough sifwood", rough/sivian, sivian)
 	color = "#446471"
 	_flooring = /decl/flooring/grass/wild/sif
 
+// TODO:
 /turf/floor/tiled/yellow
 /turf/floor/tiled/milspec
 /turf/floor/tiled/milspec/dark
@@ -73,4 +74,3 @@ WOOD_TILE_SUBTYPE("rough sifwood", rough/sivian, sivian)
 /turf/floor/tiled/eris/cafe
 /turf/floor/tiled/eris/steel
 /turf/floor/tiled/eris/steel/danger
-

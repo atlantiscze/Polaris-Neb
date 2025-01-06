@@ -4325,7 +4325,7 @@
 /area/surface/station/park)
 "ccv" = (
 /obj/structure/cliff/automatic,
-/turf/wall/natural/solidrock,
+/turf/unsimulated/mineral,
 /area/surface/outside/plains/plateau)
 "ccz" = (
 /obj/structure/cable/green{
@@ -30323,18 +30323,6 @@
 /obj/machinery/optable,
 /turf/floor/tiled/white,
 /area/surface/station/medical/surgery2)
-"oub" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/floor/tiled/steel_dirty,
-/area/surface/outside/plains/station)
 "ouz" = (
 /obj/structure/sign/warning/high_voltage,
 /turf/wall/concrete,
@@ -32883,17 +32871,8 @@
 /turf/floor/tiled/steel_grid,
 /area/surface/station/rnd/hallway/gnd)
 "pyv" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/floor/tiled/steel_dirty,
-/area/surface/outside/plains/station)
+/turf/open,
+/area/surface/outside/plains/plateau)
 "pyz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -44686,7 +44665,7 @@
 /turf/floor/tiled,
 /area/surface/station/arrivals/cynosure)
 "vkg" = (
-/turf/wall/natural/solidrock,
+/turf/unsimulated/mineral,
 /area/surface/outside/plains/plateau)
 "vkM" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -87396,7 +87375,7 @@ nCe
 nCe
 nCe
 nCe
-oub
+dbE
 nCe
 nCe
 nCe
@@ -87667,7 +87646,7 @@ nCe
 nCe
 nCe
 nCe
-oub
+dbE
 nCe
 nCe
 nCe
@@ -87938,7 +87917,7 @@ nCe
 nCe
 nCe
 nCe
-oub
+dbE
 nCe
 nCe
 nCe
@@ -88209,7 +88188,7 @@ nCe
 nCe
 nCe
 nCe
-oub
+dbE
 nCe
 nCe
 nCe
@@ -88750,7 +88729,7 @@ nCe
 nCe
 nCe
 nCe
-oub
+dbE
 mNw
 mNw
 vfC
@@ -89021,7 +89000,7 @@ nCe
 nCe
 nCe
 nCe
-oub
+dbE
 mNw
 jHl
 cVX
@@ -89292,7 +89271,7 @@ nCe
 nCe
 nCe
 nCe
-oub
+dbE
 mNw
 hpn
 vbd
@@ -89833,7 +89812,7 @@ aqn
 aqn
 aqn
 aqn
-oub
+dbE
 mXY
 mNw
 tQG
@@ -90375,7 +90354,7 @@ idj
 idj
 pxh
 pxh
-pyv
+ivI
 mXY
 mXY
 qfd
@@ -114843,8 +114822,8 @@ qpk
 qpk
 qpk
 vkg
-mFV
-mFV
+pyv
+pyv
 mFV
 mFV
 rRy
@@ -115114,8 +115093,8 @@ qpk
 qpk
 qpk
 vkg
-mFV
-mFV
+pyv
+pyv
 mFV
 mFV
 rRy
@@ -115385,8 +115364,8 @@ qpk
 qpk
 qpk
 vkg
-mFV
-mFV
+pyv
+pyv
 mFV
 mFV
 rRy
