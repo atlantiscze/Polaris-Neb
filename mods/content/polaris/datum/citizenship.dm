@@ -30,7 +30,7 @@
 	secondary_langs = list(
 		/decl/language/human/common,
 		/decl/language/sign,
-		/decl/language/skrell,
+		// /decl/language/skrell, //NEBFIX
 		//Tradeband
 	)
 	economic_power = 1.1
@@ -51,7 +51,7 @@
 	secondary_langs = list(
 		/decl/language/human/common,
 		/decl/language/sign,
-		/decl/language/skrell,
+		// /decl/language/skrell, //NEBFIX
 		/decl/language/machine
 		//Gutter? Tradeband?
 	)
@@ -68,7 +68,7 @@
 	and generally maintain only sporadic diplomatic contact with the motherland."
 	language = /decl/language/human/common
 	secondary_langs = list(
-		/decl/language/human/solcom,
+		// /decl/language/human/solcom, //NEBFIX
 		/decl/language/sign
 	)
 	size_value = "19"
