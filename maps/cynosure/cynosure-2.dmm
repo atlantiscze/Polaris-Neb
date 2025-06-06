@@ -1188,6 +1188,7 @@
 	id_tag = "arrivals_dock_south_intsensor"
 	},
 /obj/abstract/airlock_helper/sensor/int_sensor,
+/obj/abstract/landmark/latejoin,
 /turf/floor/tiled,
 /area/surface/station/arrivals/cynosure)
 "aHe" = (
@@ -1465,8 +1466,8 @@
 	dir = 8;
 	volume_rate = 700;
 	power_rating = 30000;
-	id_tag = "cooling_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "cooling_in"
 	},
 /turf/floor/reinforced/supermatter_core,
 /area/surface/station/engineering/reactor_room)
@@ -3321,6 +3322,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
+/obj/abstract/landmark/latejoin,
 /turf/floor/tiled,
 /area/surface/station/arrivals/cynosure)
 "bCx" = (
@@ -6310,6 +6312,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
+/obj/abstract/landmark/latejoin,
 /turf/floor/tiled,
 /area/surface/station/arrivals/cynosure)
 "daE" = (
@@ -20914,6 +20917,7 @@
 	id_tag = "arrivals_dock_north_intsensor"
 	},
 /obj/abstract/airlock_helper/sensor/int_sensor,
+/obj/abstract/landmark/latejoin,
 /turf/floor/tiled,
 /area/surface/station/arrivals/cynosure)
 "keP" = (
@@ -29384,6 +29388,7 @@
 /obj/effect/floor_decal/steeldecal/steel_decals7{
 	dir = 4
 	},
+/obj/abstract/landmark/latejoin,
 /turf/floor/tiled,
 /area/surface/station/arrivals/cynosure)
 "oay" = (
@@ -31366,6 +31371,7 @@
 	id_tag = "escape_dock_north_starboard_intsensor"
 	},
 /obj/abstract/airlock_helper/sensor/int_sensor,
+/obj/abstract/landmark/latejoin,
 /turf/floor/tiled,
 /area/surface/station/arrivals/cynosure)
 "oTs" = (
@@ -31452,8 +31458,8 @@
 	external_pressure_bound_default = 0;
 	internal_pressure_bound_default = 2000;
 	pressure_checks_default = 2;
-	id_tag = "air_out";
-	use_power = 1
+	use_power = 1;
+	id_tag = "air_out"
 	},
 /turf/floor/reinforced/airmix,
 /area/surface/station/engineering/atmos)
@@ -33218,8 +33224,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	id_tag = "waste_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "waste_in"
 	},
 /turf/floor/reinforced,
 /area/surface/station/engineering/atmos)
@@ -35267,6 +35273,7 @@
 	id_tag = "escape_dock_south_starboard_intsensor"
 	},
 /obj/abstract/airlock_helper/sensor/int_sensor,
+/obj/abstract/landmark/latejoin,
 /turf/floor/tiled,
 /area/surface/station/arrivals/cynosure)
 "qDq" = (
@@ -36021,8 +36028,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	id_tag = "tox_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "tox_in"
 	},
 /turf/floor/reinforced/phoron,
 /area/surface/station/engineering/atmos)
@@ -41532,8 +41539,8 @@
 /obj/effect/floor_decal/corner/black/full,
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	id_tag = "co2_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "co2_in"
 	},
 /turf/floor/reinforced/carbon_dioxide,
 /area/surface/station/engineering/atmos)
@@ -46141,8 +46148,8 @@
 	external_pressure_bound = 100;
 	external_pressure_bound_default = 0;
 	initialize_directions = 1;
-	id_tag = "cooling_out";
-	use_power = 1
+	use_power = 1;
+	id_tag = "cooling_out"
 	},
 /turf/floor/reinforced/supermatter_core,
 /area/surface/station/engineering/reactor_room)
@@ -46518,6 +46525,7 @@
 /obj/effect/floor_decal/steeldecal/steel_decals7{
 	dir = 8
 	},
+/obj/abstract/landmark/latejoin,
 /turf/floor/tiled,
 /area/surface/station/arrivals/cynosure)
 "wfj" = (
@@ -46901,8 +46909,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	id_tag = "air_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "air_in"
 	},
 /turf/floor/reinforced/airmix,
 /area/surface/station/engineering/atmos)
@@ -46981,8 +46989,8 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	id_tag = "n2o_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "n2o_in"
 	},
 /turf/floor/reinforced/n20,
 /area/surface/station/engineering/atmos)
@@ -49778,8 +49786,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	id_tag = "air_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "air_in"
 	},
 /turf/floor/reinforced/oxygen,
 /area/surface/station/engineering/atmos)
@@ -50631,8 +50639,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	id_tag = "n2_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "n2_in"
 	},
 /turf/floor/reinforced/nitrogen,
 /area/surface/station/engineering/atmos)
