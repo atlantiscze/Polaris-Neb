@@ -74,6 +74,7 @@
 	should_be_mapped = 1
 	base_type = /obj/machinery/power/smes/buildable
 	maximum_component_parts = list(/obj/item/stock_parts/smes_coil = 6, /obj/item/stock_parts = 15)
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 1)
 	interact_offline = TRUE
 	var/safeties_enabled = 1 	// If 0 modifications can be done without discharging the SMES, at risk of critical failure.
 	var/failing = 0 			// If 1 critical failure has occurred and SMES explosion is imminent.

@@ -19,6 +19,18 @@
 /turf/simulated/mineral/ignore_mapgen/sif : /turf/wall/natural/ignore_mapgen
 #other turfs
 /turf/simulated/wall/r_concrete : /turf/wall/concrete/reinforced{@OLD}
+/turf/snow : /turf/unsimulated/floor/snow
+/turf/simulated/wall/skipjack : /turf/wall/raidershuttle{@OLD}
+/turf/simulated/floor/carpet/blucarpet : /turf/floor/carpet/blue
+/turf/simulated/floor/carpet/bcarpet : /turf/simulated/floor/carpet/blue{@OLD}
+/turf/simulated/floor/carpet/oracarpet : /turf/simulated/floor/carpet/orange{@OLD}
+/turf/simulated/floor/carpet/purcarpet : /turf/simulated/floor/carpet/purple{@OLD}
+/turf/simulated/floor/carpet/sblucarpet : /turf/simulated/floor/carpet/blue3{@OLD}
+/turf/simulated/floor/carpet/turcarpet : /turf/simulated/floor/carpet/blue2{@OLD}
+/turf/simulated/floor/tiled/steel : /turf/simulated/floor/tiled{@OLD}
+/turf/simulated/wall/thull : /turf/wall/titanium{@OLD}
+/turf/simulated/wall/rthull : /turf/wall/r_titanium{@OLD}
+/turf/simulated/shuttle/plating/@SUBTYPES : /turf/floor/shuttle/@SUBTYPES{@OLD}
 /turf/unsimulated/shuttle/wall/dark : /turf/wall/shuttle/dark{@OLD}
 /turf/unsimulated/shuttle/wall/dark/no_join : /turf/wall/shuttle/dark{@OLD; unique_merge_identifier = "CHANGEMETOO"}
 /turf/wall/dshull : /turf/wall/ocp_wall{@OLD}
@@ -31,7 +43,9 @@
 /turf/wall/shuttle/voidcraft/hard_corner : /turf/wall/shuttle/voidcraft{@OLD}
 
 # Misc. cooking
-/obj/item/chems/food/condiment/small/peppershaker : /obj/item/chems/condiment/small/peppermill{@OLD}
+/obj/item/reagent_containers/food/condiment/small/peppershaker : /obj/item/chems/condiment/small/peppermill{@OLD}
+/obj/item/reagent_containers/food/condiment/soysauce : /obj/item/chems/condiment/small/soysauce{@OLD}
+/obj/item/reagent_containers/food/snacks/xenomeat/spidermeat : /obj/item/food/spider{@OLD}
 /obj/item/reagent_containers/food/drinks/britcup : /obj/item/chems/drinks/glass2/coffeecup/britcup{@OLD}
 
 # Misc. bureaucracy
@@ -44,10 +58,6 @@
 /mob/living/simple_animal/passive/opossum/@SUBTYPES : /mob/living/simple_animal/opossum/@SUBTYPES{@OLD}
 /mob/living/simple_animal/passive/dog/corgi/Ian : /mob/living/simple_animal/corgi/Ian{@OLD}
 /mob/living/simple_mob/slime/xenobio/@SUBTYPES : /mob/living/simple_animal/slime/@SUBTYPES{@OLD}
-
-# Turfs
-/turf/simulated/floor/carpet/blucarpet : /turf/floor/carpet/blue
-/turf/simulated/floor/water/deep/pool : /turf/floor/pool/deep
 
 # Vehicles
 /obj/vehicle/train/engine : /obj/vehicle/train/cargo/engine{@OLD}
@@ -66,6 +76,7 @@
 /obj/machinery/atmospherics/tvalve/digital/mirrored : /obj/machinery/atmospherics/tvalve/mirrored/digital{@OLD}
 
 # our networks are different
+/obj/machinery/blackbox_recorder : @DELETE
 /obj/machinery/exonet_node : @DELETE
 /obj/machinery/ntnet_relay : @DELETE
 /obj/machinery/pda_multicaster/prebuilt : @DELETE
@@ -215,6 +226,10 @@
 /obj/structure/sign/science : /obj/structure/sign/department/science_2{@OLD}
 /obj/structure/sign/signnew/secure : /obj/structure/sign/warning/secure_area{@OLD}
 /obj/structure/sign/xenobio : /obj/structure/sign/department/xenobio_3{@OLD}
+/obj/structure/sign/examroom : /obj/structure/sign/department/examroom{@OLD}
+/obj/structure/sign/chemistry : /obj/structure/sign/department/chemistry{@OLD}
+/obj/structure/sign/atmosplaque : /obj/structure/sign/plaque/atmos{@OLD}
+/obj/structure/sign/warning/falling : /obj/structure/sign/warning/fall{@OLD}
 
 # CLOTHING REPATHS
 /obj/item/clothing/accessory/hawaii/@SUBTYPES : /obj/item/clothing/shirt/hawaii{@OLD}
@@ -326,6 +341,7 @@
 /obj/item/storage/fancy/whitecandle_box : /obj/item/box/candles/white{@OLD}
 /obj/item/storage/fancy/blackcandle_box : /obj/item/box/candles/black{@OLD}
 /obj/item/storage/fancy/cigar/havana : /obj/item/clothing/mask/smokable/cigarette/cigar/havana{@OLD}
+/obj/item/storage/firstaid/surgery/simple : /obj/item/firstaid/surgery{@OLD}
 /obj/item/toy/plushie/coffee_fox : /obj/item/toy/plushie/fox/coffee{@OLD}
 /obj/item/toy/plushie/marble_fox : /obj/item/toy/plushie/fox/marble{@OLD}
 /obj/item/toy/plushie/mouse/fluff : /obj/item/toy/plushie/mouse{@OLD}
@@ -345,6 +361,7 @@
 /obj/item/gun/launcher/crossbow : /obj/item/gun/launcher/bow/crossbow/powered
 
 /obj/structure/girder/reinforced : /obj/structure/girder{@OLD}
+/obj/structure/railing : /obj/structure/railing/mapped{@OLD}
 
 # SHUTTLE AREAS
 /area/shuttle/arrival/pre_game : /area/shuttle/arrival

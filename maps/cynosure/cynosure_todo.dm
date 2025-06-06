@@ -61,10 +61,6 @@ event2 system and event overrides from Polaris Cyno
 /obj/vehicle/train/cargo/trolley/trailer
 /obj/vehicle/train/cargo/trolley/trailer/random
 
-/obj/machinery/light/no_nightshift
-/obj/machinery/light/small/flicker
-/obj/machinery/light/small/no_nightshift
-
 // Stubs to reimplement
 /obj/item/gun/energy/gun/burst
 /obj/item/gun/energy/ionrifle/pistol
@@ -281,9 +277,6 @@ event2 system and event overrides from Polaris Cyno
 /turf/wall/tgmc/whitewall
 /turf/wall/tgmc/window/white/reinf
 
-/obj/machinery/power/apc
-	var/nightshift_setting = 2
-
 // mining machinery
 /obj/machinery/mineral/equipment_vendor
 
@@ -325,7 +318,6 @@ event2 system and event overrides from Polaris Cyno
 /area/holodeck/source_chess
 /area/skipjack_station/start
 /area/shuttle/trade
-/area/shuttle/supply
 /area/shuttle/syndicate_elite/mothership
 /area/centcom/suppy
 /area/centcom/creed
