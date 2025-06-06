@@ -1,0 +1,106 @@
+
+/obj/machinery/computer/modular/telescreen/preset/security : /obj/machinery/computer/modular/telescreen/preset/security{@OLD; network = @SKIP}
+/obj/structure/marker_beacon : /obj/structure/marker_beacon{@OLD; mapped_in_color = @SKIP}
+/obj/machinery/power/smes/buildable : /obj/machinery/power/smes/buildable{@OLD; cur_coils = @SKIP}
+/turf/simulated/mineral/floor/ignore_mapgen/sif : /turf/floor/rock{@OLD; outdoors = @SKIP}
+/obj/item/camera : /obj/item/camera{@OLD; pictures_left = @SKIP; pictures_max = @SKIP}
+/obj/machinery/navbeacon/patrol : /obj/machinery/navbeacon/patrol{@OLD; next_patrol = @SKIP}
+/turf/floor/tiled/sif/planetuse : /turf/floor/tiled/sif/planetuse{@OLD; initial_flooring = @SKIP}
+/turf/floor/wood/sif : /turf/floor/wood{@OLD; outdoors = @SKIP}
+/obj/machinery/power/solar_control/autostart : /obj/machinery/power/solar_control/autostart{@OLD; id = @SKIP}
+/turf/floor/water : /turf/floor/mud/water{@OLD}
+/turf/floor/water/deep : /turf/floor/mud/water/deep{@OLD; has_fish = @SKIP}
+/obj/machinery/door/airlock/maintenance/common : /obj/machinery/door/airlock/maintenance{@OLD}
+/obj/structure/reagent_dispensers/beerkeg/fakenuke : /obj/structure/reagent_dispensers/beerkeg{@OLD}
+/obj/item/mining_scanner : /obj/item/scanner/mining{@OLD}
+/turf/wall/solidrock : /turf/wall/natural{@OLD}
+/obj/item/weldpack : /obj/item/chems/weldpack{@OLD}
+/obj/machinery/vending/phoronresearch : /obj/machinery/vending/bombresearch{@OLD}
+/obj/item/tool/crowbar/red : /obj/item/crowbar{@OLD}
+/obj/item/flashlight/color/red : /obj/item/flashlight{@OLD}
+/obj/structure/rack/shelf/steel : /obj/structure/rack{@OLD}
+/obj/effect/wingrille_spawn/reinforced_phoron : /obj/effect/wallframe_spawn/borosilicate{@OLD}
+/turf/unsimulated/wall/planetary/sif : /turf/unsimulated/wall{@OLD}
+/obj/item/tank/oxygen/red : /obj/item/tank/oxygen{@OLD}
+/obj/machinery/door/airlock/glass_mining : /obj/machinery/door/airlock/glass/mining{@OLD}
+/obj/machinery/door/airlock/glass_medical : /obj/machinery/door/airlock/glass/medical{@OLD}
+/turf/floor/tiled/old_tile/yellow : /turf/floor/tiled{@OLD}
+/turf/floor/tiled/old_cargo/white : /turf/floor/tiled{@OLD}
+/turf/floor/tiled/old_tile/white : /turf/floor/tiled{@OLD}
+/obj/item/tool/crowbar : /obj/item/crowbar{@OLD}
+/obj/item/tool/screwdriver : /obj/item/screwdriver{@OLD}
+/turf/floor/tiled/eris/steel/danger : /turf/floor/tiled{@OLD}
+/obj/item/clothing/head/helmet/space/anomaly : /obj/item/clothing/head/helmet/space/void/excavation{@OLD}
+/obj/item/clothing/head/helmet/space/void/expedition/alt : /obj/item/clothing/head/helmet/space/void/excavation{@OLD}
+/obj/item/clothing/suit/space/void/expedition/alt : /obj/item/clothing/suit/space/void/excavation{@OLD}
+/obj/item/clothing/suit/space/anomaly : /obj/item/clothing/suit/space/void/excavation{@OLD}
+/obj/item/tool/wrench : /obj/item/wrench{@OLD}
+/turf/floor/plating/sif/planetuse : /turf/floor/plating{@OLD}
+/turf/floor/tiled/eris : /turf/floor/tiled{@OLD}
+/turf/floor/tiled/neutral : /turf/floor/tiled{@OLD}
+/turf/floor/tiled/sif/planetuse : /turf/floor/rock{@OLD}
+/obj/machinery/door/firedoor/glass : /obj/machinery/door/firedoor{@OLD}
+/turf/floor/tiled/old_tile/gray : /turf/floor/tiled{@OLD}
+/turf/wall/r_concrete : /turf/wall/r_wall{@OLD}
+/obj/machinery/door/airlock/glass_external : /obj/machinery/door/airlock/external/glass{@OLD}
+/obj/machinery/door/airlock/maintenance/engi : /obj/machinery/door/airlock/maintenance{@OLD}
+/turf/floor/tiled/steel_dirty : /turf/floor/tiled{@OLD}
+/obj/machinery/door/airlock/glass_research : /obj/machinery/door/airlock/glass/research{@OLD}
+/turf/floor/tiled/old_cargo/gray : /turf/floor/tiled{@OLD}
+/obj/machinery/atmospherics/omni/atmos_filter : /obj/machinery/atmospherics/omni/filter{@OLD}
+/obj/machinery/door/airlock/maintenance/rnd : /obj/machinery/door/airlock/maintenance{@OLD}
+/obj/machinery/door/firedoor/border_only : /obj/machinery/door/firedoor{@OLD}
+/turf/floor/tiled/hydro : turf/floor/tiled{@OLD}
+/turf/floor/outdoors/dirt/sif : /turf/floor/dirt{@OLD; outdoors = @SKIP}
+/turf/floor/outdoors/dirt/sif/planetuse/presnowed : /turf/floor/grass/snow{@OLD; outdoors = @SKIP}
+/turf/floor/tiled/asteroid_steel : turf/floor/tiled{@OLD}
+/turf/floor/tiled/milspec/sterile : turf/floor/tiled{@OLD}
+/obj/item/soap/nanotrasen : /obj/item/soap{@OLD}
+/obj/structure/bookcase/bookcart : /obj/structure/bookcase{@OLD}
+/obj/structure/table/bench/sifwooden/padded : /obj/structure/table{@OLD}
+/turf/floor/outdoors/mask : /turf/floor/tiled{@OLD}
+/obj/item/umbrella/random : /obj/item/umbrella{@OLD}
+/turf/floor/reinforced/supermatter_core : /turf/floor/reinforced{@OLD}
+/obj/structure/simple_door/sifwood : /obj/structure/door/wood{@OLD}
+/turf/floor/bluegrid : /turf/floor/bluegrid{@OLD; oxygen = @SKIP; nitrogen = @SKIP; temperature = @SKIP}
+/turf/floor/tiled/dark : /turf/floor/tiled/dark{@OLD; oxygen = @SKIP; nitrogen = @SKIP; temperature = @SKIP}
+/turf/floor/rock : /turf/floor/rock{@OLD; outdoors = @SKIP}
+/turf/floor/plating : /turf/floor/plating{@OLD; outdoors = @SKIP}
+/obj/machinery/power/apc : /obj/machinery/power/apc{@OLD; nightshift_setting = @SKIP}
+/turf/floor/tiled/eris/cafe : /turf/floor/tiled{@OLD}
+/turf/floor/water/pool : /turf/floor/mud/water{@OLD}
+/obj/item/wheelchair : /obj/structure/chair/wheelchair{@OLD}
+/turf/wall/sifwood : /turf/wall/wood{@OLD}
+/obj/item/clothing/glasses/sunglasses/sechud/aviator : /obj/item/clothing/glasses/hud/security{@OLD}
+/obj/item/clothing/ears/earmuffs : /obj/item/clothing/head/earmuffs{@OLD}
+/obj/structure/reagent_dispensers/water_cooler/full : /obj/structure/reagent_dispensers/water_cooler{@OLD}
+/obj/machinery/light/no_nightshift : /obj/machinery/light{@OLD}
+/obj/machinery/door/blast/gate/thin : /obj/machinery/door/blast{@OLD}
+/obj/item/clothing/accessory/holster/hip : /obj/item/clothing/webbing/holster/hip{@OLD}
+/turf/wall/shuttle/dark/no_join : /turf/wall/shuttle/dark{@OLD}
+/turf/floor/outdoors/grass/sif : /turf/floor/grass{@OLD}
+/obj/machinery/door/airlock/maintenance_hatch : /obj/machinery/door/airlock/hatch/maintenance{@OLD}
+/obj/machinery/appliance/cooker/fryer : /obj/machinery/cooker/fryer{@OLD}
+/obj/structure/chair/comfy/purp : /obj/structure/chair/comfy/purple{@OLD}
+/obj/structure/showcase : /obj/structure/showcase{@OLD; icon = @SKIP}
+/turf/floor/wood/sif/broken : /turf/floor/wood{@OLD}
+/obj/machinery/door/blast/gate/thin/open : /obj/machinery/door/blast{@OLD}
+/obj/machinery/appliance/cooker/grill : /obj/machinery/cooker/grill{@OLD}
+/obj/machinery/power/generator : /obj/machinery/port_gen/pacman{@OLD}
+/turf/floor/tiled/old_tile/blue : /turf/floor/tiled{@OLD}
+/obj/machinery/door/airlock/glass_security : /obj/machinery/door/airlock/glass/security{@OLD}
+/obj/machinery/smartfridge/produce/persistent_lossy : /obj/machinery/smartfridge/produce{@OLD}
+/obj/machinery/door/airlock/glass_atmos : /obj/machinery/door/airlock/glass/atmos{@OLD}
+/obj/machinery/holosign/surgery : /obj/machinery/holosign/surgery{@OLD; id = @SKIP}
+/obj/structure/table/wooden_reinforced : /obj/structure/table/wood{@OLD}
+/obj/item/mass_spectrometer/adv : /obj/item/scanner/spectrometer/adv{@OLD}
+/obj/item/stool/barstool/padded : /obj/item/stool/bar/padded{@OLD}
+/obj/item/chems/condiment/small/peppershaker : /obj/item/chems/packet/pepper{@OLD}
+/obj/machinery/door/airlock/glass_engineering : /obj/machinery/door/airlock/glass/engineering{@OLD}
+/obj/structure/table/sifwoodentable : /obj/structure/table/wood{@OLD}
+/turf/wall/rshull : /turf/wall/r_wall{@OLD}
+/obj/item/reagent_scanner : /obj/item/scanner/reagent{@OLD}
+/obj/item/communicator/desktop : /obj/item/communicator/desktop{@OLD; occupation = @SKIP; static_name = @SKIP}
+
+
+

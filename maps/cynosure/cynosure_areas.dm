@@ -22,6 +22,12 @@
 	icon_state = "shuttle3"
 	req_access = list()
 
+/area/rnd/xenobiology/xenofauna
+	name = "Xenofauna"
+	icon_state = "storage"
+	req_access = list()
+
+
 // end NEBFIX
 
 //Planetside

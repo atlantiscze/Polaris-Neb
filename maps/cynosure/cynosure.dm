@@ -8,6 +8,7 @@
 	#include "cynosure_presets.dm"
 	#include "cynosure_shuttles.dm"
 	#include "cynosure_access.dm"
+	#include "cynosure_nebfix.dm"
 
 	#include "loadout/loadout_accessories.dm"
 	#include "loadout/loadout_head.dm"
