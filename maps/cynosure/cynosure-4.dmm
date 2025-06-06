@@ -7,14 +7,13 @@
 	dir = 1
 	},
 /obj/structure/extinguisher_cabinet{
-	dir = 1;
-	pixel_y = 30
+	pixel_y = 29
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "ar" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "au" = (
 /obj/effect/floor_decal/borderfloor/corner{
@@ -23,7 +22,7 @@
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/teleporter)
 "ax" = (
 /obj/effect/floor_decal/techfloor{
@@ -33,7 +32,7 @@
 	dir = 4
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "aH" = (
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -49,7 +48,7 @@
 	pump_direction = 0;
 	use_power = 1
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -66,8 +65,6 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -77,35 +74,32 @@
 	dir = 9
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "bh" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
 /obj/structure/window/reinforced/full,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/teleporter)
 "bk" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/catwalk_plated,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/teleporter)
 "bm" = (
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/teleporter)
 "bn" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/server/presets/engineering,
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -113,8 +107,7 @@
 /area/tcommsat/cynosure/chamber)
 "br" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/relay/preset/cynosure/gnd,
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -128,15 +121,13 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "cb" = (
 /obj/structure/window/reinforced{
@@ -156,22 +147,20 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "cm" = (
 /obj/random/maintenance/research,
 /obj/random/contraband,
 /obj/random/crate,
 /obj/random/maintenance/medical,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/lounge)
 "cr" = (
 /obj/effect/floor_decal/borderfloor{
@@ -181,27 +170,24 @@
 	dir = 9
 	},
 /obj/item/cell,
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "cw" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/airlock/glass_external{
-	frequency = 1379;
 	icon_state = "door_locked";
 	id_tag = "tcomdock_airlock_inner";
 	locked = 1;
 	name = "Internal Access"
 	},
-/obj/machinery/access_button/airlock_interior{
-	dir = 8;
-	master_tag = "tcomdock_airlock";
-	pixel_y = -35;
-	req_one_access = list(13)
+/obj/machinery/button/access/interior{
+	dir = 1;
+	pixel_y = -35
 	},
 /obj/effect/map_helper/airlock/door/int_door,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/entrance)
 "cB" = (
 /obj/structure/lattice,
@@ -218,70 +204,54 @@
 	dir = 8
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "cF" = (
 /obj/structure/window/reinforced,
 /turf/space,
 /area/tcommsat/cynosure)
-"cH" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/server/presets/command,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "cM" = (
-/obj/item/camera_assembly,
-/turf/simulated/floor/tiled/techmaint,
+/obj/item/frame/camera/kit,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "cN" = (
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "cO" = (
 /obj/structure/cable/yellow{
-	d2 = 4;
 	icon_state = "0-4"
 	},
 /obj/machinery/power/solar,
-/turf/simulated/floor/airless{
+/turf/floor/plating/airless{
 	icon_state = "solarpanel"
 	},
 /area/tcommsat/cynosure)
 "cR" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "cV" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "da" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/floor/tiled/steel_grid,
+/turf/floor/tiled/steel_grid,
 /area/tcommsat/cynosure/entrance)
 "de" = (
 /obj/effect/floor_decal/borderfloor{
@@ -291,15 +261,14 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/rust/part_rusted3,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "dr" = (
 /obj/structure/cable/yellow{
-	d2 = 8;
 	icon_state = "0-8"
 	},
 /obj/machinery/power/solar,
-/turf/simulated/floor/airless{
+/turf/floor/plating/airless{
 	icon_state = "solarpanel"
 	},
 /area/tcommsat/cynosure)
@@ -314,18 +283,15 @@
 	control_area = "\improper Telecomms Satellite";
 	desc = "A firewall prevents AIs from interacting with this device.";
 	name = "Telecoms lethal turret control";
-	pixel_y = 24;
-	req_access = list(61)
+	pixel_y = 24
 	},
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - Foyer"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "dt" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -336,43 +302,35 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Telecomms Solar Control";
-	req_access = null;
-	req_one_access = list(61)
+	name = "Telecomms Solar Control"
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/floor/tiled/steel_grid,
 /area/tcommsat/cynosure/powercontrol)
 "dE" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "dI" = (
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
 /obj/machinery/door/airlock/external{
-	frequency = 1379;
 	icon_state = "door_locked";
 	id_tag = "telecoms_inner";
 	locked = 1;
-	name = "External Access";
-	req_access = list(13)
+	name = "External Access"
 	},
-/obj/machinery/access_button/airlock_interior{
-	dir = 4;
-	master_tag = "telecoms_airlock";
-	pixel_y = -24;
-	req_one_access = list(13)
+/obj/machinery/button/access/interior{
+	dir = 1;
+	pixel_y = -24
 	},
 /obj/effect/map_helper/airlock/door/int_door,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "dN" = (
 /obj/structure/lattice,
@@ -409,7 +367,7 @@
 /obj/effect/floor_decal/steeldecal/steel_decals3{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -418,37 +376,29 @@
 "eh" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/rust/mono_rusted3,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/entrance)
 "eF" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "eK" = (
-/obj/structure/frame,
-/turf/simulated/floor/tiled/techmaint,
+/obj/machinery/constructable_frame/machine_frame,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "eT" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "fg" = (
 /obj/structure/window/reinforced{
@@ -458,15 +408,13 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "fh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -476,12 +424,10 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/rust,
-/turf/simulated/floor/tiled/old_tile/gray,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "fi" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -491,15 +437,13 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "fj" = (
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "ft" = (
 /obj/structure/window/reinforced{
@@ -513,8 +457,6 @@
 /area/tcommsat/cynosure)
 "fv" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -529,7 +471,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "fH" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -541,11 +483,11 @@
 /obj/effect/floor_decal/rust/steel_decals_rusted1{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/lounge)
 "fR" = (
 /obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/chamber)
 "fU" = (
 /obj/machinery/atmospherics/unary/freezer{
@@ -557,55 +499,45 @@
 	},
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/blue/border,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "gf" = (
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "go" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "gH" = (
 /obj/effect/floor_decal/rust/part_rusted2,
 /obj/machinery/camera/network/telecom{
 	c_tag = "Telecoms Storage"
 	},
-/turf/simulated/floor/tiled/old_tile/gray,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "gO" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "ha" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - Solar Fore";
 	dir = 1
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "hu" = (
 /obj/structure/window/reinforced{
@@ -626,61 +558,51 @@
 	dir = 1
 	},
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "hx" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "hy" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "hA" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
 /obj/effect/catwalk_plated/dark,
-/obj/machinery/airlock_sensor/airlock_interior{
+/obj/machinery/button/access/interior{
 	dir = 4;
 	id_tag = "telecoms_airlock_int_sensor";
-	master_tag = "telecoms_airlock";
 	pixel_x = -31;
-	pixel_y = -35;
-	req_one_access = list(11,24)
+	pixel_y = -35
 	},
 /obj/effect/map_helper/airlock/sensor/int_sensor,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "hB" = (
 /obj/effect/floor_decal/rust/part_rusted3{
 	dir = 8
 	},
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/item/stock_parts/subspace/transmitter,
 /obj/item/stock_parts/subspace/transmitter{
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/turf/simulated/floor/tiled/old_tile/gray,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "hJ" = (
 /obj/structure/window/reinforced{
@@ -688,8 +610,6 @@
 	},
 /obj/structure/window/reinforced,
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -698,15 +618,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "hO" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -715,27 +633,23 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "ia" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/teleporter)
 "ig" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "ir" = (
-/turf/simulated/shuttle/wall,
+/turf/wall/shuttle,
 /area/shuttle/escape_pod1/station)
 "iy" = (
 /obj/effect/shuttle_landmark/cynosure/tcomms/dock,
@@ -753,15 +667,13 @@
 /area/tcommsat/cynosure)
 "iM" = (
 /obj/structure/sign/warning/lethal_turrets,
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/foyer)
 "jn" = (
 /obj/structure/cable{
-	d2 = 4;
 	icon_state = "0-4"
 	},
 /obj/structure/cable{
-	d2 = 8;
 	icon_state = "0-8"
 	},
 /obj/structure/grille,
@@ -769,7 +681,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/chamber)
 "jr" = (
 /obj/effect/floor_decal/borderfloor/corner{
@@ -778,25 +690,13 @@
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "jw" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
-"jC" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/processor/preset_four,
-/obj/effect/floor_decal/spline/plain{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -810,15 +710,13 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "jJ" = (
 /obj/structure/window/reinforced{
@@ -838,15 +736,13 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "jL" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "jP" = (
 /obj/effect/floor_decal/industrial/warning/corner,
@@ -857,41 +753,36 @@
 	dir = 8
 	},
 /obj/item/radio/intercom{
-	dir = 8;
-	pixel_x = -21
+	dir = 4;
+	pixel_x = -22
 	},
 /obj/structure/closet/crate/nanotrasen{
 	dir = 2
 	},
 /obj/item/aicard,
 /obj/item/multitool,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "jW" = (
 /obj/machinery/atmospherics/valve/digital/open{
 	dir = 4
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/item/radio/intercom{
-	dir = 1;
-	pixel_y = 21
+	pixel_y = 20
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "ke" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - Central Compartment Fore"
 	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -914,15 +805,13 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "ku" = (
 /obj/structure/window/reinforced,
@@ -950,14 +839,14 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/machinery/airlock_sensor/airlock_interior{
+/obj/machinery/button/access/interior{
 	id_tag = null;
 	name = "interior sensor";
 	pixel_x = -35;
 	pixel_y = 31
 	},
 /obj/effect/map_helper/airlock/sensor/int_sensor,
-/turf/simulated/floor/tiled/techfloor/grid{
+/turf/floor/tiled/techfloor/grid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -980,13 +869,13 @@
 /obj/effect/floor_decal/corner/blue/bordercorner2{
 	dir = 5
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "kM" = (
 /obj/structure/sign/warning/server_room{
 	name = "\improper TELECOMMUNICATIONS"
 	},
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/computer)
 "kT" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -1002,7 +891,7 @@
 	dir = 4;
 	pixel_x = 24
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "ll" = (
 /obj/effect/floor_decal/borderfloor/corner{
@@ -1011,7 +900,7 @@
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "lx" = (
 /obj/structure/window/reinforced{
@@ -1021,15 +910,13 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "lz" = (
 /obj/structure/window/reinforced,
@@ -1037,8 +924,6 @@
 	dir = 1
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1048,32 +933,20 @@
 	dir = 4
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "lA" = (
 /obj/effect/floor_decal/rust/part_rusted2,
 /obj/effect/floor_decal/rust/part_rusted2{
 	dir = 4
 	},
-/obj/structure/table/standard,
-/obj/item/stock_parts/subspace/sub_filter{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/obj/item/stock_parts/subspace/sub_filter{
-	pixel_x = -2;
-	pixel_y = 2
-	},
-/obj/item/stock_parts/subspace/sub_filter,
-/obj/item/stock_parts/subspace/sub_filter{
-	pixel_x = 2;
-	pixel_y = -2
-	},
-/obj/item/stock_parts/subspace/sub_filter{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/turf/simulated/floor/tiled/old_tile/gray,
+/obj/structure/table,
+/obj/item/stock_parts/subspace/filter,
+/obj/item/stock_parts/subspace/filter,
+/obj/item/stock_parts/subspace/filter,
+/obj/item/stock_parts/subspace/filter,
+/obj/item/stock_parts/subspace/filter,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "lC" = (
 /obj/structure/window/reinforced{
@@ -1087,30 +960,19 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "lG" = (
 /obj/structure/girder/reinforced,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/teleporter)
 "lK" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/full,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/entrance)
-"lM" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/server/presets/medical,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "lQ" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 9
@@ -1120,8 +982,8 @@
 	},
 /obj/item/bedsheet/green,
 /obj/structure/bed/padded,
-/obj/item/material/twohanded/riding_crop,
-/turf/simulated/floor/tiled,
+/obj/item/twohanded/riding_crop,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/lounge)
 "lT" = (
 /obj/machinery/power/apc{
@@ -1135,7 +997,6 @@
 	pixel_y = 24
 	},
 /obj/structure/cable{
-	d2 = 4;
 	icon_state = "0-4"
 	},
 /obj/effect/floor_decal/borderfloor{
@@ -1147,11 +1008,11 @@
 /obj/effect/floor_decal/steeldecal/steel_decals_central7{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/lounge)
 "lU" = (
 /obj/machinery/ai_status_display,
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/teleporter)
 "lZ" = (
 /obj/effect/shuttle_landmark/cynosure/tcomms/solars,
@@ -1159,7 +1020,7 @@
 /area/space)
 "mc" = (
 /obj/structure/loot_pile/maint/technical,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/lounge)
 "mj" = (
 /obj/structure/lattice,
@@ -1171,15 +1032,6 @@
 	},
 /turf/space,
 /area/tcommsat/cynosure)
-"mm" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/bus/preset_four,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "mu" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1
@@ -1198,14 +1050,13 @@
 	pixel_x = -11;
 	pixel_y = 25
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8;
-	frequency = 1379;
 	id_tag = "server_access_pump"
 	},
 /obj/effect/map_helper/airlock/sensor/chamber_sensor,
 /obj/effect/map_helper/airlock/atmos/chamber_pump,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/floor/tiled/techfloor/grid,
 /area/tcommsat/cynosure/computer)
 "mA" = (
 /obj/structure/lattice,
@@ -1229,41 +1080,33 @@
 	pixel_y = 24
 	},
 /obj/structure/cable{
-	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "mP" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/machinery/airlock_sensor/airlock_exterior{
+/obj/machinery/button/access/exterior{
 	id_tag = "telecoms_airlock_ext_sensor";
-	master_tag = "telecoms_airlock";
 	pixel_x = 24;
 	pixel_y = 31
 	},
 /obj/effect/map_helper/airlock/sensor/ext_sensor,
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure/powercontrol)
 "mV" = (
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -1282,11 +1125,10 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced/full,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/shuttle/escape_pod1/station)
 "np" = (
 /obj/structure/cable{
-	d2 = 8;
 	icon_state = "0-8"
 	},
 /obj/structure/grille,
@@ -1295,7 +1137,7 @@
 	dir = 10
 	},
 /obj/machinery/ai_status_display,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/chamber)
 "ns" = (
 /obj/structure/window/reinforced{
@@ -1308,8 +1150,6 @@
 /area/tcommsat/cynosure)
 "nw" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1319,69 +1159,59 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/rust/mono_rusted1,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/teleporter)
 "ny" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/effect/floor_decal/rust/mono_rusted1,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/teleporter)
 "nR" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock/hatch{
-	name = "Telecomms";
-	req_one_access = list(61)
+	name = "Telecomms"
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/floor/tiled/steel_grid,
 /area/tcommsat/cynosure/lounge)
 "nS" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/glass_external{
-	frequency = 1380;
 	icon_state = "door_locked";
 	id_tag = "escape_pod_1_berth_hatch";
 	locked = 1;
-	name = "Escape Pod 1";
-	req_access = list(13)
+	name = "Escape Pod 1"
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/floor/tiled/steel_grid,
 /area/tcommsat/cynosure/entrance)
 "nU" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
-	frequency = 1379;
 	id_tag = "telecoms_pump"
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
 /obj/effect/map_helper/airlock/atmos/chamber_pump,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "nV" = (
 /obj/structure/sign/warning/caution,
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/entrance)
 "oe" = (
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure)
 "oh" = (
 /obj/structure/window/reinforced{
@@ -1391,44 +1221,32 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
-"ok" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/bus/preset_two/cynosure,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "on" = (
 /obj/effect/floor_decal/rust/mono_rusted3,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/teleporter)
 "oO" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/airlock/external{
-	frequency = 1379;
 	icon_state = "door_locked";
 	id_tag = "tcomdock_airlock_outer";
 	locked = 1;
 	name = "External Access"
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/entrance)
 "oP" = (
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/foyer)
 "pe" = (
 /obj/structure/cable,
@@ -1442,12 +1260,10 @@
 	pixel_x = -12;
 	pixel_y = -24
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/foyer)
 "ph" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1456,16 +1272,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/foyer)
 "pj" = (
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/storage)
 "pm" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -1476,7 +1292,7 @@
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -1485,7 +1301,7 @@
 "pq" = (
 /obj/structure/cable/yellow,
 /obj/machinery/power/tracker,
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "px" = (
 /obj/structure/window/reinforced{
@@ -1498,14 +1314,14 @@
 	dir = 1
 	},
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure)
 "py" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/steeldecal/steel_decals5{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "pO" = (
 /obj/structure/window/reinforced{
@@ -1523,7 +1339,7 @@
 /obj/effect/floor_decal/rust/part_rusted1{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/item/stock_parts/micro_laser,
 /obj/item/stock_parts/manipulator{
 	pixel_x = 3;
@@ -1556,12 +1372,10 @@
 	pixel_x = -4;
 	pixel_y = 4
 	},
-/turf/simulated/floor/tiled/old_tile/gray,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "pT" = (
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/effect/floor_decal/borderfloor{
@@ -1572,14 +1386,14 @@
 	},
 /obj/structure/bed/padded,
 /obj/item/bedsheet/brown,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/lounge)
 "pZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -1595,7 +1409,7 @@
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - Lounge"
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/lounge)
 "qk" = (
 /obj/effect/floor_decal/borderfloor{
@@ -1609,7 +1423,7 @@
 	},
 /obj/structure/bed/padded,
 /obj/item/bedsheet/red,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/lounge)
 "qm" = (
 /obj/structure/lattice,
@@ -1618,14 +1432,6 @@
 	},
 /turf/space,
 /area/tcommsat/cynosure)
-"qt" = (
-/obj/machinery/telecomms/receiver/preset_right/cynosure,
-/turf/simulated/floor/bluegrid{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "qI" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 5
@@ -1633,15 +1439,14 @@
 /obj/effect/floor_decal/corner/green/border{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/lounge)
 "qP" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/bus/preset_one,
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -1654,26 +1459,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
-/obj/machinery/airlock_sensor/airlock_interior{
+/obj/machinery/button/access/interior{
 	dir = 8;
 	id_tag = "tcomdock_airlock_int_sensor";
-	master_tag = "tcomdock_airlock";
 	pixel_x = 31;
-	pixel_y = -24;
-	req_one_access = list(13)
+	pixel_y = -24
 	},
 /obj/effect/map_helper/airlock/sensor/int_sensor,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/entrance)
 "re" = (
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -1683,34 +1482,27 @@
 	dir = 1
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/foyer)
 "rh" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "rj" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/machinery/airlock_sensor/airlock_exterior{
+/obj/machinery/button/access/exterior{
 	dir = 8;
 	id_tag = "server_access_ex_sensor";
-	master_tag = "server_access_airlock";
 	pixel_x = 31;
 	pixel_y = 35
 	},
@@ -1721,22 +1513,20 @@
 	dir = 1
 	},
 /obj/effect/map_helper/airlock/sensor/ext_sensor,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "rn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "ro" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "rr" = (
 /obj/effect/floor_decal/borderfloor{
@@ -1746,7 +1536,7 @@
 	dir = 9
 	},
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "rH" = (
 /obj/structure/lattice,
@@ -1757,12 +1547,10 @@
 /turf/space,
 /area/tcommsat/cynosure)
 "rI" = (
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/powercontrol)
 "rL" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1775,27 +1563,23 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/floor_decal/rust/mono_rusted1,
 /obj/machinery/door/airlock/hatch{
-	name = "Telecomms Starboard Bridge";
-	req_access = null;
-	req_one_access = list(61)
+	name = "Telecomms Starboard Bridge"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "rR" = (
 /obj/structure/cable/yellow,
 /obj/machinery/power/solar,
-/turf/simulated/floor/airless{
+/turf/floor/plating/airless{
 	icon_state = "solarpanel"
 	},
 /area/tcommsat/cynosure)
 "rY" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -1804,7 +1588,7 @@
 "sa" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/rust/mono_rusted3,
-/turf/simulated/floor/tiled/old_cargo/gray,
+/turf/floor/tiled/old_cargo/gray,
 /area/tcommsat/cynosure/storage)
 "sh" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -1816,21 +1600,10 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
-"sj" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/relay/preset/cynosure/snd,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "sp" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/borderfloor/corner{
@@ -1842,11 +1615,11 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "sw" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "sI" = (
 /obj/effect/floor_decal/borderfloor{
@@ -1856,27 +1629,20 @@
 	dir = 1
 	},
 /obj/item/radio/intercom{
-	dir = 1;
-	pixel_y = 21
+	pixel_y = 20
 	},
 /obj/effect/floor_decal/rust/part_rusted3{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "sN" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
-	},
-/obj/machinery/computer/telecomms/server{
-	dir = 1;
-	network = "tcommsat"
 	},
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/blue/border,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "sP" = (
 /obj/effect/floor_decal/techfloor{
@@ -1887,30 +1653,26 @@
 	},
 /obj/effect/floor_decal/rust,
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/floor/tiled/techfloor/grid,
 /area/tcommsat/cynosure/entrance)
 "sQ" = (
 /obj/machinery/bluespace_beacon,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/effect/catwalk_plated,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/teleporter)
 "sZ" = (
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -1918,13 +1680,9 @@
 /area/tcommsat/cynosure/chamber)
 "ta" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1933,15 +1691,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/foyer)
 "tG" = (
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/lounge)
 "tI" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1951,16 +1707,14 @@
 	dir = 1
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/foyer)
 "tX" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "tZ" = (
 /obj/structure/window/reinforced{
@@ -1968,8 +1722,6 @@
 	},
 /obj/structure/window/reinforced,
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1979,14 +1731,14 @@
 	dir = 4
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "uf" = (
 /obj/effect/floor_decal/rust/part_rusted1{
 	dir = 1
 	},
-/obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/tiled/old_tile/gray,
+/obj/item/toolbox/mechanical,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "ug" = (
 /obj/effect/floor_decal/borderfloor{
@@ -2004,7 +1756,7 @@
 	dir = 5
 	},
 /obj/structure/closet/malf/suits,
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "uj" = (
 /obj/structure/lattice,
@@ -2025,12 +1777,10 @@
 	},
 /obj/effect/map_helper/airlock/sensor/chamber_sensor,
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
-	frequency = 1380;
 	id_tag = "tcomdock_airlock";
-	pixel_y = 25;
-	req_one_access = list(13)
+	pixel_y = 25
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/floor/tiled/techfloor/grid,
 /area/tcommsat/cynosure/entrance)
 "uM" = (
 /obj/effect/floor_decal/spline/plain{
@@ -2040,37 +1790,24 @@
 	c_tag = "Tcoms - Central Compartment Aft";
 	dir = 1
 	},
-/turf/simulated/floor/bluegrid{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
-"uX" = (
-/obj/machinery/telecomms/hub/preset/cynosure,
-/obj/effect/floor_decal/spline/plain{
-	dir = 1
-	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
 	},
 /area/tcommsat/cynosure/chamber)
 "vj" = (
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "vu" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/teleporter)
 "vz" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -2078,28 +1815,23 @@
 	},
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "vB" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - Solar Starboard";
 	dir = 4
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "vD" = (
 /obj/structure/cable{
-	d2 = 2;
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
@@ -2124,7 +1856,7 @@
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - Main Computer Room"
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "vH" = (
 /obj/effect/floor_decal/borderfloor{
@@ -2145,27 +1877,26 @@
 	pixel_y = -12
 	},
 /obj/structure/cable{
-	d2 = 8;
 	icon_state = "0-8"
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals_central7{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "vI" = (
 /obj/item/stack/cable_coil{
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "vK" = (
 /obj/machinery/pda_multicaster/prebuilt,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2177,8 +1908,6 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2188,7 +1917,7 @@
 	dir = 5
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "wh" = (
 /obj/machinery/camera/network/telecom{
@@ -2199,7 +1928,6 @@
 /area/tcommsat/cynosure)
 "wm" = (
 /obj/structure/cable{
-	d2 = 2;
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
@@ -2214,10 +1942,9 @@
 	pixel_y = -12
 	},
 /obj/machinery/power/sensor{
-	long_range = 1;
-	name_tag = "Telecommunications"
+	long_range = 1
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "ws" = (
 /obj/structure/window/reinforced{
@@ -2236,8 +1963,8 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 5
 	},
-/obj/structure/filingcabinet,
-/turf/simulated/floor/tiled,
+/obj/structure/filing_cabinet,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "wz" = (
 /obj/structure/window/reinforced{
@@ -2247,18 +1974,16 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "wB" = (
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2270,22 +1995,20 @@
 	},
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/entrance)
 "xc" = (
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/item/paper_bin,
 /obj/item/pen/blue{
 	pixel_x = -3;
 	pixel_y = 2
 	},
 /obj/item/multitool,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/computer)
 "xe" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2296,7 +2019,7 @@
 /obj/effect/floor_decal/rust/part_rusted2{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "xA" = (
 /obj/effect/floor_decal/borderfloor{
@@ -2305,16 +2028,15 @@
 /obj/effect/floor_decal/corner/green/border{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/lounge)
 "xB" = (
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/lounge)
 "xN" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/server/presets/unused,
 /obj/effect/floor_decal/rust/mono_rusted3,
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2326,7 +2048,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/effect/floor_decal/rust,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "yp" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -2335,27 +2057,16 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/foyer)
-"yr" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/processor/preset_three,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "yx" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - Solar Aft"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "yF" = (
 /obj/effect/floor_decal/borderfloor/corner{
@@ -2364,14 +2075,14 @@
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "yT" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 9
 	},
 /obj/machinery/computer/teleporter,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/teleporter)
 "yX" = (
 /obj/structure/window/reinforced{
@@ -2381,39 +2092,35 @@
 /area/tcommsat/cynosure)
 "yY" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals9{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monofloor{
+/turf/floor/tiled/monofloor{
 	dir = 8
 	},
 /area/tcommsat/cynosure/lounge)
 "zb" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/maintenance_hatch{
-	frequency = 1381;
 	icon_state = "door_locked";
 	id_tag = "server_access_inner";
 	locked = 1;
-	name = "Telecoms Server Access";
-	req_access = list(61)
+	name = "Telecoms Server Access"
 	},
-/obj/machinery/access_button/airlock_interior{
-	master_tag = "server_access_airlock";
-	pixel_x = -24
+/obj/machinery/button/access/interior{
+	pixel_x = -24;
+	dir = 4
 	},
 /obj/effect/map_helper/airlock/door/int_door,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/computer)
 "zi" = (
 /obj/effect/floor_decal/steeldecal/steel_decals_central6{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monofloor{
+/turf/floor/tiled/monofloor{
 	dir = 4
 	},
 /area/tcommsat/cynosure/lounge)
@@ -2422,25 +2129,19 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/lounge)
 "zp" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/cable,
 /obj/structure/cable{
-	d2 = 4;
 	icon_state = "0-4"
 	},
 /obj/structure/cable{
-	d2 = 8;
 	icon_state = "0-8"
 	},
 /obj/structure/grille,
@@ -2448,7 +2149,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/chamber)
 "zu" = (
 /obj/effect/floor_decal/techfloor{
@@ -2457,7 +2158,7 @@
 /obj/effect/floor_decal/techfloor/hole{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2473,13 +2174,13 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure)
 "zG" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2489,7 +2190,7 @@
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2497,24 +2198,23 @@
 /area/tcommsat/cynosure/chamber)
 "zO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
 	},
 /area/tcommsat/cynosure/chamber)
 "zR" = (
-/obj/structure/bed/chair/shuttle,
+/obj/structure/chair/shuttle,
 /obj/machinery/vending/wallmed1{
-	layer = 3.3;
 	name = "Emergency NanoMed";
 	pixel_x = -28
 	},
 /obj/item/radio/intercom{
-	dir = 4;
-	pixel_x = 21
+	dir = 8;
+	pixel_x = 22
 	},
-/turf/simulated/shuttle/floor,
+/turf/floor/shuttle,
 /area/shuttle/escape_pod1/station)
 "Ac" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2523,13 +2223,14 @@
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/effect/floor_decal/rust/mono_rusted3,
 /obj/item/radio/intercom{
-	pixel_y = -21
+	pixel_y = -30;
+	dir = 1
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "AK" = (
 /obj/effect/floor_decal/rust/mono_rusted1,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/lounge)
 "AP" = (
 /obj/structure/window/reinforced{
@@ -2539,15 +2240,13 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "AZ" = (
 /obj/effect/floor_decal/borderfloor{
@@ -2556,20 +2255,17 @@
 /obj/effect/floor_decal/corner/green/border{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/lounge)
 "Bc" = (
 /obj/machinery/door/airlock/maintenance_hatch{
-	frequency = 1379;
 	icon_state = "door_locked";
 	id_tag = "server_access_outer";
 	locked = 1;
-	name = "Telecoms Server Access";
-	req_access = list(61)
+	name = "Telecoms Server Access"
 	},
-/obj/machinery/access_button/airlock_exterior{
+/obj/machinery/button/access/exterior{
 	dir = 8;
-	master_tag = "server_access_airlock";
 	pixel_y = 24
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -2577,20 +2273,16 @@
 	dir = 8
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/computer)
 "Bs" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "Bt" = (
 /obj/effect/floor_decal/borderfloor/corner{
@@ -2599,20 +2291,20 @@
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "Bv" = (
 /obj/machinery/alarm{
 	dir = 1;
 	pixel_y = -22
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/foyer)
 "Bx" = (
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2629,33 +2321,20 @@
 	dir = 8;
 	pixel_x = -24
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "BI" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/machinery/cell_charger,
 /obj/machinery/light/small,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
-"BO" = (
-/obj/machinery/telecomms/broadcaster/preset_right,
-/obj/effect/floor_decal/spline/plain{
-	dir = 1
-	},
-/turf/simulated/floor/bluegrid{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "BP" = (
 /obj/structure/lattice,
 /obj/structure/window/reinforced{
@@ -2675,16 +2354,17 @@
 	dir = 8
 	},
 /obj/item/radio/intercom{
-	pixel_y = -21
+	pixel_y = -30;
+	dir = 1
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/lounge)
 "BT" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/exonet_node{
 	anchored = 1
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2692,41 +2372,33 @@
 /area/tcommsat/cynosure/chamber)
 "Cq" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "Cs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/computer)
 "Cx" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/computer)
 "CC" = (
 /turf/space,
 /area/tcommsat/cynosure)
 "CF" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -2736,20 +2408,16 @@
 	dir = 4
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/foyer)
 "CM" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "CQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2764,11 +2432,10 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "CU" = (
 /obj/structure/cable{
-	d2 = 8;
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc/super/critical{
@@ -2781,7 +2448,7 @@
 	pixel_x = 12;
 	pixel_y = 24
 	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2789,7 +2456,6 @@
 /area/tcommsat/cynosure/chamber)
 "De" = (
 /obj/structure/cable{
-	d2 = 2;
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
@@ -2812,7 +2478,7 @@
 /obj/effect/floor_decal/steeldecal/steel_decals_central7{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "Do" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -2821,14 +2487,13 @@
 	},
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/airlock/glass_external{
-	frequency = 1379;
 	icon_state = "door_locked";
 	id_tag = "tcomdock_airlock_inner";
 	locked = 1;
 	name = "Internal Access"
 	},
 /obj/effect/map_helper/airlock/door/int_door,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/entrance)
 "DF" = (
 /obj/effect/floor_decal/borderfloor{
@@ -2837,15 +2502,15 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
 	},
-/obj/structure/bed/chair/office/dark{
+/obj/structure/chair/office/dark{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "DH" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/hologram/holopad,
-/turf/simulated/floor/tiled/monofloor{
+/turf/floor/tiled/monofloor{
 	dir = 1
 	},
 /area/tcommsat/cynosure/teleporter)
@@ -2855,7 +2520,7 @@
 	},
 /obj/effect/floor_decal/rust/mono_rusted1,
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "DU" = (
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -2867,7 +2532,7 @@
 	pressure_checks_default = 0;
 	use_power = 1
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2881,13 +2546,13 @@
 	dir = 5
 	},
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "El" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -2895,8 +2560,6 @@
 /area/tcommsat/cynosure/chamber)
 "Eq" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2911,11 +2574,11 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure)
 "Er" = (
 /obj/structure/sign/warning/secure_area,
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/foyer)
 "EJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2925,10 +2588,10 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "EL" = (
-/turf/simulated/shuttle/wall/no_join{
+/turf/wall/shuttle/no_join{
 	base_state = "orange";
 	icon = 'icons/turf/shuttle_orange.dmi';
 	icon_state = "orange"
@@ -2942,21 +2605,19 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "ES" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
 /obj/machinery/teleport/station,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/teleporter)
 "EV" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -2967,15 +2628,13 @@
 	},
 /obj/effect/catwalk_plated/dark,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/door/window/southright,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "Fa" = (
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/machinery/alarm{
 	dir = 8;
 	pixel_x = 22
@@ -2985,11 +2644,11 @@
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/computer)
 "Fe" = (
 /obj/structure/loot_pile/maint/technical,
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "Fw" = (
 /obj/structure/lattice,
@@ -3013,18 +2672,8 @@
 	},
 /turf/space,
 /area/tcommsat/cynosure)
-"FN" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/relay/preset/telecomms,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "FO" = (
 /obj/structure/cable{
-	d2 = 4;
 	icon_state = "0-4"
 	},
 /obj/structure/grille,
@@ -3033,17 +2682,13 @@
 	dir = 8
 	},
 /obj/machinery/status_display,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/chamber)
 "FS" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3053,53 +2698,48 @@
 	dir = 4
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "FZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
 	},
 /area/tcommsat/cynosure/chamber)
 "Gq" = (
-/obj/structure/bed/chair/shuttle,
-/obj/structure/closet/walllocker/emerglocker{
+/obj/structure/chair/shuttle,
+/obj/structure/emergency_dispenser{
 	pixel_x = 28
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
 	dir = 4;
-	frequency = 1380;
 	id_tag = "escape_pod_1";
 	pixel_x = -24;
 	tag_door = "escape_pod_1_hatch"
 	},
 /obj/effect/shuttle_landmark/cynosure/escape_pod1/station,
-/turf/simulated/shuttle/floor,
+/turf/floor/shuttle,
 /area/shuttle/escape_pod1/station)
 "GC" = (
 /obj/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "GH" = (
 /obj/effect/floor_decal/rust/mono_rusted1,
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "GI" = (
 /obj/structure/window/reinforced{
@@ -3110,7 +2750,7 @@
 	},
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "GM" = (
 /obj/effect/floor_decal/borderfloor{
@@ -3123,19 +2763,19 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/lounge)
 "GU" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
 /obj/structure/window/reinforced/full,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/storage)
 "GY" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/lounge)
 "GZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3145,14 +2785,12 @@
 	dir = 10
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/bed/chair{
+/obj/structure/chair{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/lounge)
 "Hb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3160,35 +2798,26 @@
 	},
 /obj/structure/table,
 /obj/effect/floor_decal/rust/mono_rusted2,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/lounge)
 "Hg" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/obj/structure/bed/chair{
+/obj/structure/chair{
 	dir = 8
 	},
-/obj/item/storage/box/lights/mixed{
+/obj/item/box/lights/mixed{
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/lounge)
-"Hi" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/relay/preset/cynosure/centcomm,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "Hj" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -3196,7 +2825,7 @@
 /area/tcommsat/cynosure/chamber)
 "Hk" = (
 /obj/effect/floor_decal/techfloor,
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -3216,7 +2845,7 @@
 /obj/structure/sign/warning/nosmoking_2{
 	pixel_x = 32
 	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -3228,7 +2857,7 @@
 	dir = 8;
 	pixel_x = 22
 	},
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/item/stock_parts/subspace/analyzer{
 	pixel_x = -3;
 	pixel_y = -3
@@ -3238,11 +2867,10 @@
 	pixel_x = 3;
 	pixel_y = 2
 	},
-/turf/simulated/floor/tiled/old_tile/gray,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "HG" = (
 /obj/structure/cable{
-	d2 = 4;
 	icon_state = "0-4"
 	},
 /obj/machinery/power/smes/buildable{
@@ -3254,21 +2882,10 @@
 	output_level = 100000;
 	output_level_max = 250000
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
-"HI" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/server/presets/service/cynosure,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "HL" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3279,11 +2896,9 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock/hatch{
-	name = "Telecomms Satellite";
-	req_access = null;
-	req_one_access = list(61)
+	name = "Telecomms Satellite"
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/floor/tiled/steel_grid,
 /area/tcommsat/cynosure/entrance)
 "HO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -3294,7 +2909,6 @@
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
 	dir = 1;
-	frequency = 1380;
 	id_tag = "escape_pod_1_berth";
 	pixel_y = -24;
 	tag_door = "escape_pod_1_berth_hatch"
@@ -3303,7 +2917,7 @@
 	c_tag = "Tcoms - Enterance";
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "Ia" = (
 /obj/effect/floor_decal/borderfloor{
@@ -3317,7 +2931,7 @@
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/lounge)
 "Id" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -3329,7 +2943,7 @@
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "Ij" = (
 /obj/structure/window/reinforced{
@@ -3339,14 +2953,14 @@
 /area/tcommsat/cynosure)
 "Is" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/entrance)
 "Iu" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 5
 	},
 /obj/machinery/teleport/hub,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/teleporter)
 "Ix" = (
 /obj/effect/floor_decal/borderfloor{
@@ -3356,25 +2970,12 @@
 	dir = 1
 	},
 /obj/structure/extinguisher_cabinet{
-	dir = 1;
-	pixel_y = 30
+	pixel_y = 29
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "Iz" = (
-/turf/simulated/floor/bluegrid{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
-"IB" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/processor/preset_two,
-/obj/effect/floor_decal/spline/plain{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -3382,26 +2983,22 @@
 /area/tcommsat/cynosure/chamber)
 "IC" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/machinery/recharger,
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "IE" = (
 /obj/item/stack/cable_coil/yellow,
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "IH" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3416,33 +3013,29 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "IV" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock/hatch{
-	name = "Telecomms Satellite";
-	req_access = null;
-	req_one_access = list(61)
+	name = "Telecomms Satellite"
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/floor/tiled/steel_grid,
 /area/tcommsat/cynosure/teleporter)
 "IW" = (
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "Ja" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/effect/floor_decal/techfloor{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -3455,16 +3048,16 @@
 /obj/effect/floor_decal/corner/green/border{
 	dir = 10
 	},
-/obj/structure/closet/crate/freezer/rations,
-/obj/item/reagent_containers/food/drinks/cans/waterbottle,
-/obj/item/reagent_containers/food/drinks/cans/waterbottle,
-/obj/item/reagent_containers/food/drinks/cans/waterbottle,
-/obj/item/reagent_containers/food/drinks/cans/waterbottle,
-/obj/item/reagent_containers/food/drinks/cans/waterbottle,
-/obj/item/reagent_containers/food/drinks/cans/waterbottle,
+/obj/structure/closet/crate/plastic/rations,
+/obj/item/chems/drinks/cans/waterbottle,
+/obj/item/chems/drinks/cans/waterbottle,
+/obj/item/chems/drinks/cans/waterbottle,
+/obj/item/chems/drinks/cans/waterbottle,
+/obj/item/chems/drinks/cans/waterbottle,
+/obj/item/chems/drinks/cans/waterbottle,
 /obj/item/clothing/suit/space/sports,
 /obj/item/clothing/head/helmet/space/sports,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/lounge)
 "Ju" = (
 /obj/structure/window/reinforced,
@@ -3475,23 +3068,21 @@
 /area/tcommsat/cynosure)
 "Jw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/computer)
 "JC" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/monofloor{
+/turf/floor/tiled/monofloor{
 	dir = 8
 	},
 /area/tcommsat/cynosure/computer)
 "JD" = (
 /obj/structure/sign/warning/high_voltage,
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/powercontrol)
 "JI" = (
 /obj/structure/window/reinforced{
@@ -3510,7 +3101,7 @@
 /obj/effect/floor_decal/steeldecal/steel_decals5{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "JT" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -3523,15 +3114,12 @@
 	control_area = "\improper Telecomms Foyer";
 	desc = "A firewall prevents AIs from interacting with this device.";
 	name = "Telecoms Foyer turret control";
-	pixel_y = 24;
-	req_access = list(61)
+	pixel_y = 24
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "JX" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/alarm{
@@ -3539,7 +3127,7 @@
 	pixel_x = -22
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "Kg" = (
 /obj/effect/floor_decal/steeldecal/steel_decals_central5{
@@ -3547,16 +3135,16 @@
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals5,
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "Kz" = (
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/chamber)
 "KG" = (
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -3577,7 +3165,7 @@
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - Power Room Starboard"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "KX" = (
 /obj/effect/floor_decal/techfloor{
@@ -3587,13 +3175,12 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/rust,
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8;
-	frequency = 1379;
 	id_tag = "tcomdock_airlock_pump"
 	},
 /obj/effect/map_helper/airlock/atmos/chamber_pump,
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/floor/tiled/techfloor/grid,
 /area/tcommsat/cynosure/entrance)
 "Lb" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -3604,21 +3191,21 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "Lc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "Lg" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
 /obj/effect/floor_decal/rust/mono_rusted1,
-/turf/simulated/floor/tiled/old_cargo/gray,
+/turf/floor/tiled/old_cargo/gray,
 /area/tcommsat/cynosure/storage)
 "Lk" = (
 /obj/effect/floor_decal/borderfloor{
@@ -3630,12 +3217,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "Lq" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3650,12 +3235,10 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "LD" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -3663,7 +3246,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/rust/mono_rusted3,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/teleporter)
 "LN" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -3671,13 +3254,13 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/computer)
 "LO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "LQ" = (
 /obj/effect/floor_decal/borderfloor{
@@ -3693,20 +3276,20 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "Mj" = (
 /obj/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "Mo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -3720,7 +3303,7 @@
 	dir = 8
 	},
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/lounge)
 "Mv" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/cyan{
@@ -3733,32 +3316,31 @@
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "My" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/foyer)
 "Mz" = (
 /obj/structure/cable/yellow{
-	d2 = 8;
 	icon_state = "0-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
 /obj/machinery/power/solar_control/autostart,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "MB" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -3776,11 +3358,9 @@
 /area/tcommsat/cynosure)
 "ME" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -3794,15 +3374,13 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "MO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -3812,60 +3390,30 @@
 	dir = 1;
 	pixel_y = -22
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
-"Nb" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/server/presets/security,
-/obj/effect/floor_decal/spline/plain{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "Nd" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock/hatch{
-	name = "Telecomms Satellite";
-	req_access = null;
-	req_one_access = list(61)
+	name = "Telecomms Satellite"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "No" = (
 /obj/effect/floor_decal/rust/mono_rusted3,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/computer)
-"Np" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/bus/preset_three,
-/obj/effect/floor_decal/spline/plain{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "NA" = (
 /obj/effect/overmap/visitable/telecomm_sat,
 /turf/space,
 /area/space)
 "NC" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/camera/network/telecom{
@@ -3873,14 +3421,14 @@
 	dir = 8
 	},
 /obj/item/radio/intercom{
-	dir = 4;
-	pixel_x = 21
+	dir = 8;
+	pixel_x = 22
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "NK" = (
 /obj/machinery/door/firedoor/border_only,
-/turf/simulated/floor/tiled/steel_grid,
+/turf/floor/tiled/steel_grid,
 /area/tcommsat/cynosure/entrance)
 "NQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3890,48 +3438,30 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock/maintenance_hatch{
-	name = "Telecomms Storage";
-	req_access = null;
-	req_one_access = list(61)
+	name = "Telecomms Storage"
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/floor/tiled/steel_grid,
 /area/tcommsat/cynosure/storage)
-"NS" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/server/presets/common,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "NW" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/external{
-	frequency = 1379;
 	icon_state = "door_locked";
 	id_tag = "telecoms_outer";
 	locked = 1;
-	name = "External Access";
-	req_access = list(10,13)
+	name = "External Access"
 	},
-/obj/machinery/access_button/airlock_exterior{
-	master_tag = "telecoms_airlock";
+/obj/machinery/button/access/exterior{
 	pixel_x = 35;
-	req_one_access = list(13)
+	dir = 8
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "Og" = (
 /obj/effect/floor_decal/rust/part_rusted1,
@@ -3939,7 +3469,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/item/stock_parts/subspace/crystal{
 	pixel_x = 3;
 	pixel_y = -2
@@ -3950,23 +3480,19 @@
 	pixel_y = 2
 	},
 /obj/item/radio/intercom{
-	dir = 4;
-	pixel_x = 21
+	dir = 8;
+	pixel_x = 22
 	},
-/turf/simulated/floor/tiled/old_tile/gray,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "Oh" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -3976,12 +3502,10 @@
 	dir = 8
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "Om" = (
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden{
@@ -3993,7 +3517,7 @@
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - solar Airlock"
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "On" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -4003,7 +3527,7 @@
 /obj/effect/floor_decal/rust/part_rusted3{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "Ou" = (
 /obj/structure/window/reinforced{
@@ -4016,11 +3540,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/catwalk_plated/dark,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "OE" = (
 /obj/structure/lattice,
@@ -4032,23 +3554,11 @@
 	},
 /turf/space,
 /area/tcommsat/cynosure)
-"OI" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/server/presets/science,
-/obj/effect/floor_decal/spline/plain{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "OW" = (
 /obj/structure/sign/warning/nosmoking_2{
 	pixel_x = -32
 	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -4063,11 +3573,11 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/rust,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "Pg" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "Pi" = (
 /obj/effect/floor_decal/borderfloor/corner,
@@ -4075,7 +3585,7 @@
 /obj/effect/floor_decal/rust/part_rusted1{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "Pv" = (
 /obj/structure/window/reinforced{
@@ -4092,17 +3602,16 @@
 	dir = 6
 	},
 /obj/item/radio/intercom{
-	dir = 1;
-	pixel_y = 21
+	pixel_y = 20
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "Px" = (
 /obj/effect/floor_decal/rust/part_rusted3,
 /obj/effect/floor_decal/rust/part_rusted1{
 	dir = 1
 	},
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/item/stock_parts/subspace/treatment{
 	pixel_x = 5;
 	pixel_y = -2
@@ -4112,7 +3621,7 @@
 	pixel_x = -2;
 	pixel_y = 4
 	},
-/turf/simulated/floor/tiled/old_tile/gray,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "PK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4124,21 +3633,19 @@
 /obj/effect/floor_decal/rust/steel_decals_rusted1{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "PL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/bed/chair{
+/obj/structure/chair{
 	dir = 4
 	},
 /obj/effect/floor_decal/rust/mono_rusted3,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/lounge)
 "PN" = (
 /obj/effect/floor_decal/borderfloor/corner{
@@ -4150,32 +3657,26 @@
 /obj/effect/floor_decal/rust/part_rusted1{
 	dir = 1
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "PT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 8
 	},
 /obj/machinery/light,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/entrance)
 "PU" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
 	icon_state = "1-4"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "Qe" = (
 /obj/structure/window/reinforced{
@@ -4185,13 +3686,11 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "Qg" = (
 /obj/random/maintenance/research,
@@ -4199,12 +3698,12 @@
 /obj/random/drinkbottle,
 /obj/random/crate,
 /obj/random/maintenance/medical,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/lounge)
 "Qh" = (
 /obj/structure/table,
 /obj/effect/floor_decal/rust/mono_rusted2,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/lounge)
 "Qi" = (
 /obj/effect/floor_decal/industrial/warning/corner,
@@ -4215,10 +3714,10 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "Qn" = (
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/teleporter)
 "Qr" = (
 /obj/structure/window/reinforced{
@@ -4233,7 +3732,7 @@
 /obj/machinery/alarm{
 	pixel_y = 22
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure)
 "Qs" = (
 /obj/structure/window/reinforced,
@@ -4248,17 +3747,16 @@
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/structure/extinguisher_cabinet{
-	dir = 1;
-	pixel_y = 30
+	pixel_y = 29
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "QF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -4275,7 +3773,7 @@
 /obj/machinery/portable_atmospherics/canister/empty,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/rust,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "QH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
@@ -4284,10 +3782,10 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "QO" = (
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/entrance)
 "QP" = (
 /obj/machinery/camera/network/telecom{
@@ -4297,16 +3795,16 @@
 /turf/space,
 /area/tcommsat/cynosure)
 "QU" = (
-/obj/item/stack/material/steel{
+/obj/item/stack/material/sheet/mapped/steel{
 	amount = 10
 	},
 /obj/effect/floor_decal/rust/mono_rusted2,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/lounge)
 "RE" = (
 /obj/effect/floor_decal/techfloor,
 /obj/effect/floor_decal/techfloor/hole,
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -4322,30 +3820,27 @@
 /obj/effect/floor_decal/rust/steel_decals_rusted1{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/lounge)
 "RM" = (
 /obj/effect/floor_decal/steeldecal/steel_decals_central6,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/computer)
 "RP" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/effect/floor_decal/rust,
 /obj/machinery/door/airlock/external{
-	frequency = 1379;
 	icon_state = "door_locked";
 	id_tag = "tcomdock_airlock_outer";
 	locked = 1;
 	name = "External Access"
 	},
-/obj/machinery/access_button/airlock_exterior{
-	dir = 4;
-	master_tag = "tcomdock_airlock";
-	pixel_y = -24;
-	req_one_access = list(13)
+/obj/machinery/button/access/exterior{
+	dir = 1;
+	pixel_y = -24
 	},
 /obj/effect/map_helper/airlock/door/ext_door,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/entrance)
 "Sf" = (
 /obj/structure/window/reinforced,
@@ -4356,11 +3851,11 @@
 	dir = 4
 	},
 /obj/machinery/meter,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "Sg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -4368,7 +3863,7 @@
 /area/tcommsat/cynosure/chamber)
 "Sh" = (
 /obj/structure/sign/warning/deathsposal,
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/lounge)
 "Si" = (
 /obj/effect/floor_decal/borderfloor{
@@ -4377,19 +3872,10 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "Sn" = (
-/obj/structure/table/rack,
-/obj/item/circuitboard/telecomms/processor,
-/obj/item/circuitboard/telecomms/processor,
-/obj/item/circuitboard/telecomms/receiver,
-/obj/item/circuitboard/telecomms/server,
-/obj/item/circuitboard/telecomms/server,
-/obj/item/circuitboard/telecomms/bus,
-/obj/item/circuitboard/telecomms/bus,
-/obj/item/circuitboard/telecomms/broadcaster,
-/obj/item/circuitboard/telecomms/exonet_node,
+/obj/structure/rack,
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1
@@ -4397,28 +3883,26 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_tile/gray,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "Ss" = (
 /obj/effect/floor_decal/rust/mono_rusted3,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/entrance)
 "Sy" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/item/stack/material/plasteel,
-/obj/item/stack/material/plasteel{
+/obj/item/stack/material/sheet/reinforced/mapped/plasteel,
+/obj/item/stack/material/sheet/reinforced/mapped/plasteel{
 	pixel_x = -4;
 	pixel_y = -2
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "SD" = (
 /obj/structure/girder/reinforced,
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "SE" = (
 /turf/space,
@@ -4429,8 +3913,6 @@
 	dir = 1
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4439,13 +3921,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "SG" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -4459,12 +3941,10 @@
 	dir = 1
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "SO" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4473,12 +3953,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/teleporter)
 "ST" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4490,16 +3968,12 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock/hatch{
-	name = "Telecoms Port Bridge";
-	req_access = null;
-	req_one_access = list(61)
+	name = "Telecoms Port Bridge"
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "SV" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4514,30 +3988,26 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure)
 "SW" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - Solar Port";
 	dir = 8
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "SZ" = (
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -4546,7 +4016,7 @@
 "Ta" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/ntnet_relay,
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -4563,24 +4033,13 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/floor/tiled/techfloor/grid,
 /area/tcommsat/cynosure/computer)
-"Tf" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/relay/preset/cynosure/bmt,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "Th" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4589,7 +4048,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "TB" = (
 /obj/structure/window/reinforced{
@@ -4599,8 +4058,6 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -4610,13 +4067,13 @@
 	dir = 6
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "TD" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -4627,7 +4084,7 @@
 /obj/machinery/power/terminal,
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "TI" = (
 /obj/structure/window/reinforced{
@@ -4637,16 +4094,12 @@
 	pixel_y = 22
 	},
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure)
 "TL" = (
-/obj/machinery/computer/telecomms/monitor{
-	dir = 1;
-	network = "tcommsat"
-	},
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/blue/border,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "TN" = (
 /obj/structure/lattice,
@@ -4662,10 +4115,10 @@
 /obj/structure/sign/warning/pods{
 	dir = 1
 	},
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/entrance)
 "TZ" = (
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/entrance)
 "Ub" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -4675,25 +4128,23 @@
 	dir = 10
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/rust/mono_rusted2,
-/turf/simulated/floor/tiled/old_cargo/gray,
+/turf/floor/tiled/old_cargo/gray,
 /area/tcommsat/cynosure/storage)
 "Ue" = (
 /obj/machinery/status_display,
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/teleporter)
 "Ul" = (
-/obj/structure/bed/chair/shuttle,
+/obj/structure/chair/shuttle,
 /obj/machinery/status_display{
-	layer = 4;
-	pixel_x = -32
+	pixel_x = -32;
+	dir = 8
 	},
 /obj/machinery/light,
-/turf/simulated/shuttle/floor,
+/turf/floor/shuttle,
 /area/shuttle/escape_pod1/station)
 "Uq" = (
 /obj/structure/window/reinforced{
@@ -4703,7 +4154,7 @@
 /area/tcommsat/cynosure)
 "Uu" = (
 /obj/structure/sign/warning/vacuum,
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/powercontrol)
 "UB" = (
 /obj/machinery/power/apc{
@@ -4722,7 +4173,7 @@
 /obj/effect/floor_decal/steeldecal/steel_decals_central7{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/item/stock_parts/subspace/ansible,
 /obj/item/stock_parts/subspace/ansible{
 	pixel_x = 3;
@@ -4732,39 +4183,26 @@
 	pixel_x = -3;
 	pixel_y = -3
 	},
-/turf/simulated/floor/tiled/old_tile/gray,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "UD" = (
 /obj/structure/cable/yellow{
-	d2 = 2;
 	icon_state = "0-2"
 	},
 /obj/machinery/power/solar,
-/turf/simulated/floor/airless{
+/turf/floor/plating/airless{
 	icon_state = "solarpanel"
 	},
 /area/tcommsat/cynosure)
-"UI" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/server/presets/supply,
-/obj/effect/floor_decal/spline/plain{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "UK" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 1
 	},
-/turf/simulated/shuttle/wall/dark/no_join,
+/turf/wall/shuttle/dark/no_join,
 /area/shuttle/escape_pod1/station)
 "UL" = (
 /obj/effect/floor_decal/rust/mono_rusted3,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/lounge)
 "UM" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -4778,13 +4216,13 @@
 	},
 /obj/effect/floor_decal/rust/part_rusted1,
 /obj/structure/closet/malf/suits,
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "UP" = (
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -4796,8 +4234,6 @@
 	dir = 1
 	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4809,7 +4245,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "Vb" = (
 /obj/structure/window/reinforced{
@@ -4822,7 +4258,7 @@
 /obj/machinery/alarm{
 	pixel_y = 22
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure)
 "Vk" = (
 /obj/structure/lattice,
@@ -4847,12 +4283,10 @@
 	pixel_x = -3;
 	pixel_y = 3
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/lounge)
 "VB" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4863,17 +4297,15 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock/hatch{
-	name = "Telecomms Control Room";
-	req_access = null;
-	req_one_access = list(61)
+	name = "Telecomms Control Room"
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/floor/tiled/steel_grid,
 /area/tcommsat/cynosure/computer)
 "VH" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
-/turf/simulated/floor/bluegrid{
+/turf/floor/bluegrid{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -4882,7 +4314,7 @@
 "VQ" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/porta_turret/stationary,
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/foyer)
 "VU" = (
 /obj/structure/window/reinforced{
@@ -4895,11 +4327,9 @@
 /area/tcommsat/cynosure)
 "VY" = (
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/item/stock_parts/subspace/amplifier{
 	pixel_x = 3;
 	pixel_y = -3
@@ -4912,7 +4342,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_tile/gray,
+/turf/floor/tiled/old_tile/gray,
 /area/tcommsat/cynosure/storage)
 "Wd" = (
 /obj/effect/floor_decal/techfloor{
@@ -4922,16 +4352,15 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/rust,
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8;
-	frequency = 1379;
 	id_tag = "tcomdock_airlock_pump"
 	},
 /obj/effect/map_helper/airlock/atmos/chamber_pump,
 /obj/machinery/camera/network/telecom{
 	c_tag = "Tcoms - Airlock"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/floor/tiled/techfloor/grid,
 /area/tcommsat/cynosure/entrance)
 "We" = (
 /obj/structure/disposalpipe/trunk{
@@ -4940,16 +4369,14 @@
 /obj/structure/disposaloutlet{
 	dir = 4
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "Wg" = (
 /obj/effect/floor_decal/rust,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/lounge)
 "Wh" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4961,16 +4388,14 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/computer)
 "Wm" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
-/obj/structure/table/standard,
-/obj/item/stack/material/glass{
+/obj/structure/table,
+/obj/item/stack/material/pane/mapped/glass{
 	amount = 50
 	},
 /obj/item/stack/cable_coil/random{
@@ -4978,22 +4403,20 @@
 	pixel_y = -2
 	},
 /obj/item/stack/cable_coil/random,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "Wp" = (
 /obj/structure/sign/warning/secure_area,
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/teleporter)
 "Ws" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "door_locked";
 	id_tag = "escape_pod_1_hatch";
 	locked = 1;
-	name = "Escape Pod Hatch 1";
-	req_access = list(13)
+	name = "Escape Pod Hatch 1"
 	},
-/turf/simulated/shuttle/floor,
+/turf/floor/shuttle,
 /area/shuttle/escape_pod1/station)
 "Xi" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -5005,18 +4428,16 @@
 	dir = 2
 	},
 /obj/item/clothing/glasses/night,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/teleporter)
 "Xk" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure/foyer)
 "Xm" = (
 /obj/effect/floor_decal/techfloor{
@@ -5025,17 +4446,8 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
-"Xn" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/telecomms/processor/preset_one,
-/turf/simulated/floor/tiled/dark{
-	nitrogen = 100;
-	oxygen = 0;
-	temperature = 73
-	},
-/area/tcommsat/cynosure/chamber)
 "Xv" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -5045,21 +4457,18 @@
 	},
 /obj/effect/floor_decal/rust/steel_decals_rusted1,
 /obj/item/radio/intercom{
-	dir = 1;
-	pixel_y = 21
+	pixel_y = 20
 	},
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/tcommsat/cynosure/entrance)
 "Xy" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/broken{
 	dir = 4
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "XC" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -5071,7 +4480,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/techfloor,
+/turf/floor/tiled/techfloor,
 /area/tcommsat/cynosure/foyer)
 "XM" = (
 /obj/structure/window/reinforced{
@@ -5081,15 +4490,13 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "XO" = (
 /obj/structure/lattice,
@@ -5105,7 +4512,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/techfloor{
+/turf/floor/tiled/techfloor{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -5115,16 +4522,16 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/entrance)
 "Yd" = (
-/turf/simulated/wall/r_wall,
+/turf/wall/r_wall,
 /area/tcommsat/cynosure/computer)
 "Yg" = (
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/dark{
+/turf/floor/tiled/dark{
 	nitrogen = 100;
 	oxygen = 0;
 	temperature = 73
@@ -5138,20 +4545,16 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/floor/tiled/dark,
 /area/tcommsat/cynosure)
 "Yw" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 4;
 	icon_state = "2-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -5162,8 +4565,7 @@
 	},
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	id_tag = "telecoms_airlock";
-	pixel_y = 25;
-	req_one_access = list(13)
+	pixel_y = 25
 	},
 /obj/machinery/airlock_sensor{
 	id_tag = "telecoms_sensor";
@@ -5174,11 +4576,11 @@
 	dir = 8
 	},
 /obj/effect/map_helper/airlock/sensor/chamber_sensor,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "YG" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/teleporter)
 "YI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -5188,28 +4590,24 @@
 	dir = 4
 	},
 /obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "YO" = (
 /obj/machinery/porta_turret/stationary,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 "YZ" = (
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure/powercontrol)
 "Zc" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -5222,7 +4620,7 @@
 /obj/effect/floor_decal/rust/part_rusted1{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/floor/tiled/techmaint,
 /area/tcommsat/cynosure/teleporter)
 "Zh" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -5237,35 +4635,30 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/tcommsat/cynosure/teleporter)
 "Zj" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
-	frequency = 1379;
 	id_tag = "telecoms_pump"
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
 /obj/effect/map_helper/airlock/atmos/chamber_pump,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/powercontrol)
 "Zm" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
 /obj/structure/window/reinforced/full,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/tcommsat/cynosure/entrance)
 "Zp" = (
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -5275,42 +4668,32 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/rust/mono_rusted3,
-/turf/simulated/floor/tiled/monotile,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/computer)
 "ZD" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/structure/bed/chair/office/dark,
-/turf/simulated/floor/tiled/monotile,
+/obj/structure/chair/office/dark,
+/turf/floor/tiled/monotile,
 /area/tcommsat/cynosure/computer)
 "ZS" = (
 /obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/airless,
+/turf/floor/plating/airless,
 /area/tcommsat/cynosure)
 
 (1,1,1) = {"
@@ -36537,12 +35920,12 @@ Uq
 Kz
 Iz
 SG
-UI
-SG
-IB
 qP
 SG
-OI
+qP
+qP
+SG
+qP
 VH
 Kz
 Vb
@@ -36794,12 +36177,12 @@ Uq
 Kz
 TD
 SZ
-HI
+br
 wB
-ok
-Xn
+br
+br
 wB
-lM
+br
 MB
 Kz
 iM
@@ -37053,10 +36436,10 @@ Iz
 pm
 xN
 wB
-Tf
+br
 br
 wB
-FN
+br
 VH
 Kz
 Xm
@@ -37822,11 +37205,11 @@ sN
 zp
 ke
 pm
-BO
+VH
 Iz
 dS
 Iz
-qt
+Iz
 Hk
 uM
 Kz
@@ -38081,7 +37464,7 @@ ME
 zu
 sZ
 XX
-uX
+VH
 Hj
 Bx
 Hk
@@ -38596,9 +37979,9 @@ pm
 BT
 wB
 Ta
-sj
+br
 wB
-Hi
+br
 VH
 Kz
 Qt
@@ -38850,12 +38233,12 @@ mu
 Yd
 TD
 Yg
-NS
+br
 wB
-mm
-yr
+br
+br
 wB
-cH
+br
 MB
 Kz
 iM
@@ -39109,10 +38492,10 @@ ky
 jw
 bn
 jw
-jC
-Np
+bn
+bn
 jw
-Nb
+bn
 VH
 Kz
 Qr

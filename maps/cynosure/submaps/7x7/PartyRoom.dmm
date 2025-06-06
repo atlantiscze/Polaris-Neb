@@ -8,31 +8,30 @@
 /turf/template_noop,
 /area/template_noop)
 "b" = (
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/random/toy,
 /obj/item/toy/balloon{
 	color = "#FF00BB"
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "d" = (
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "e" = (
 /obj/random/obstruction,
 /obj/structure/cable{
-	d2 = 4;
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "f" = (
-/obj/structure/table/standard,
-/obj/item/wrapping_paper,
+/obj/structure/table,
+/obj/item/stack/package_wrap/gift/twenty_five,
 /obj/item/toy/balloon{
 	color = "#FFCC00"
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "j" = (
 /obj/machinery/power/apc{
@@ -46,88 +45,86 @@
 	pixel_y = -32;
 	poster_decl = /decl/poster/nanotrasen/nt_8
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "o" = (
 /obj/item/stack/material/cardboard,
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "p" = (
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "v" = (
 /obj/machinery/light/small,
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "C" = (
-/obj/structure/table/standard,
-/obj/item/trash/plate{
+/obj/structure/table,
+/obj/item/plate{
 	pixel_x = -9;
 	pixel_y = -6
 	},
 /obj/item/toy/balloon{
 	color = "#00BBFF"
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "E" = (
 /obj/item/pizzabox/old,
-/obj/item/trash/plate{
+/obj/item/plate{
 	pixel_x = -9;
 	pixel_y = 5
 	},
-/obj/structure/table/standard,
-/turf/simulated/floor/carpet/purcarpet,
+/obj/structure/table,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "F" = (
-/obj/structure/table/standard,
-/obj/item/trash/plate{
+/obj/structure/table,
+/obj/item/plate{
 	pixel_y = -6
 	},
 /obj/item/clothing/head/cakehat,
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "I" = (
-/obj/structure/bed/chair/comfy/lime{
+/obj/structure/chair/comfy/lime{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "K" = (
 /obj/random/trash,
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "L" = (
-/turf/simulated/wall/r_concrete,
+/turf/wall/r_concrete,
 /area/template_noop)
 "M" = (
-/obj/structure/bed/chair/comfy/red{
+/obj/structure/chair/comfy/red{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "N" = (
-/obj/structure/bed/chair/comfy/orange{
+/obj/structure/chair/comfy/orange{
 	dir = 8
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "Q" = (
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "R" = (
-/obj/structure/bed/chair/comfy/purp{
+/obj/structure/chair/comfy/purp{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "S" = (
-/obj/structure/bed/chair/comfy/green{
+/obj/structure/chair/comfy/green{
 	dir = 8
 	},
 /obj/structure/sign/poster/custom{
@@ -135,38 +132,38 @@
 	pixel_y = 32;
 	poster_decl = /decl/poster/nt_5
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "V" = (
-/obj/structure/bed/chair/comfy/blue{
+/obj/structure/chair/comfy/blue{
 	dir = 8
 	},
-/obj/item/trash/plate,
-/turf/simulated/floor/carpet/purcarpet,
+/obj/item/plate,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "X" = (
-/obj/structure/bed/chair/comfy/teal{
+/obj/structure/chair/comfy/teal{
 	dir = 4
 	},
-/obj/item/trash/plate{
+/obj/item/plate{
 	pixel_y = 5
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 "Y" = (
-/turf/simulated/wall/concrete,
+/turf/wall/concrete,
 /area/template_noop)
 "Z" = (
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/item/storage/fancy/whitecandle_box,
-/obj/item/storage/box/matches{
+/obj/item/box/fancy/whitecandle_box,
+/obj/item/box/matches{
 	pixel_x = -4;
 	pixel_y = -8
 	},
-/turf/simulated/floor/carpet/purcarpet,
+/turf/floor/carpet/purcarpet,
 /area/template_noop)
 
 (1,1,1) = {"

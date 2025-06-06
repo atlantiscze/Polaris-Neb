@@ -1,10 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aU" = (
 /obj/structure/prop/rock/watersharp,
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/river/gautelfr)
 "bA" = (
-/turf/simulated/floor/wood/sif/broken,
+/turf/floor/wood/sif/broken,
 /area/surface/outside/path/wilderness)
 "bE" = (
 /turf/unsimulated/wall/planetary/sif,
@@ -12,70 +12,70 @@
 "bW" = (
 /obj/structure/wood_fire/fireplace/stove,
 /obj/fiftyspawner/log/sif,
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "ct" = (
-/turf/simulated/floor/outdoors/grass/sif,
+/turf/floor/outdoors/grass/sif,
 /area/surface/outside/wilderness/normal)
 "cv" = (
 /obj/structure/cliff/automatic{
 	dir = 4
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "dj" = (
 /obj/vehicle/boat/sifwood,
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/normal)
 "eu" = (
 /obj/structure/simple_door/sifwood,
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/outside/wilderness/normal)
 "eZ" = (
-/turf/simulated/wall/sifwood,
+/turf/wall/sifwood,
 /area/surface/wilderness/shack)
 "fy" = (
 /obj/structure/cliff/automatic,
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "fP" = (
 /obj/structure/table/sifwoodentable,
-/obj/item/storage/firstaid/regular,
+/obj/item/firstaid/regular,
 /obj/item/stack/medical/splint,
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "fQ" = (
-/obj/structure/kitchenspike,
-/turf/simulated/floor/outdoors/dirt/sif/planetuse,
+/obj/structure/meat_hook,
+/turf/floor/outdoors/dirt/sif/planetuse,
 /area/surface/outside/wilderness/normal)
 "gl" = (
 /obj/structure/cliff/automatic{
 	dir = 9
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "hb" = (
 /obj/structure/cliff/automatic{
 	dir = 8
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "ic" = (
 /obj/structure/closet/cabinet,
-/obj/item/clothing/suit/storage/hooded/wintercoat,
+/obj/item/clothing/suit/hooded/wintercoat,
 /obj/item/clothing/shoes/boots/winter,
-/obj/item/clothing/under/color/grey,
+/obj/item/clothing/jumpsuit/grey,
 /obj/item/clothing/mask/gas,
 /obj/item/tank/emergency/oxygen/double,
-/obj/item/melee/umbrella/random,
-/turf/simulated/floor/wood/sif,
+/obj/item/umbrella/random,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "id" = (
-/turf/simulated/wall/sifwood,
+/turf/wall/sifwood,
 /area/surface/outside/path/wilderness)
 "jh" = (
 /obj/structure/prop/rock/water,
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/river/gautelfr)
 "jq" = (
 /turf/unsimulated/wall/planetary/sif{
@@ -86,43 +86,43 @@
 /obj/structure/cliff/automatic{
 	dir = 10
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "kx" = (
 /obj/structure/prop/rock/small/alt,
-/turf/simulated/floor/outdoors/mud/sif/planetuse,
+/turf/floor/outdoors/mud/sif/planetuse,
 /area/surface/outside/wilderness/normal)
 "lt" = (
-/turf/simulated/floor/water/deep,
+/turf/floor/water/deep,
 /area/surface/outside/wilderness/mountains)
 "mA" = (
 /obj/structure/cliff/automatic{
 	dir = 6
 	},
 /obj/effect/zone_divider,
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "mZ" = (
 /obj/structure/cliff/automatic/corner{
 	dir = 9
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "ne" = (
-/turf/simulated/floor/outdoors/grass/sif,
+/turf/floor/outdoors/grass/sif,
 /area/surface/outside/path/wilderness)
 "nu" = (
 /obj/structure/prop/rock/small,
-/turf/simulated/floor/outdoors/mud/sif/planetuse,
+/turf/floor/outdoors/mud/sif/planetuse,
 /area/surface/outside/wilderness/normal)
 "oG" = (
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/water/deep,
+/turf/floor/water/deep,
 /area/surface/outside/river/gautelfr)
 "oR" = (
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/deep)
 "pM" = (
 /turf/simulated/mineral/sif,
@@ -131,104 +131,104 @@
 /obj/structure/cliff/automatic{
 	dir = 6
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "qr" = (
-/obj/item/storage/box/matches,
+/obj/item/box/matches,
 /obj/structure/table/sifwoodentable,
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "qT" = (
 /obj/effect/map_effect/portal/master/side_b/wilderness_to_plains/river{
 	dir = 1
 	},
-/turf/simulated/floor/outdoors/grass/sif,
+/turf/floor/outdoors/grass/sif,
 /area/surface/outside/river/gautelfr)
 "sn" = (
 /obj/structure/table/sifwoodentable,
 /obj/item/flashlight/lamp,
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "ta" = (
 /obj/structure/showcase/sign{
 	icon_state = "wilderness2";
 	pixel_y = -6
 	},
-/turf/simulated/wall/concrete,
+/turf/wall/concrete,
 /area/surface/outside/wilderness/normal)
 "ti" = (
-/turf/simulated/floor/outdoors/dirt/sif/planetuse,
+/turf/floor/outdoors/dirt/sif/planetuse,
 /area/surface/outside/wilderness/normal)
 "tC" = (
 /obj/structure/simple_door/sifwood,
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "tM" = (
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/river/gautelfr)
 "ub" = (
 /obj/effect/map_effect/portal/line/side_b{
 	dir = 1
 	},
-/turf/simulated/floor/outdoors/dirt/sif,
+/turf/floor/outdoors/dirt/sif,
 /area/surface/outside/path/wilderness)
 "uk" = (
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "uP" = (
-/turf/simulated/floor/outdoors/grass/sif/random{
+/turf/floor/outdoors/grass/sif/random{
 	tree_chance = 0
 	},
 /area/surface/outside/wilderness/deep)
 "vQ" = (
 /obj/structure/prop/rock/small/wateralt,
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/river/gautelfr)
 "vX" = (
 /obj/structure/cliff/automatic{
 	dir = 2
 	},
 /obj/effect/zone_divider,
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "wN" = (
-/turf/simulated/floor/outdoors/dirt/sif,
+/turf/floor/outdoors/dirt/sif,
 /area/surface/outside/path/wilderness)
 "zk" = (
 /obj/effect/map_effect/portal/line/side_b{
 	dir = 1
 	},
-/turf/simulated/floor/outdoors/grass/sif,
+/turf/floor/outdoors/grass/sif,
 /area/surface/outside/wilderness/normal)
 "zn" = (
 /obj/effect/zone_divider,
-/turf/simulated/floor/water/deep,
+/turf/floor/water/deep,
 /area/surface/outside/river/gautelfr)
 "zq" = (
 /obj/structure/drying_rack/sifwood,
-/turf/simulated/floor/outdoors/dirt/sif/planetuse,
+/turf/floor/outdoors/dirt/sif/planetuse,
 /area/surface/outside/wilderness/normal)
 "zS" = (
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/water/deep,
+/turf/floor/water/deep,
 /area/surface/outside/river/gautelfr)
 "zY" = (
-/obj/structure/bed/chair/sifwood/wings{
+/obj/structure/chair/sifwood/wings{
 	dir = 4
 	},
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "Aq" = (
 /obj/effect/zone_divider,
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/normal)
 "Ax" = (
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/normal)
 "Ay" = (
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/wilderness/mountains)
 "AG" = (
 /obj/structure/bed,
@@ -236,29 +236,29 @@
 	name = "JoinLateWilderness"
 	},
 /obj/item/bedsheet/blue,
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "Be" = (
 /obj/structure/cliff/automatic{
 	dir = 8
 	},
 /obj/effect/zone_divider,
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "BH" = (
 /obj/effect/landmark/start{
 	name = "Trained Drake"
 	},
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "BR" = (
 /obj/structure/cliff/automatic{
 	dir = 8
 	},
-/turf/simulated/floor/outdoors/grass/sif,
+/turf/floor/outdoors/grass/sif,
 /area/surface/outside/wilderness/mountains)
 "CR" = (
-/turf/simulated/floor/outdoors/dirt/sif,
+/turf/floor/outdoors/dirt/sif,
 /area/surface/outside/wilderness/mountains)
 "Dn" = (
 /obj/effect/zone_divider,
@@ -266,22 +266,22 @@
 /area/surface/outside/wilderness/mountains)
 "Ec" = (
 /obj/structure/table/sifwoodentable,
-/obj/item/material/knife,
+/obj/item/knife,
 /obj/item/stack/cable_coil/white,
-/obj/item/material/fishing_rod/built,
-/turf/simulated/floor/outdoors/dirt/sif/planetuse,
+/obj/item/fishing_rod/built,
+/turf/floor/outdoors/dirt/sif/planetuse,
 /area/surface/outside/wilderness/normal)
 "Eo" = (
 /obj/structure/cliff/automatic{
 	dir = 4
 	},
-/turf/simulated/floor/outdoors/grass/sif,
+/turf/floor/outdoors/grass/sif,
 /area/surface/outside/wilderness/mountains)
 "Fg" = (
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/path/wilderness)
 "FF" = (
-/turf/simulated/shuttle/wall/voidcraft,
+/turf/wall/shuttle/voidcraft,
 /area/surface/outside/wilderness/mountains)
 "Gf" = (
 /obj/structure/cliff/automatic/corner{
@@ -290,145 +290,145 @@
 /obj/structure/cliff/automatic{
 	dir = 4
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "GK" = (
-/turf/simulated/floor/outdoors/dirt/sif/planetuse/presnowed,
+/turf/floor/outdoors/dirt/sif/planetuse/presnowed,
 /area/surface/outside/wilderness/mountains)
 "Hb" = (
-/turf/simulated/floor/outdoors/dirt/sif,
+/turf/floor/outdoors/dirt/sif,
 /area/surface/outside/wilderness/deep)
 "HF" = (
 /obj/effect/map_effect/portal/line/side_b{
 	dir = 1
 	},
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/river/gautelfr)
 "Ih" = (
 /obj/structure/prop/rock/waterflat,
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/river/gautelfr)
 "JF" = (
 /obj/effect/shuttle_landmark/cynosure/wilderness,
-/turf/simulated/floor/outdoors/grass/sif/random{
+/turf/floor/outdoors/grass/sif/random{
 	tree_chance = 0
 	},
 /area/surface/outside/wilderness/deep)
 "JU" = (
 /obj/effect/wingrille_spawn,
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "KZ" = (
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/outside/path/wilderness)
 "LN" = (
 /obj/effect/landmark/start{
 	name = "Trained Drake"
 	},
 /obj/structure/dogbed,
-/obj/item/reagent_containers/food/snacks/jerky/spider/poison,
-/turf/simulated/floor/wood/sif,
+/obj/item/food/jerky/spider/poison,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "Mf" = (
 /obj/structure/cliff/automatic/corner{
 	dir = 6
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "MK" = (
 /obj/effect/map_effect/portal/line/side_b{
 	dir = 1
 	},
-/turf/simulated/floor/water/deep,
+/turf/floor/water/deep,
 /area/surface/outside/river/gautelfr)
 "MS" = (
-/turf/simulated/floor/water/deep,
+/turf/floor/water/deep,
 /area/surface/outside/river/gautelfr)
 "NP" = (
-/turf/simulated/floor/outdoors/grass/sif,
+/turf/floor/outdoors/grass/sif,
 /area/surface/outside/wilderness/mountains)
 "PH" = (
 /obj/effect/zone_divider,
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/deep)
 "Qw" = (
 /obj/structure/prop/rock/small/water,
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/river/gautelfr)
 "Qx" = (
 /obj/effect/map_effect/portal/master/side_b/wilderness_to_plains{
 	dir = 1
 	},
-/turf/simulated/floor/outdoors/grass/sif,
+/turf/floor/outdoors/grass/sif,
 /area/surface/outside/path/wilderness)
 "RA" = (
 /obj/structure/closet/cabinet,
-/obj/item/reagent_containers/food/condiment/carton/flour/rustic,
-/obj/item/reagent_containers/food/condiment/carton/rice,
-/obj/item/reagent_containers/food/condiment/spacespice,
-/turf/simulated/floor/wood/sif,
+/obj/item/chems/condiment/carton/flour/rustic,
+/obj/item/chems/condiment/carton/rice,
+/obj/item/chems/condiment/spacespice,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "Sa" = (
 /obj/effect/zone_divider,
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/river/gautelfr)
 "Sc" = (
-/turf/simulated/floor/wood/sif/broken,
+/turf/floor/wood/sif/broken,
 /area/surface/wilderness/shack)
 "Sl" = (
-/turf/simulated/floor/outdoors/mud/sif/planetuse,
+/turf/floor/outdoors/mud/sif/planetuse,
 /area/surface/outside/wilderness/normal)
 "SZ" = (
 /obj/effect/zone_divider,
-/turf/simulated/floor/outdoors/dirt/sif/planetuse/presnowed,
+/turf/floor/outdoors/dirt/sif/planetuse/presnowed,
 /area/surface/outside/wilderness/mountains)
 "Tc" = (
 /obj/structure/bookcase,
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "Tf" = (
-/obj/structure/closet/grave/dirthole{
+/obj/structure/pit{
 	name = "latrine pit"
 	},
-/turf/simulated/floor/outdoors/dirt/sif/planetuse,
+/turf/floor/outdoors/dirt/sif/planetuse,
 /area/surface/outside/wilderness/normal)
 "TH" = (
-/turf/simulated/wall/sifwood,
+/turf/wall/sifwood,
 /area/surface/outside/wilderness/normal)
 "TP" = (
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/river/gautelfr)
 "UA" = (
 /obj/structure/cliff/automatic/corner{
 	dir = 10
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "VU" = (
 /obj/structure/cliff/automatic{
 	dir = 2
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "Wz" = (
 /obj/structure/cliff/automatic/corner{
 	dir = 6
 	},
 /obj/effect/zone_divider,
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "Xj" = (
 /obj/effect/landmark/start{
 	name = "Survivalist"
 	},
-/turf/simulated/floor/wood/sif,
+/turf/floor/wood/sif,
 /area/surface/wilderness/shack)
 "XN" = (
 /obj/effect/zone_divider,
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/path/wilderness)
 "Yh" = (
 /obj/structure/cliff/automatic/corner{
@@ -437,19 +437,19 @@
 /obj/structure/cliff/automatic{
 	dir = 8
 	},
-/turf/simulated/floor/outdoors/mask,
+/turf/floor/outdoors/mask,
 /area/surface/outside/wilderness/mountains)
 "Zo" = (
 /obj/effect/map_effect/portal/line/side_b{
 	dir = 1
 	},
-/turf/simulated/floor/outdoors/grass/sif,
+/turf/floor/outdoors/grass/sif,
 /area/surface/outside/path/wilderness)
 "ZB" = (
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/water,
+/turf/floor/water,
 /area/surface/outside/river/gautelfr)
 
 (1,1,1) = {"

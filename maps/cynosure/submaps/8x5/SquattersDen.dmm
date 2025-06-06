@@ -1,15 +1,15 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "c" = (
-/turf/simulated/wall/concrete,
+/turf/wall/concrete,
 /area/template_noop)
 "e" = (
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/machinery/microwave,
-/obj/item/storage/box/donkpockets{
+/obj/item/box/donkpockets{
 	pixel_x = 3;
 	pixel_y = 13
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "f" = (
 /obj/structure/bed/padded,
@@ -20,50 +20,50 @@
 	pixel_x = -32;
 	poster_decl = /decl/poster/vore_69
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "h" = (
-/turf/simulated/wall/concrete{
+/turf/wall/concrete{
 	can_open = 1
 	},
 /area/template_noop)
 "l" = (
 /obj/structure/barricade,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "m" = (
 /obj/machinery/light_construct/small,
-/obj/item/reagent_containers/glass/bucket,
-/turf/simulated/floor/plating,
+/obj/item/chems/glass/bucket,
+/turf/floor/plating,
 /area/template_noop)
 "A" = (
 /obj/structure/closet,
-/obj/item/clothing/suit/storage/hooded/costume/ian,
-/obj/item/clothing/under/color/grey,
+/obj/item/clothing/suit/hooded/costume/ian,
+/obj/item/clothing/jumpsuit/grey,
 /obj/random/maintenance/cargo,
 /obj/random/maintenance/engineering,
 /obj/item/clothing/mask/gas/half,
 /obj/random/maintenance/clean,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "D" = (
 /obj/item/trash/ramen,
 /obj/structure/mirror{
 	pixel_y = 25
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "G" = (
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "K" = (
 /obj/structure/plushie/ian,
 /obj/effect/decal/cleanable/cobweb2,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "L" = (
-/obj/structure/table/standard,
-/obj/item/reagent_containers/food/drinks/cans/waterbottle{
+/obj/structure/table,
+/obj/item/chems/drinks/cans/waterbottle{
 	pixel_x = 6;
 	pixel_y = 12
 	},
@@ -72,35 +72,35 @@
 	pixel_y = 1
 	},
 /obj/item/toy/plushie/girly_corgi,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "Q" = (
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/machinery/reagentgrinder,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "V" = (
-/turf/simulated/wall/r_concrete,
+/turf/wall/r_concrete,
 /area/template_noop)
 "W" = (
-/obj/structure/table/rack,
+/obj/structure/rack,
 /obj/random/toy,
 /obj/random/contraband,
 /obj/random/contraband,
 /obj/random/tank,
 /obj/random/toolbox,
 /obj/random/maintenance/engineering,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "Y" = (
-/obj/structure/table/standard,
+/obj/structure/table,
 /obj/random/snack,
-/obj/item/reagent_containers/food/drinks/dry_ramen{
+/obj/item/chems/drinks/dry_ramen{
 	pixel_x = -6;
 	pixel_y = 6
 	},
 /obj/random/drinkbottle,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 
 (1,1,1) = {"

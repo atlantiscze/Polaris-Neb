@@ -16,41 +16,41 @@
 	pixel_y = -24
 	},
 /obj/item/cell/high/empty,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "m" = (
 /obj/structure/railing,
 /obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "u" = (
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "y" = (
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "z" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /obj/structure/railing,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "C" = (
-/turf/simulated/wall/r_concrete,
+/turf/wall/r_concrete,
 /area/template_noop)
 "D" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /obj/structure/railing,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "F" = (
 /obj/structure/sign/poster{
@@ -58,11 +58,11 @@
 	pixel_y = 32;
 	poster_decl = /decl/poster/pol_11
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "G" = (
 /obj/random/trash,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "I" = (
 /obj/random/crate,
@@ -71,7 +71,7 @@
 /obj/random/maintenance/engineering,
 /obj/random/maintenance/security,
 /obj/random/maintenance/security,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "J" = (
 /obj/structure/sign/poster{
@@ -79,7 +79,7 @@
 	pixel_y = 32;
 	poster_decl = /decl/poster/pol_16
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "L" = (
 /obj/random/crate,
@@ -88,27 +88,27 @@
 /obj/random/medical,
 /obj/random/medical/lite,
 /obj/random/medical/lite,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "N" = (
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "O" = (
-/turf/simulated/wall/concrete,
+/turf/wall/concrete,
 /area/template_noop)
 "P" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "Q" = (
 /obj/item/clothing/gloves/boxing/yellow,
 /obj/item/clothing/gloves/boxing/green,
 /obj/item/clothing/gloves/boxing/blue,
 /obj/item/clothing/gloves/boxing,
-/obj/structure/table/rack,
-/turf/simulated/floor/plating,
+/obj/structure/rack,
+/turf/floor/plating,
 /area/template_noop)
 "W" = (
 /obj/structure/railing{
@@ -118,11 +118,11 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "X" = (
 /obj/random/mouseremains,
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "Y" = (
 /obj/structure/railing{
@@ -131,13 +131,13 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "Z" = (
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 
 (1,1,1) = {"

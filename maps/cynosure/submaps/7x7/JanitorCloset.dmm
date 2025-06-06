@@ -20,13 +20,12 @@
 /obj/random/maintenance/clean,
 /obj/random/maintenance/engineering,
 /obj/effect/spider/stickyweb,
-/obj/machinery/requests_console{
+/obj/machinery/network/requests_console{
 	department = "Janitorial";
-	departmentType = 1;
 	name = "Janitorial RC";
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "j" = (
 /obj/effect/floor_decal/borderfloor/corner,
@@ -37,7 +36,7 @@
 /obj/structure/mopbucket,
 /obj/item/mop,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "l" = (
 /obj/effect/floor_decal/borderfloor/corner{
@@ -46,17 +45,17 @@
 /obj/effect/floor_decal/corner/purple/bordercorner{
 	dir = 4
 	},
-/obj/item/reagent_containers/glass/bucket,
-/obj/structure/sink/generic{
+/obj/item/chems/glass/bucket,
+/obj/structure/hygiene/sink/generic{
 	dir = 8;
 	pixel_x = 12;
 	pixel_y = -4
 	},
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled,
+/turf/floor/tiled,
 /area/template_noop)
 "o" = (
-/turf/simulated/wall/concrete,
+/turf/wall/concrete,
 /area/template_noop)
 "p" = (
 /obj/effect/floor_decal/borderfloor/corner{
@@ -69,7 +68,7 @@
 	dir = 8
 	},
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "q" = (
 /obj/effect/floor_decal/borderfloor{
@@ -78,21 +77,21 @@
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 6
 	},
-/obj/item/camera_assembly,
+/obj/item/frame/camera/kit,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "r" = (
 /obj/effect/spider/stickyweb,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "t" = (
 /obj/effect/spider/stickyweb,
 /obj/machinery/atmospherics/unary/vent_pump,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "u" = (
 /obj/effect/spider/stickyweb,
@@ -102,14 +101,14 @@
 /obj/machinery/atmospherics/pipe/cap/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "y" = (
 /obj/item/stool{
 	dir = 1
 	},
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "z" = (
 /obj/effect/floor_decal/borderfloor/corner{
@@ -118,12 +117,12 @@
 /obj/effect/floor_decal/corner/purple/bordercorner{
 	dir = 8
 	},
-/obj/effect/decal/remains/mouse,
+/obj/item/remains/mouse,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "C" = (
-/turf/simulated/wall/r_concrete,
+/turf/wall/r_concrete,
 /area/template_noop)
 "D" = (
 /obj/effect/decal/cleanable/cobweb2{
@@ -134,7 +133,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "G" = (
 /obj/effect/floor_decal/borderfloor{
@@ -151,21 +150,21 @@
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "H" = (
 /obj/effect/spider/stickyweb,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "I" = (
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/purple/border,
 /obj/structure/loot_pile/maint/trash,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "J" = (
 /obj/effect/floor_decal/borderfloor{
@@ -175,9 +174,9 @@
 	dir = 1
 	},
 /obj/structure/table/steel,
-/obj/item/storage/box/mousetraps,
-/obj/item/storage/box/lights/mixed,
-/obj/item/reagent_containers/spray/cleaner{
+/obj/item/box/mousetraps,
+/obj/item/box/lights/mixed,
+/obj/item/chems/spray/cleaner{
 	pixel_x = 2;
 	pixel_y = 2
 	},
@@ -185,7 +184,7 @@
 /obj/machinery/newscaster{
 	pixel_y = 26
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "K" = (
 /obj/effect/decal/cleanable/cobweb2{
@@ -199,8 +198,6 @@
 	dir = 6
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/effect/spider/stickyweb,
@@ -208,7 +205,7 @@
 /obj/machinery/atmospherics/pipe/cap/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/floor/plating,
 /area/template_noop)
 "L" = (
 /obj/effect/floor_decal/borderfloor{
@@ -221,7 +218,7 @@
 /obj/item/clothing/mask/gas/clear,
 /obj/random/soap,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "M" = (
 /obj/effect/floor_decal/steeldecal/steel_decals4,
@@ -229,7 +226,7 @@
 	dir = 10
 	},
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "N" = (
 /obj/effect/floor_decal/borderfloor{
@@ -240,7 +237,7 @@
 	},
 /obj/machinery/disposal,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "O" = (
 /obj/effect/floor_decal/borderfloor,
@@ -263,7 +260,7 @@
 	pixel_x = -12;
 	pixel_y = -24
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "P" = (
 /obj/effect/floor_decal/borderfloor{
@@ -281,10 +278,9 @@
 	},
 /obj/effect/spider/stickyweb,
 /obj/item/radio/intercom{
-	dir = 1;
-	pixel_y = 21
+	pixel_y = 20
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "Q" = (
 /obj/effect/floor_decal/borderfloor,
@@ -299,26 +295,26 @@
 	dir = 1;
 	pixel_y = -22
 	},
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "T" = (
-/turf/simulated/wall/concrete{
+/turf/wall/concrete{
 	can_open = 1
 	},
 /area/template_noop)
 "W" = (
 /obj/random/trash,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "X" = (
 /obj/effect/decal/cleanable/spiderling_remains,
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_grid,
+/turf/floor/tiled/steel_grid,
 /area/template_noop)
 "Z" = (
 /obj/effect/spider/stickyweb,
-/turf/simulated/floor/tiled/steel_dirty,
+/turf/floor/tiled/steel_dirty,
 /area/template_noop)
 
 (1,1,1) = {"
