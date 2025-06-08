@@ -3811,10 +3811,6 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d3/research)
 "cFa" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "eng_airlock_pump"
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 5
 	},
@@ -3822,6 +3818,10 @@
 	dir = 5
 	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/engineering/d3/eva_hallway)
 "cFz" = (
@@ -4403,12 +4403,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "ai_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/structure/network_cable,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/command/d2/ai_entrance)
 "dbI" = (
@@ -9488,11 +9488,11 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "roof_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/hallway/d3/east)
 "gAD" = (
@@ -9699,10 +9699,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "com_airlock_pump"
-	},
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	dir = 4;
 	pixel_x = -25;
@@ -9717,6 +9713,10 @@
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/abstract/airlock_helper/sensor/chamber_sensor,
 /obj/structure/network_cable,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/hallway/d3/eva)
 "gGP" = (
@@ -9728,10 +9728,6 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "ai_airlock_pump"
 	},
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	dir = 4;
@@ -9747,6 +9743,10 @@
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/abstract/airlock_helper/sensor/chamber_sensor,
 /obj/structure/network_cable,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/command/d2/ai_entrance)
 "gGW" = (
@@ -11535,12 +11535,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "com_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/structure/network_cable,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/hallway/d3/eva)
 "hPv" = (
@@ -14592,10 +14592,6 @@
 /turf/wall,
 /area/cynosure/medical/d3/restroom)
 "jBr" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "eng_airlock_pump"
-	},
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	dir = 4;
 	pixel_x = -25;
@@ -14615,6 +14611,10 @@
 	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/abstract/airlock_helper/sensor/chamber_sensor,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/engineering/d3/eva_hallway)
 "jCs" = (
@@ -24504,13 +24504,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "roof_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/structure/sign/warning/cold{
 	pixel_y = 32
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/hallway/d3/east)

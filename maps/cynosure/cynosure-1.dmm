@@ -542,10 +542,6 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d1/west)
 "bp" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "arc2_airlock_pump"
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 6
 	},
@@ -553,6 +549,10 @@
 	dir = 6
 	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/outpost/xenoarch/hallway)
 "bq" = (
@@ -816,9 +816,6 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 5
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	id_tag = "min_ug_airlock_pump"
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
@@ -830,6 +827,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air,
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/cargo/d1/mining_hallway)
 "bT" = (
@@ -1948,10 +1946,6 @@
 /turf/floor/tiled/monotile,
 /area/cynosure/engineering/d1/hallway)
 "eB" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "main_ug_airlock_pump"
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 5
 	},
@@ -1961,6 +1955,10 @@
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/hallway/d1/center)
@@ -2149,10 +2147,6 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/research_north)
 "fb" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "tox_ug_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	pixel_y = 24;
@@ -2168,6 +2162,10 @@
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/structure/sign/warning/cold{
 	pixel_y = -32
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4
 	},
 /turf/floor/tiled,
 /area/cynosure/science/d1/toxins_launch)
@@ -2654,11 +2652,11 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "med_ug_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/medical/d1/hallway)
 "gr" = (
@@ -6214,14 +6212,15 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "arc1_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/camera/network/research_outpost{
 	dir = 4;
 	c_tag = "OPR - Xenoarch Airlock South"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4;
+	id_tag = "cynosure_al_arrivalsnorth_pump"
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/outpost/xenoarch/entrance)
@@ -7512,10 +7511,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "med_ug_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	dir = 4;
@@ -7529,6 +7524,10 @@
 	id_tag = "med_ug_airlock_sensor"
 	},
 /obj/abstract/airlock_helper/sensor/chamber_sensor,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/medical/d1/hallway)
 "rk" = (
@@ -7577,14 +7576,14 @@
 /turf/floor/tiled/steel_dirty,
 /area/cynosure/hallway/d1/east)
 "ro" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "arc2_airlock_pump"
-	},
 /obj/effect/floor_decal/techfloor,
 /obj/effect/floor_decal/industrial/warning,
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/light/small,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/outpost/xenoarch/hallway)
 "rq" = (
@@ -7975,13 +7974,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 8;
-	id_tag = "med_ug_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 8
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/medical/d1/hallway)
@@ -9433,12 +9432,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "main_ug_airlock_pump"
-	},
 /obj/abstract/airlock_helper/sensor/chamber_sensor,
 /obj/abstract/airlock_helper/atmos/chamber_pump,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/hallway/d1/center)
 "vz" = (
@@ -9909,13 +9908,13 @@
 	dir = 5
 	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 8;
-	id_tag = "sci_ug_airlock_pump"
-	},
 /obj/structure/sign/directions/science/xenoarch{
 	dir = 1;
 	pixel_x = 32
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 8
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/science/d1/hallway)
@@ -11124,10 +11123,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 8;
-	id_tag = "arc1_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	dir = 8;
@@ -11141,6 +11136,11 @@
 	id_tag = "arc1_airlock_sensor"
 	},
 /obj/abstract/airlock_helper/sensor/chamber_sensor,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 8;
+	id_tag = "cynosure_al_arrivalsnorth_pump"
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/outpost/xenoarch/entrance)
 "zo" = (
@@ -11894,13 +11894,14 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 8;
-	id_tag = "arc1_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 8;
+	id_tag = "cynosure_al_arrivalsnorth_pump"
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/outpost/xenoarch/entrance)
@@ -13570,10 +13571,6 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 10
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "min_ug_airlock_pump"
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
@@ -13581,6 +13578,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/green{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/cargo/d1/mining_hallway)
@@ -13698,10 +13699,6 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 6
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "min_ug_airlock_pump"
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
 	},
@@ -13709,6 +13706,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/green{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/cargo/d1/mining_hallway)
@@ -14254,14 +14255,14 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 8;
-	id_tag = "med_ug_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/camera/network/medbay{
 	dir = 8;
 	c_tag = "MED - Airlock Lower"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 8
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/medical/d1/hallway)
@@ -14653,9 +14654,6 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 9
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	id_tag = "min_ug_airlock_pump"
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
@@ -14670,7 +14668,8 @@
 	},
 /obj/abstract/airlock_helper/sensor/chamber_sensor,
 /obj/abstract/airlock_helper/atmos/chamber_pump,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air,
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/cargo/d1/mining_hallway)
 "HN" = (
@@ -17312,10 +17311,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "sci_ug_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/airlock_sensor{
 	dir = 4;
@@ -17329,6 +17324,10 @@
 	id_tag = "sci_ug_airlock"
 	},
 /obj/abstract/airlock_helper/sensor/chamber_sensor,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/science/d1/hallway)
 "NX" = (
@@ -18250,10 +18249,6 @@
 /turf/floor/plating,
 /area/cynosure/outpost/xenoarch/hallway)
 "PP" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 8;
-	id_tag = "eng_ug_airlock_pump"
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 9
 	},
@@ -18263,6 +18258,10 @@
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/structure/sign/warning/cold{
 	pixel_y = 32
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 8
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/engineering/d1/hallway)
@@ -18535,10 +18534,6 @@
 /turf/floor/tiled/white,
 /area/cynosure/outpost/xenoarch/analysis)
 "Qv" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 8;
-	id_tag = "eng_ug_airlock_pump"
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 10
 	},
@@ -18547,6 +18542,10 @@
 	},
 /obj/machinery/light/small,
 /obj/abstract/airlock_helper/atmos/chamber_pump,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 8
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/engineering/d1/hallway)
 "Qw" = (
@@ -19495,10 +19494,6 @@
 /turf/wall/concrete,
 /area/cynosure/engineering/d1/tech_storage)
 "Sv" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 1;
-	id_tag = "arc2_airlock_pump"
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 10
 	},
@@ -19506,6 +19501,10 @@
 	dir = 10
 	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 1
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/outpost/xenoarch/hallway)
 "Sw" = (
@@ -20716,13 +20715,13 @@
 	dir = 6
 	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 8;
-	id_tag = "sci_ug_airlock_pump"
-	},
 /obj/machinery/camera/network/research{
 	dir = 8;
 	c_tag = "SCI - Research Airlock"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 8
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/science/d1/hallway)
@@ -21146,13 +21145,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "sci_ug_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
 /obj/machinery/light/small{
 	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/science/d1/hallway)
@@ -21540,11 +21539,12 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	dir = 4;
-	id_tag = "arc1_airlock_pump"
-	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	icon_state = "map_vent";
+	dir = 4;
+	id_tag = "cynosure_al_arrivalsnorth_pump"
+	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/outpost/xenoarch/entrance)
 "Xn" = (
