@@ -110,7 +110,7 @@
 /turf/floor/mud,
 /area/surface/outside/wilderness/normal)
 "oG" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water/deep,
@@ -174,7 +174,7 @@
 /turf/floor/dirt,
 /area/surface/outside/wilderness/normal)
 "zS" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/mud/water/deep,
@@ -307,7 +307,7 @@
 /turf/wall/log/sifwood,
 /area/surface/outside/wilderness/normal)
 "TP" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water,
@@ -334,7 +334,7 @@
 /turf/unsimulated/mask,
 /area/surface/outside/wilderness/mountains)
 "ZB" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/mud/water,
