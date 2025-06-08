@@ -31,7 +31,8 @@
 	#include "../../mods/content/pheromones/_pheromones.dme"
 	#include "../../mods/species/serpentid/_serpentid.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
-	#include "../../mods/species/vox/_vox.dme"
+	//Causes compile errors, disabling temporarily until fix can be found
+	//#include "../../mods/species/vox/_vox.dme"
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 

@@ -111,7 +111,6 @@
 		/obj/item/clothing/webbing/vest/black,
 		/obj/item/clothing/head/soft/sec/corp,
 		/obj/item/clothing/jumpsuit/security/corp,
-		/obj/item/ammo_magazine/m45/rubber,
 		/obj/item/gun/energy/taser,
 		/obj/item/cell/gun,
 		/obj/item/clothing/suit/jacket/winter/security,

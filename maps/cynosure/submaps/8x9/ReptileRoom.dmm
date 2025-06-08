@@ -56,7 +56,7 @@
 /area/template_noop)
 "v" = (
 /obj/machinery/door/window/westright,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /turf/floor/wood,
 /area/template_noop)
 "w" = (
@@ -132,7 +132,7 @@
 "O" = (
 /obj/machinery/light/small,
 /obj/item/stack/emptysandbag,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /turf/floor/wood/broken,
 /area/template_noop)
 "P" = (
@@ -140,7 +140,7 @@
 /obj/structure/window/basic{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /turf/floor/wood,
 /area/template_noop)
 "R" = (

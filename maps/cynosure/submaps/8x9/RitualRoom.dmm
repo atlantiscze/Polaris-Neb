@@ -20,7 +20,7 @@
 /turf/floor/tiled/dark,
 /area/template_noop)
 "g" = (
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /turf/floor/tiled/dark,
 /area/template_noop)
 "m" = (
@@ -29,7 +29,7 @@
 "n" = (
 /obj/item/backpack/cultpack,
 /obj/item/clothing/suit/hooded/chaplain_hoodie,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /obj/random/maintenance/clean,
 /obj/structure/sign/poster/custom{
 	dir = 1;

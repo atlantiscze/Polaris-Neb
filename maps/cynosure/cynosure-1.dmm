@@ -823,7 +823,7 @@
 	dir = 5
 	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /obj/machinery/camera/network/mining{
 	c_tag = "CRG - Mining Airlock"
 	},
@@ -2543,7 +2543,7 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/medbay_south)
 "gc" = (
-/obj/item/stack/material/rods{
+/obj/item/stack/material/rods/mapped/steel{
 	icon_state = "rods-1"
 	},
 /turf/floor/plating,
@@ -3872,12 +3872,6 @@
 	},
 /turf/floor/tiled/steel_dirty,
 /area/cynosure/hallway/d1/center)
-"ja" = (
-/obj/effect/floor_decal/borderfloorwhite,
-/obj/effect/floor_decal/corner/purple/border,
-/obj/machinery/network/relay/wall_mounted/south,
-/turf/floor/tiled/white,
-/area/cynosure/outpost/xenoarch/hallway)
 "jc" = (
 /obj/structure/filing_cabinet/records/medical,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -4589,8 +4583,8 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
+/obj/effect/decal/cleanable/dirt/visible,
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/cargo/d1/mining_hallway)
 "kJ" = (
@@ -8237,9 +8231,6 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/bordercorner{
 	dir = 1
-	},
-/obj/item/radio/intercom/department/medbay{
-	pixel_y = 20
 	},
 /turf/floor/tiled,
 /area/cynosure/medical/d1/hallway)
@@ -13179,10 +13170,6 @@
 /obj/structure/window/reinforced/full,
 /turf/floor/plating,
 /area/cynosure/engineering/d1/tech_storage)
-"DS" = (
-/obj/structure/network_cable,
-/turf/wall/r_wall,
-/area/cynosure/outpost/xenoarch/substation)
 "DT" = (
 /obj/structure/disposalpipe/segment{
 	icon_state = "pipe-c";
@@ -13263,10 +13250,6 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 4
-	},
-/obj/item/radio/intercom/department/medbay{
-	dir = 8;
-	pixel_x = 22
 	},
 /turf/floor/tiled/old_tile/white,
 /area/cynosure/medical/d1/morgue)
@@ -13602,7 +13585,7 @@
 	dir = 10
 	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
@@ -13733,7 +13716,7 @@
 	dir = 6
 	},
 /obj/abstract/airlock_helper/atmos/chamber_pump,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
@@ -14452,6 +14435,10 @@
 	},
 /turf/wall/r_wall,
 /area/cynosure/science/d1/toxins_mixing)
+"Hc" = (
+/obj/structure/network_cable,
+/turf/wall/r_wall,
+/area/cynosure/outpost/xenoarch/substation)
 "Hd" = (
 /obj/effect/floor_decal/rust,
 /turf/floor/tiled/steel_dirty,
@@ -14700,7 +14687,7 @@
 	},
 /obj/abstract/airlock_helper/sensor/chamber_sensor,
 /obj/abstract/airlock_helper/atmos/chamber_pump,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/cargo/d1/mining_hallway)
 "HN" = (
@@ -15296,10 +15283,6 @@
 /obj/item/crowbar/red,
 /obj/item/crowbar/red,
 /obj/item/box/lights/mixed,
-/obj/item/radio/intercom/department/medbay{
-	dir = 8;
-	pixel_x = 22
-	},
 /turf/floor/tiled/dark,
 /area/cynosure/medical/d1/secondary_storage)
 "Jn" = (
@@ -17283,9 +17266,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
+/obj/effect/decal/cleanable/dirt/visible,
+/obj/effect/decal/cleanable/dirt/visible,
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/cargo/d1/mining_hallway)
 "NQ" = (
@@ -18707,10 +18690,6 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 4
-	},
-/obj/item/radio/intercom/department/medbay{
-	dir = 8;
-	pixel_x = 22
 	},
 /turf/floor/tiled,
 /area/cynosure/medical/d1/hallway)
@@ -20264,6 +20243,12 @@
 	},
 /turf/floor/tiled/dark,
 /area/cynosure/outpost/xenoarch/anomalous_storage)
+"Uu" = (
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/purple/border,
+/obj/machinery/network/relay/wall_mounted/south,
+/turf/floor/tiled/white,
+/area/cynosure/outpost/xenoarch/hallway)
 "Uv" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -52135,7 +52120,7 @@ sD
 sD
 sD
 Ec
-ja
+Uu
 OU
 OU
 aW
@@ -53506,7 +53491,7 @@ tK
 Yj
 PH
 ys
-DS
+Hc
 Ox
 Hh
 RQ
@@ -53777,7 +53762,7 @@ nL
 gt
 aW
 bl
-DS
+Hc
 xd
 RQ
 RQ

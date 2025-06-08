@@ -10,10 +10,6 @@
 	icon_state    = "dark"
 	_flooring     = /decl/flooring/tiling/dark
 
-/turf/floor/tiled/dark/cryo
-	initial_gas = list(/decl/material/gas/nitrogen = MOLES_CELLSTANDARD)
-	temperature = 73
-
 /turf/floor/tiled/dark/monotile
 	name          = "floor"
 	icon_state    = "monotiledark"
@@ -72,10 +68,6 @@
 	icon_state    = "techfloor_gray"
 	_flooring     = /decl/flooring/tiling/tech
 
-/turf/floor/tiled/techfloor/cryo
-	initial_gas = list(/decl/material/gas/nitrogen = MOLES_CELLSTANDARD)
-	temperature = 73
-
 /turf/floor/tiled/monotile
 	name          = "floor"
 	icon_state    = "steel_monotile"
@@ -115,10 +107,6 @@
 	name          = "floor"
 	icon_state    = "techfloor_grid"
 	_flooring     = /decl/flooring/tiling/tech/grid
-
-/turf/floor/tiled/techfloor/grid/cryo
-	initial_gas = list(/decl/material/gas/nitrogen = MOLES_CELLSTANDARD)
-	temperature = 73
 
 /turf/floor/tiled/airless
 	name          = "airless floor"

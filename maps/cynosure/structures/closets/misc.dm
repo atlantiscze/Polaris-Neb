@@ -18,7 +18,6 @@
 
 /obj/structure/closet/secure_closet/guncabinet/rifle/WillContain()
 	. = list(
-		/obj/item/ammo_magazine/clip/c762/hunter = 9,
 		/obj/item/gun/projectile/shotgun/pump/rifle = 2
 	)
 	if(prob(85))
@@ -79,10 +78,7 @@
 		. += /obj/item/backpack/rucksack
 	else
 		. += /obj/item/backpack/satchel
-	if(prob(75))
-		. += /obj/item/bladed/knife/survival
-	else
-		. += /obj/item/tool/machete
+	. += /obj/item/tool/machete
 
 //Xenofauna tech lockers
 /obj/structure/closet/secure_closet/xenofauna
@@ -104,7 +100,6 @@
 		/obj/item/radio,
 		/obj/item/cataloguer,
 		/obj/item/backpack/satchel,
-		/obj/item/bladed/knife/survival,
 		/obj/item/specimen_tagger
 	)
 
@@ -191,7 +186,6 @@
 /obj/structure/closet/secure_closet/pilot/WillContain()
 	. = list(
 		/obj/item/backpack/parachute,
-		/obj/item/bladed/knife/survival,
 		/obj/item/clothing/head/pilot,
 		/obj/item/clothing/jumpsuit/pilot/nanotrasen/blue,
 		/obj/item/clothing/suit/jacket/bomber/pilot,

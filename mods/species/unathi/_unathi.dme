@@ -4,7 +4,6 @@
 #include "_unathi.dm"
 #include "datum\autohiss.dm"
 #include "datum\blood.dm"
-#include "datum\citizenship.dm"
 #include "datum\culture.dm"
 #include "datum\language.dm"
 #include "datum\species.dm"

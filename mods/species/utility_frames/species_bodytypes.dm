@@ -28,8 +28,9 @@
 			/decl/sprite_accessory/marking/frame/plating/head = list(SAM_COLOR = "#8888cc")
 		)
 	)
-	age_descriptor =        /datum/appearance_descriptor/age/utility_frame
+	age_descriptor = /datum/appearance_descriptor/age/utility_frame
 	uid = "bodytype_prosthetic_utility_frame"
+	can_be_shackled = TRUE
 
 /decl/bodytype/prosthetic/utility_frame/Initialize()
 	_equip_adjust = list(
@@ -51,7 +52,7 @@
 DEFINE_ROBOLIMB_DESIGNS(/decl/bodytype/prosthetic/utility_frame, utility_frame)
 /decl/bodytype/prosthetic/utility_frame/positronic
 	has_organ = list(
-		BP_BRAIN = /obj/item/organ/internal/brain/robotic/positronic,
+		BP_BRAIN = /obj/item/organ/internal/brain/robotic,
 		BP_EYES  = /obj/item/organ/internal/eyes,
 		BP_CELL  = /obj/item/organ/internal/cell
 	)

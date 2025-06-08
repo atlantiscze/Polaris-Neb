@@ -5,8 +5,7 @@
 /decl/hierarchy/supply_pack/exploration/bolt_rifles_explorer
  	name = "Weapons - Surplus Hunting Rifles"
  	contains = list(
- 		/obj/item/gun/projectile/shotgun/pump/rifle = 2,
- 		/obj/item/ammo_magazine/clip/c762/hunter = 6
+ 		/obj/item/gun/projectile/shotgun/pump/rifle = 2
  		)
  	containertype = /obj/structure/closet/crate/secure
  	containername = "hunting rifle crate"

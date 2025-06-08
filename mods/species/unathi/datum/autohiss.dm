@@ -6,5 +6,5 @@
 			"x" = list("ks", "kss", "ksss")
 		)
 	autohiss_exempt = list(
-		LANGUAGE_UNATHI
+		LANGUAGE_LIZARD
 	)

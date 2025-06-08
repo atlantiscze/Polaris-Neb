@@ -12,7 +12,7 @@
 /turf/floor/plating,
 /area/template_noop)
 "l" = (
-/obj/item/stack/tile/wood/sif{
+/obj/item/stack/tile/wood/oak/sif{
 	amount = 5
 	},
 /obj/machinery/light/small/fixture{
@@ -70,7 +70,7 @@
 /turf/floor/plating,
 /area/template_noop)
 "J" = (
-/obj/item/stack/tile/wood/sif{
+/obj/item/stack/tile/wood/oak/sif{
 	amount = 5
 	},
 /turf/floor/plating,

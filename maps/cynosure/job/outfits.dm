@@ -77,7 +77,7 @@
 	. = ..()
 	var/obj/item/clothing/shoes/shoes = H?.get_equipped_item(slot_shoes_str)
 	if(istype(shoes) && !shoes.hidden_item && shoes.can_add_hidden_item)
-		shoes.hidden_item = new /obj/item/bladed/knife/survival(H)
+		shoes.hidden_item = new /obj/item/bladed/knife(H)
 		shoes.update_icon()
 
 /decl/outfit/job/survivalist/crash_survivor

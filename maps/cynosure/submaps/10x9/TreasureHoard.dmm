@@ -207,14 +207,14 @@
 /area/template_noop)
 "D" = (
 /obj/structure/closet/crate/allico,
-/obj/item/food/candy/gummy,
-/obj/item/food/candy/gummy,
-/obj/item/food/candy/gummy,
-/obj/item/food/candy/gummy,
-/obj/item/food/candy/gummy,
-/obj/item/food/candy/gummy,
-/obj/item/food/candy/gummy,
-/obj/item/food/candy/gummy,
+/obj/item/food/junk/candy/gummy,
+/obj/item/food/junk/candy/gummy,
+/obj/item/food/junk/candy/gummy,
+/obj/item/food/junk/candy/gummy,
+/obj/item/food/junk/candy/gummy,
+/obj/item/food/junk/candy/gummy,
+/obj/item/food/junk/candy/gummy,
+/obj/item/food/junk/candy/gummy,
 /turf/floor/tiled/monotile,
 /area/template_noop)
 "E" = (

@@ -132,11 +132,6 @@
 	)
 */
 
-/datum/job/survivalist/get_outfit(var/mob/living/human/H, var/alt_title)
-	if(H.species?.uid == /decl/species/vox::uid)
-		return GET_DECL(/decl/outfit/vox/survivor)
-	return ..()
-
 /decl/alt_title/crash_survivor
 	title = CRASH_SURVIVOR_TITLE
 	title_blurb = "Crashing in the wilderness of Sif's anomalous region is not a recommended holiday activity."

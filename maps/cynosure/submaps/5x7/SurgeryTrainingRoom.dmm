@@ -168,7 +168,7 @@
 /turf/wall/concrete,
 /area/template_noop)
 "R" = (
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /obj/machinery/atmospherics/pipe/cap/hidden/scrubbers{
 	dir = 1
 	},
@@ -177,12 +177,12 @@
 	},
 /obj/machinery/door/airlock/medical{
 	name = "Operating Theatre";
-
+	
 	},
 /turf/floor/tiled/steel_grid,
 /area/template_noop)
 "T" = (
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/visible,
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},

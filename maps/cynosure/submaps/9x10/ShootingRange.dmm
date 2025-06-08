@@ -52,7 +52,7 @@
 /area/template_noop)
 "n" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/target_stake,
+/obj/structure/target_stake/steel,
 /turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "o" = (
@@ -184,7 +184,7 @@
 /turf/floor/tiled/techmaint,
 /area/template_noop)
 "T" = (
-/obj/structure/target_stake,
+/obj/structure/target_stake/steel,
 /turf/floor/tiled/steel_dirty,
 /area/template_noop)
 "U" = (

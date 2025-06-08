@@ -27,7 +27,7 @@
 	var/list/camera_channels = list()
 	var/list/languages = list(
 		/decl/language/human/common = TRUE,
-	//	/decl/language/legal = TRUE,
+		/decl/language/legal = TRUE,
 		/decl/language/sign = FALSE
 	)
 	var/list/module_sprites = list()
@@ -62,7 +62,7 @@
 /obj/item/robot_module/New(loc, material_key, reference_only = FALSE)
 	if(reference_only)
 		storage = null
-	. = ..()
+	..(loc, material_key)
 
 /obj/item/robot_module/Initialize(ml, material_key, reference_only = FALSE)
 
@@ -160,7 +160,6 @@
 				for(var/state in cicon.ids_to_icons)
 					.[state] = cicon.ids_to_icons[state]
 
-// These lists and refs may be paths or types; do not use QDEL_NULL.
 /obj/item/robot_module/Destroy()
 	for(var/datum/thing in (equipment|synths))
 		qdel(thing)

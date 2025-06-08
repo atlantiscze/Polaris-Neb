@@ -12,16 +12,15 @@
 		/decl/bodytype/skrell
 		)
 
+	traits = list(/decl/trait/malus/intolerance/protein = TRAIT_LEVEL_MINOR)
+
 	primitive_form = "Neaera"
 
-	description = "The skrell are a highly advanced species of amphibians hailing from \
-	the system known as Qerr'Vallis, which translates to 'Star of the royals' or 'Light of the Crown'. \
-	Their society is regimented into five castes which the Qerr'Katish, or High-caste, rules over. \
-	Skrell are strict herbivores who are unable to eat large quantities of animal protein \
-	without feeling sick or even suffering from food poisoning. <br/><br/> \
-	While skrell place high value on cooperation, diplomacy and scientific pursuit, \
-	they tend to be very leery of outside interference in their customs and values, \
-	and are highly secretive regarding internal matters of state."
+	description = "The Skrell are a highly advanced race of amphibians hailing from the system known as Qerr'Vallis. Their society is regimented into \
+	five different castes which the Qerr'Katish, or Royal Caste, rules over. Skrell are strict herbivores who are unable to eat large quantities of \
+	animal protein without feeling sick or even suffering from food poisoning. <br/><br/> \
+	Skrell value cooperation and have very communal lifestyles, and despite their diplomatic fluency and innate curiosity are very leery of outside \
+	interference in their customs and values."
 
 	butchery_data = /decl/butchery_data/humanoid/skrell
 
@@ -60,6 +59,39 @@
 		/decl/blood_type/skrell/nominus
 	)
 
+	available_background_info = list(
+		/decl/background_category/citizenship = list(
+			/decl/background_detail/citizenship/other
+		),
+		/decl/background_category/heritage = list(
+			/decl/background_detail/heritage/skrell,
+			/decl/background_detail/heritage/skrell/caste_malish,
+			/decl/background_detail/heritage/skrell/caste_kanin,
+			/decl/background_detail/heritage/skrell/caste_talum,
+			/decl/background_detail/heritage/skrell/caste_raskinta,
+			/decl/background_detail/heritage/skrell/caste_ue
+		),
+		/decl/background_category/homeworld = list(
+			/decl/background_detail/location/free,
+			/decl/background_detail/location/skrellspace,
+			/decl/background_detail/location/other
+		),
+		/decl/background_category/faction = list(
+			/decl/background_detail/faction/skrell,
+			/decl/background_detail/faction/skrell/qalaoa,
+			/decl/background_detail/faction/skrell/yiitalana,
+			/decl/background_detail/faction/skrell/krrigli,
+			/decl/background_detail/faction/skrell/qonprri,
+			/decl/background_detail/faction/skrell/kalimak,
+			/decl/background_detail/faction/other
+		),
+		/decl/background_category/religion = list(
+			/decl/background_detail/religion/skrell,
+			/decl/background_detail/religion/skrell/starspiritual,
+			/decl/background_detail/religion/other
+		)
+	)
+
 	exertion_effect_chance = 10
 	exertion_hydration_scale = 1
 	exertion_charge_scale = 1
@@ -73,23 +105,6 @@
 		/decl/emote/exertion/synthetic/creak
 	)
 
-/decl/species/skrell/Initialize()
-	. = ..()
-	LAZYINITLIST(available_background_info)
-	LAZYDISTINCTADD(available_background_info[/decl/background_category/citizenship], /decl/background_detail/citizenship/skrell)
-	LAZYDISTINCTADD(available_background_info[/decl/background_category/heritage], /decl/background_detail/heritage/skrell/caste_malish)
-	LAZYDISTINCTADD(available_background_info[/decl/background_category/heritage], /decl/background_detail/heritage/skrell/caste_kanin)
-	LAZYDISTINCTADD(available_background_info[/decl/background_category/heritage], /decl/background_detail/heritage/skrell/caste_talum)
-	LAZYDISTINCTADD(available_background_info[/decl/background_category/heritage], /decl/background_detail/heritage/skrell/caste_raskinta)
-	LAZYDISTINCTADD(available_background_info[/decl/background_category/heritage], /decl/background_detail/heritage/skrell/caste_ue)
-	LAZYDISTINCTADD(available_background_info[/decl/background_category/faction], /decl/background_detail/faction/skrell)
-	LAZYDISTINCTADD(available_background_info[/decl/background_category/faction], /decl/background_detail/faction/skrell_pirate)
-	LAZYDISTINCTADD(available_background_info[/decl/background_category/faction], /decl/background_detail/faction/skrell_qerrglia)
-	LAZYDISTINCTADD(available_background_info[/decl/background_category/religion], /decl/background_detail/religion/skrell)
-	LAZYSET(default_background_info, /decl/background_category/citizenship, /decl/background_detail/citizenship/skrell)
-	LAZYSET(default_background_info, /decl/background_category/heritage, /decl/background_detail/heritage/skrell/caste_malish)
-	LAZYSET(default_background_info, /decl/background_category/religion, /decl/background_detail/religion/skrell)
-
 /decl/species/skrell/fluid_act(var/mob/living/human/H, var/datum/reagents/fluids)
 	. = ..()
 	var/water = REAGENT_VOLUME(fluids, /decl/material/liquid/water)
@@ -100,27 +115,36 @@
 	var/obj/item/shoes = H.get_equipped_item(slot_shoes_str)
 	if(!shoes)
 		var/list/bloodDNA
-		var/list/blood_data = REAGENT_DATA(H.vessel, /decl/material/liquid/blood)
+		var/list/blood_data = REAGENT_DATA(H.vessel, blood_reagent)
 		if(blood_data)
-			bloodDNA = list(blood_data["blood_DNA"] = blood_data["blood_type"])
+			bloodDNA = list(blood_data[DATA_BLOOD_DNA] = blood_data[DATA_BLOOD_TYPE])
 		else
 			bloodDNA = list()
-		if(T.simulated)
-			T.AddTracks(/obj/effect/decal/cleanable/blood/tracks/footprints/skrellprints, bloodDNA, H.dir, 0, H.get_skin_colour() + "25") // Coming (8c is the alpha value)
+		T.AddTracks(/obj/effect/decal/cleanable/blood/tracks/footprints/skrellprints, bloodDNA, H.dir, 0, H.get_skin_colour() + "25") // Coming (25 is the alpha value)
 		if(isturf(old_loc))
 			var/turf/old_turf = old_loc
-			if(old_turf.simulated)
-				old_turf.AddTracks(/obj/effect/decal/cleanable/blood/tracks/footprints/skrellprints, bloodDNA, 0, H.dir, H.get_skin_colour() + "25") // Going (8c is the alpha value)
+			old_turf.AddTracks(/obj/effect/decal/cleanable/blood/tracks/footprints/skrellprints, bloodDNA, 0, H.dir, H.get_skin_colour() + "25") // Going (25 is the alpha value)
 
 /decl/species/skrell/check_background()
 	return TRUE
 
+/decl/material/liquid/mucus/skrell
+	name = "slime"
+	uid = "chem_mucus_skrell"
+	lore_text = "A gooey semi-liquid secreted by skrellian skin."
+
+// Copied from blood.
+// TODO: There's not currently a way to check this, which might be a little annoying for forensics.
+// But this is just a stopgap to stop Skrell from literally leaking blood everywhere they go.
+/decl/material/liquid/mucus/skrell/get_reagent_color(datum/reagents/holder)
+	var/list/goo_data = REAGENT_DATA(holder, src)
+	return goo_data?[DATA_BLOOD_COLOR] || ..()
+
 /obj/effect/decal/cleanable/blood/tracks/footprints/skrellprints
 	name = "wet footprints"
 	desc = "They look like still wet tracks left by skrellian feet."
+	chemical = /decl/material/liquid/mucus/skrell
 
-/obj/effect/decal/cleanable/blood/tracks/footprints/skrellprints/dry()
-	qdel(src)
 /obj/item/organ/internal/eyes/skrell
 	name = "amphibian eyes"
 	desc = "Large black orbs, belonging to some sort of giant frog by looks of it."

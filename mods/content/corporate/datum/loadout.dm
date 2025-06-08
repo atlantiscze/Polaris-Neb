@@ -52,16 +52,7 @@
 		/obj/item/clothing/jumpsuit/corporate/pcrc,
 		/obj/item/clothing/jumpsuit/corporate/focal,
 		/obj/item/clothing/jumpsuit/corporate/morpheus,
-		/obj/item/clothing/jumpsuit/corporate,
-		/obj/item/clothing/jumpsuit/corporate/techass,
-		/obj/item/clothing/jumpsuit/corporate/veymed,
-		/obj/item/clothing/jumpsuit/corporate/centauri,
-		/obj/item/clothing/jumpsuit/corporate/grayson,
-		/obj/item/clothing/jumpsuit/corporate/kaleidoscope,
-		/obj/item/clothing/jumpsuit/corporate/mbill_flight,
-		/obj/item/clothing/jumpsuit/corporate/wulf,
-		/obj/item/clothing/jumpsuit/corporate/xion,
-		/obj/item/clothing/jumpsuit/corporate/zenghu
+		/obj/item/clothing/jumpsuit/corporate
 	)
 
 /decl/loadout_option/uniform/corporate
