@@ -1,18 +1,6 @@
-/datum/map/southern_cross
-	default_telecomms_channels = list(
-		COMMON_FREQUENCY_DATA,
-		list("name" = "Entertainment", "key" = "z", "frequency" = 1461, "color" = COMMS_COLOR_ENTERTAIN, "span_class" = CSS_CLASS_RADIO, "receive_only" = TRUE),
-		list("name" = "Command",       "key" = "c", "frequency" = 1353, "color" = COMMS_COLOR_COMMAND,   "span_class" = "comradio", "secured" = access_bridge),
-		list("name" = "Security",      "key" = "s", "frequency" = 1359, "color" = COMMS_COLOR_SECURITY,  "span_class" = "secradio", "secured" = access_security),
-		list("name" = "Engineering",   "key" = "e", "frequency" = 1357, "color" = COMMS_COLOR_ENGINEER,  "span_class" = "engradio", "secured" = access_engine),
-		list("name" = "Medical",       "key" = "m", "frequency" = 1355, "color" = COMMS_COLOR_MEDICAL,   "span_class" = "medradio", "secured" = access_medical),
-		list("name" = "Science",       "key" = "n", "frequency" = 1351, "color" = COMMS_COLOR_SCIENCE,   "span_class" = "sciradio", "secured" = access_research),
-		list("name" = "Service",       "key" = "v", "frequency" = 1349, "color" = COMMS_COLOR_SERVICE,   "span_class" = "srvradio", "secured" = access_bar),
-		list("name" = "Supply",        "key" = "u", "frequency" = 1347, "color" = COMMS_COLOR_SUPPLY,    "span_class" = "supradio", "secured" = access_cargo),
-		list("name" = "Exploration",   "key" = "x", "frequency" = 1361, "color" = COMMS_COLOR_EXPLORER , "span_class" = "EXPradio", "secured" = access_eva),
-		list("name" = "AI Private",    "key" = "p", "frequency" = 1343, "color" = COMMS_COLOR_AI,        "span_class" = "airadio",  "secured" = access_ai_upload)
-	)
 
+
+// Cameras
 /obj/machinery/camera/network/civilian
 	preset_channels = list(CAMERA_CHANNEL_SECURITY)
 
@@ -48,11 +36,6 @@
 /obj/machinery/camera/network/interrogation
 	preset_channels = list(CAMERA_CHANNEL_SECURITY)
 
-//
-// Cameras
-//
-
-// Networks
 /obj/machinery/camera/network/basement
 	preset_channels = list(CAMERA_CHANNEL_BASEMENT_FLOOR)
 
@@ -64,3 +47,88 @@
 
 /obj/machinery/camera/network/supply
 	preset_channels = list(CAMERA_CHANNEL_SUPPLY)
+
+
+// Power storage units
+/obj/machinery/power/smes/buildable/preset/cynosure
+	_fully_charged = TRUE
+	_input_on = TRUE
+	_input_maxed = TRUE
+	_output_maxed = TRUE
+	_output_on = TRUE
+
+/obj/machinery/power/smes/buildable/preset/cynosure/engine_main
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 4)
+	RCon_tag = "Reactor - Output"
+
+/obj/machinery/power/smes/buildable/preset/cynosure/engine_loopback
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 1)
+	RCon_tag = "Reactor - Internal"
+
+/obj/machinery/power/smes/buildable/preset/cynosure/solar_west
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 1)
+	RCon_tag = "Solar - West"
+
+/obj/machinery/power/smes/buildable/preset/cynosure/solar_east
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 1)
+	RCon_tag = "Solar - East"
+
+// This is a backup battery that can be charged by engineers, located at the basement
+/obj/machinery/power/smes/buildable/preset/cynosure/basement_backup
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 4)
+	RCon_tag = "Basement Backup"
+	_fully_charged = FALSE
+	_input_on = FALSE
+	_output_on = FALSE
+
+// Regular substations get a low capacity coil that can run the department for about 15-30 minutes depending on power usage.
+// Substations start in bypass mode, engineers have to set this up (can be done remotely)
+/obj/machinery/power/smes/buildable/preset/cynosure/substation
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil/weak = 1)
+	_fully_charged = FALSE
+	_input_on = FALSE
+	_output_on = FALSE
+
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/engineering
+	RCon_tag = "Substation - Engineering"
+
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/atmospherics
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 1) // Atmospherics gets a regular coil, due to its power usage
+	_fully_charged = TRUE
+	_input_on = TRUE
+	_output_on = TRUE
+
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/medical
+	RCon_tag = "Substation - Medbay"
+
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/cargo
+	RCon_tag = "Substation - Cargo"
+
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/security
+	RCon_tag = "Substation - Security"
+
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/ai
+	RCon_tag = "NO_TAG" // Hide it on the RCon program - it would make it too easy to kill the AI
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 1) // AI gets a regular coil, due to its power usage
+	_fully_charged = TRUE
+	_input_on = TRUE
+	_output_on = TRUE
+
+// This one does not have a bypass so it has to start enabled
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/xenoarch_outpost
+	RCon_tag = "Substation - Xenoarchaeology Outpost"
+	_fully_charged = TRUE
+	_input_on = TRUE
+	_output_on = TRUE
+
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/arrivals
+	RCon_tag = "Substation - Arrivals"
+
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/civilian
+	RCon_tag = "Substation - Civilian"
+
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/research
+	RCon_tag = "Substation - Research"
+
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/command
+	RCon_tag = "Substation - Command"

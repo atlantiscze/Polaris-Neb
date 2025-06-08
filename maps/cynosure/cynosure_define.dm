@@ -66,6 +66,8 @@
 		list("name" = "AI Private",    "key" = "p", "frequency" = 1343, "color" = COMMS_COLOR_AI,        "span_class" = "airadio",  "secured" = list(access_ai_upload))
 	)
 
+	default_law_type = /datum/ai_laws/nanotrasen
+
 	/*
 
 	usable_email_tlds = list("freemail.nt")

@@ -9,6 +9,16 @@
 #define AMBIENCE_MAINTENANCE list()
 #define AMBIENCE_AI          list()
 
+/datum/event/prison_break/medical
+	areaType = list(/area/cynosure/medical)
+
+/datum/event/prison_break/science
+	areaType = list(/area/cynosure/science)
+
+/datum/event/prison_break/station
+	areaType = list(/area/cynosure/security)
+
+
 /area/cynosure/
 	name = "Do Not Use"
 	icon_state = "cynosure"

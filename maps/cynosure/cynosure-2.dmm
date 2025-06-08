@@ -352,6 +352,7 @@
 /area/cynosure/crew/d2/janitor)
 "akg" = (
 /obj/structure/closet/emcloset,
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/wood,
 /area/cynosure/crew/d2/cafeteria)
 "aln" = (
@@ -378,6 +379,7 @@
 	dir = 8
 	},
 /obj/structure/closet/emcloset,
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled/dark,
 /area/cynosure/engineering/d2/reactor_hallway)
 "amb" = (
@@ -799,6 +801,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
+/obj/structure/network_cable,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/kitchen)
 "axR" = (
@@ -1098,6 +1101,19 @@
 	},
 /turf/floor/tiled/freezer,
 /area/cynosure/crew/d2/pool)
+"aFJ" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloor/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/paleblue/bordercorner{
+	dir = 4
+	},
+/obj/machinery/network/relay/wall_mounted/north,
+/turf/floor/tiled,
+/area/cynosure/hallway/d2/north)
 "aFP" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/green{
 	dir = 8
@@ -1399,6 +1415,19 @@
 /obj/item/stool/padded,
 /turf/floor/tiled/freezer,
 /area/cynosure/crew/d2/pool)
+"aKj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/network_cable,
+/turf/floor/tiled/steel_dirty,
+/area/surface/outside/plains/station)
 "aKx" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -1445,6 +1474,7 @@
 /obj/effect/floor_decal/corner/green/bordercorner{
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/tiled,
 /area/cynosure/hallway/d2/north)
 "aMf" = (
@@ -1466,8 +1496,8 @@
 	dir = 8;
 	volume_rate = 700;
 	power_rating = 30000;
-	use_power = 1;
-	id_tag = "cooling_in"
+	id_tag = "cooling_in";
+	use_power = 1
 	},
 /turf/floor/reinforced/supermatter_core,
 /area/cynosure/engineering/d2/reactor)
@@ -3173,16 +3203,13 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/engineering)
 "byd" = (
-/obj/machinery/power/smes/buildable{
-	charge = 2e+06;
-	RCon_tag = "Substation - Medical"
-	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/medical,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/medbay)
 "byq" = (
@@ -3929,6 +3956,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 10
 	},
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled,
 /area/cynosure/command/d2/hop_office)
 "bRW" = (
@@ -4097,6 +4125,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled/techmaint,
 /area/cynosure/science/d2/exploration_garage)
 "bWC" = (
@@ -4400,6 +4429,19 @@
 	},
 /turf/floor/wood,
 /area/cynosure/crew/d2/gym)
+"cew" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/network_cable,
+/turf/floor/tiled/steel_dirty,
+/area/surface/outside/plains/station)
 "cfy" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -5000,6 +5042,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/atmospherics)
 "czl" = (
@@ -5956,6 +5999,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/network_cable,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/kitchen)
 "cVc" = (
@@ -6789,6 +6833,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/floor/wood,
 /area/cynosure/crew/d2/cafeteria)
+"dnW" = (
+/obj/structure/network_cable,
+/turf/wall/r_wall,
+/area/cynosure/command/d2/ai_network)
 "doc" = (
 /turf/wall/r_wall,
 /area/cynosure/cargo/d2/cargo_bay)
@@ -6906,6 +6954,7 @@
 /obj/machinery/light/spot{
 	dir = 4
 	},
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled/freezer,
 /area/cynosure/crew/d2/pool)
 "dqB" = (
@@ -6957,6 +7006,7 @@
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/red/border,
 /obj/machinery/light,
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/tiled,
 /area/cynosure/security/d2/briefing)
 "drL" = (
@@ -8461,6 +8511,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/airlock/maintenance,
+/obj/structure/network_cable,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/kitchen)
 "efl" = (
@@ -8501,7 +8552,6 @@
 /turf/floor/tiled,
 /area/cynosure/cargo/d2/cargo_bay)
 "egv" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
 	},
@@ -8650,14 +8700,11 @@
 /turf/floor/tiled/techmaint,
 /area/cynosure/crew/d2/chapel)
 "ekM" = (
-/obj/machinery/power/smes/buildable{
-	charge = 2e+06;
-	RCon_tag = "Substation - Cargo"
-	},
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
 /obj/structure/cable/green,
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/cargo,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/cargo)
 "ekU" = (
@@ -9232,6 +9279,7 @@
 /obj/effect/floor_decal/corner/yellow/border{
 	dir = 6
 	},
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/tiled/techmaint,
 /area/cynosure/crew/d2/primary_storage)
 "ewo" = (
@@ -9593,6 +9641,7 @@
 	},
 /obj/structure/grille,
 /obj/structure/window/reinforced/full,
+/obj/structure/network_cable,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/kitchen)
 "eDZ" = (
@@ -9923,6 +9972,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/tiled/techmaint,
 /area/cynosure/science/d2/xenoflora_isolation)
 "eLh" = (
@@ -10502,6 +10552,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/floor/plating,
 /area/cynosure/outpost/xenoarch/surface)
+"eXW" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red,
+/obj/machinery/meter,
+/obj/machinery/network/relay/wall_mounted/west,
+/turf/floor/tiled,
+/area/cynosure/engineering/d2/atmospherics)
 "eXX" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -10790,6 +10846,10 @@
 	},
 /turf/floor/plating,
 /area/cynosure/engineering/d2/atmospherics)
+"fdW" = (
+/obj/machinery/network/relay/wall_mounted/west,
+/turf/floor/tiled/dark,
+/area/cynosure/security/d2/hallway)
 "feS" = (
 /obj/structure/cable/green{
 	icon_state = "1-8"
@@ -11018,6 +11078,15 @@
 	},
 /turf/floor/tiled/white,
 /area/cynosure/science/d2/xenobiology)
+"fkS" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/medical,
+/obj/effect/floor_decal/borderfloorwhite,
+/obj/effect/floor_decal/corner/paleblue/border,
+/obj/structure/curtain/open/privacy,
+/obj/machinery/network/relay/wall_mounted/west,
+/turf/floor/tiled/white,
+/area/cynosure/medical/d2/recovery)
 "fkX" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -11507,10 +11576,7 @@
 	icon_state = "0-2"
 	},
 /obj/structure/cable/green,
-/obj/machinery/power/smes/buildable{
-	charge = 2e+06;
-	RCon_tag = "Substation - Security"
-	},
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/security,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/security)
 "fyS" = (
@@ -11606,9 +11672,8 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/structure/table/steel,
-/obj/random/maintenance/clean,
-/obj/random/maintenance/clean,
+/obj/structure/network_cable/terminal,
+/obj/machinery/network/relay,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/kitchen)
 "fAE" = (
@@ -11763,8 +11828,6 @@
 /turf/floor/tiled/techmaint,
 /area/cynosure/science/d2/exploration_garage)
 "fEd" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/item/radio/intercom{
 	pixel_y = 20
@@ -11784,6 +11847,10 @@
 	},
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/security)
+"fEp" = (
+/obj/machinery/network/relay/wall_mounted/south,
+/turf/floor/tiled/dark,
+/area/cynosure/security/d2/hallway)
 "fEv" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -12771,6 +12838,13 @@
 /obj/structure/window/reinforced/full,
 /turf/floor/plating,
 /area/cynosure/medical/d2/recovery)
+"gdG" = (
+/obj/structure/bookcase{
+	name = "bookcase (Fiction)"
+	},
+/obj/machinery/network/relay/wall_mounted/south,
+/turf/floor/wood,
+/area/cynosure/crew/d2/library)
 "gdM" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -12969,6 +13043,7 @@
 /area/cynosure/outpost/xenofauna)
 "giV" = (
 /obj/machinery/vending/cigarette,
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/wood,
 /area/cynosure/crew/d2/cafeteria)
 "gjp" = (
@@ -13245,6 +13320,7 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/command/d2/upload)
 "gqX" = (
@@ -13882,13 +13958,8 @@
 /turf/floor/tiled,
 /area/cynosure/command/d2/hop_office)
 "gEG" = (
-/obj/machinery/power/smes/buildable{
-	input_attempt = 1;
-	input_level = 300000;
-	output_level = 200000;
-	RCon_tag = "Solar - West"
-	},
 /obj/structure/cable,
+/obj/machinery/power/smes/buildable/preset/cynosure/solar_west,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/solar_west)
 "gER" = (
@@ -14212,16 +14283,13 @@
 /turf/floor/tiled/steel_grid,
 /area/cynosure/medical/d2/primary_storage)
 "gLG" = (
-/obj/machinery/power/smes/buildable{
-	charge = 2e+06;
-	RCon_tag = "Substation - Civilian"
-	},
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/civilian,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/civilian)
 "gLQ" = (
@@ -14231,6 +14299,11 @@
 	},
 /turf/floor/tiled/dark,
 /area/cynosure/hallway/d2/north)
+"gLZ" = (
+/obj/structure/flora/bush/sparsegrass,
+/obj/machinery/network/relay/wall_mounted/south,
+/turf/floor/fake_grass,
+/area/cynosure/crew/d2/park)
 "gMD" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -14557,9 +14630,7 @@
 /turf/floor/carpet,
 /area/cynosure/command/d2/hop_office)
 "gTK" = (
-/obj/machinery/atmospherics/portables_connector,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
@@ -14700,15 +14771,10 @@
 /turf/floor/plating,
 /area/cynosure/hallway/d2/elevator_west)
 "gWx" = (
-/obj/machinery/power/smes/buildable{
-	charge = 2e+06;
-	input_attempt = 1;
-	output_attempt = 1;
-	RCon_tag = "Substation - Atmospherics"
-	},
 /obj/structure/cable/cyan{
 	icon_state = "0-4"
 	},
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/atmospherics,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/atmospherics)
 "gWQ" = (
@@ -15027,6 +15093,7 @@
 /obj/machinery/dna_scannernew,
 /obj/effect/floor_decal/borderfloorwhite,
 /obj/effect/floor_decal/corner/purple/border,
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/tiled/neutral,
 /area/cynosure/medical/d2/cloning)
 "hiG" = (
@@ -15311,6 +15378,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/atmospherics)
 "hqG" = (
@@ -15337,6 +15405,7 @@
 /area/cynosure/science/d2/xenoflora_isolation)
 "hqO" = (
 /obj/machinery/oxygen_pump/mobile/stabilizer,
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/tiled/techmaint,
 /area/cynosure/medical/d2/treatment)
 "hqR" = (
@@ -15876,6 +15945,7 @@
 	dir = 4
 	},
 /obj/structure/closet/wardrobe/medic_white,
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/tiled/white,
 /area/cynosure/medical/d2/recovery)
 "hET" = (
@@ -16567,6 +16637,7 @@
 	},
 /obj/random/umbrella,
 /obj/random/umbrella,
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/tiled/techmaint,
 /area/cynosure/outpost/xenofauna)
 "hXB" = (
@@ -16768,6 +16839,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/overlay/snow/floor,
+/obj/structure/network_cable,
 /turf/floor/tiled/steel_dirty,
 /area/surface/outside/plains/station)
 "idr" = (
@@ -17023,13 +17095,6 @@
 	},
 /turf/floor/tiled/steel_dirty,
 /area/cynosure/crew/d2/hydroponics)
-"ilu" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/floor/tiled/white,
-/area/cynosure/medical/d2/hallway)
 "ilU" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -17797,6 +17862,7 @@
 	},
 /obj/structure/table/reinforced,
 /obj/item/chems/spray/extinguisher,
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled/dark,
 /area/cynosure/science/d2/xenobiology)
 "iJn" = (
@@ -18151,6 +18217,12 @@
 /obj/effect/catwalk_plated/dark,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/medbay_south)
+"iRk" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/structure/flora/pottedplant/largebush,
+/obj/machinery/network/relay/wall_mounted/west,
+/turf/floor/tiled/freezer,
+/area/cynosure/crew/d2/pool)
 "iRQ" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1;
@@ -18269,6 +18341,7 @@
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/tiled/neutral,
 /area/cynosure/science/d2/exploration_prep)
 "iUK" = (
@@ -18726,6 +18799,7 @@
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
 	},
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled/hydro,
 /area/cynosure/crew/d2/hydroponics)
 "jhm" = (
@@ -19634,7 +19708,6 @@
 /turf/wall/r_wall,
 /area/cynosure/hallway/d2/arrivals)
 "jFv" = (
-/obj/machinery/atmospherics/unary/freezer,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/light{
 	dir = 1
@@ -19722,6 +19795,7 @@
 	c_tag = "AI - Messaging Server"
 	},
 /obj/machinery/network/relay,
+/obj/structure/network_cable/terminal,
 /turf/floor/bluegrid,
 /area/cynosure/command/d2/ai_network)
 "jIc" = (
@@ -23590,7 +23664,9 @@
 /turf/floor/wood/sif,
 /area/cynosure/crew/d2/chapel)
 "lwt" = (
-/obj/machinery/body_scanconsole,
+/obj/machinery/body_scanconsole{
+	dir = 8
+	},
 /obj/effect/floor_decal/corner/pink/full{
 	dir = 1
 	},
@@ -23869,6 +23945,7 @@
 /area/cynosure/crew/d2/pool)
 "lCv" = (
 /obj/structure/flora/pottedplant/minitree,
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/wood/sif,
 /area/cynosure/crew/d2/chapel)
 "lCH" = (
@@ -24042,6 +24119,7 @@
 	},
 /obj/machinery/portable_atmospherics/hydroponics/soil,
 /obj/structure/flora/bush/fullgrass,
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/fake_grass,
 /area/cynosure/crew/d2/hydroponics_garden)
 "lHj" = (
@@ -24069,6 +24147,16 @@
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/medical/d2/emt_bay)
+"lHo" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/blast/regular/open{
+	name = "Biohazard Shutter";
+	dir = 4;
+	id_tag = "biohazard"
+	},
+/obj/machinery/network/relay/wall_mounted/east,
+/turf/floor/tiled/dark,
+/area/cynosure/maintenance/substation/d2/research)
 "lHX" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -26489,7 +26577,6 @@
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/atmospherics)
 "mIe" = (
-/obj/machinery/atmospherics/unary/freezer,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/floor/tiled/techmaint,
 /area/cynosure/medical/d2/treatment)
@@ -27421,15 +27508,6 @@
 /obj/structure/shuttle/engine/heater,
 /turf/wall/r_wall/hull,
 /area/shuttle/exploration/cargo)
-"ndX" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/floor/tiled/white,
-/area/cynosure/medical/d2/hallway)
 "neE" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -28015,6 +28093,7 @@
 /area/cynosure/cargo/d2/delivery)
 "nvK" = (
 /obj/machinery/mixer/cereal,
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled/freezer,
 /area/cynosure/crew/d2/kitchen)
 "nvX" = (
@@ -28248,6 +28327,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/catwalk_plated/dark,
+/obj/structure/network_cable,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/kitchen)
 "nBx" = (
@@ -28939,9 +29019,6 @@
 /turf/floor/tiled/white,
 /area/cynosure/medical/d2/treatment)
 "nQZ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 8
-	},
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
 	},
@@ -29263,6 +29340,19 @@
 	},
 /turf/floor/tiled/freezer,
 /area/cynosure/crew/d2/pool)
+"nYk" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/network_cable,
+/turf/floor/tiled/steel_dirty,
+/area/surface/outside/plains/station)
 "nZk" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -29545,6 +29635,7 @@
 /obj/machinery/cell_charger,
 /obj/item/paint_sprayer,
 /obj/item/weldingtool,
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled/techmaint,
 /area/cynosure/cargo/d2/locker)
 "oeG" = (
@@ -29578,6 +29669,7 @@
 	icon_state = "2-4"
 	},
 /obj/effect/catwalk_plated/dark,
+/obj/structure/network_cable,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/kitchen)
 "ofm" = (
@@ -30247,6 +30339,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/workshop)
 "otw" = (
@@ -30932,6 +31025,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 6
 	},
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/plating,
 /area/cynosure/engineering/d2/reactor)
 "oKg" = (
@@ -31430,8 +31524,8 @@
 	external_pressure_bound_default = 0;
 	internal_pressure_bound_default = 2000;
 	pressure_checks_default = 2;
-	use_power = 1;
-	id_tag = "air_out"
+	id_tag = "air_out";
+	use_power = 1
 	},
 /turf/floor/reinforced/airmix,
 /area/cynosure/engineering/d2/atmospherics)
@@ -32007,6 +32101,7 @@
 	},
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/yellow/border,
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/reactor_hallway)
 "pfO" = (
@@ -32583,16 +32678,13 @@
 /turf/floor/tiled/dark,
 /area/cynosure/command/d2/hos_office)
 "prS" = (
-/obj/machinery/power/smes/buildable{
-	charge = 2e+06;
-	RCon_tag = "Substation - Engineering"
-	},
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/engineering,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/engineering)
 "prX" = (
@@ -32800,6 +32892,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/structure/network_cable,
 /turf/floor/tiled/steel_dirty,
 /area/surface/outside/plains/station)
 "pxm" = (
@@ -33024,6 +33117,11 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/hallway/d2/arrivals)
+"pBV" = (
+/obj/structure/closet/emcloset,
+/obj/machinery/network/relay/wall_mounted/south,
+/turf/floor/tiled/dark,
+/area/cynosure/security/d2/hallway)
 "pCl" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/green,
 /turf/floor/plating,
@@ -33042,6 +33140,22 @@
 /obj/effect/catwalk_plated,
 /turf/floor/plating,
 /area/cynosure/engineering/d2/reactor_hallway)
+"pCn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/brown/border{
+	dir = 1
+	},
+/obj/machinery/network/relay/wall_mounted/north,
+/turf/floor/tiled,
+/area/cynosure/cargo/d2/cargo_bay)
 "pCv" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -33196,8 +33310,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	use_power = 1;
-	id_tag = "waste_in"
+	id_tag = "waste_in";
+	use_power = 1
 	},
 /turf/floor/reinforced,
 /area/cynosure/engineering/d2/atmospherics)
@@ -33417,9 +33531,6 @@
 /turf/floor/tiled/techmaint,
 /area/shuttle/exploration/cargo)
 "pMn" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 5
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
@@ -33529,6 +33640,7 @@
 	},
 /obj/structure/closet/jcloset,
 /obj/item/soap/nanotrasen,
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled/techmaint,
 /area/cynosure/crew/d2/janitor)
 "pRi" = (
@@ -33603,18 +33715,6 @@
 	},
 /turf/floor/tiled/steel_grid,
 /area/cynosure/hallway/d2/arrivals_cryo)
-"pTC" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9
-	},
-/obj/effect/floor_decal/borderfloorwhite{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/danger{
-	dir = 1
-	},
-/turf/floor/tiled/white,
-/area/cynosure/medical/d2/treatment)
 "pUh" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -34248,6 +34348,7 @@
 /obj/machinery/camera/network/engineering{
 	c_tag = "ENG - Atmospherics Northeast"
 	},
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/atmospherics)
 "qiR" = (
@@ -34539,14 +34640,11 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d2/north)
 "qpj" = (
-/obj/machinery/power/smes/buildable{
-	charge = 1e+07;
-	RCon_tag = "Substation - Research"
-	},
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
 /obj/structure/cable/green,
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/research,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/research)
 "qpk" = (
@@ -36000,8 +36098,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	use_power = 1;
-	id_tag = "tox_in"
+	id_tag = "tox_in";
+	use_power = 1
 	},
 /turf/floor/reinforced/phoron,
 /area/cynosure/engineering/d2/atmospherics)
@@ -36129,6 +36227,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 5
 	},
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/plating,
 /area/cynosure/engineering/d2/reactor)
 "qXg" = (
@@ -37187,6 +37286,7 @@
 /obj/effect/floor_decal/corner/green/border{
 	dir = 8
 	},
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled,
 /area/cynosure/hallway/d2/arrivals)
 "rze" = (
@@ -37212,6 +37312,7 @@
 	},
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/green/border,
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/tiled,
 /area/cynosure/hallway/d2/south)
 "rzu" = (
@@ -37357,6 +37458,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled/white,
 /area/cynosure/science/d2/hallway)
 "rEh" = (
@@ -37601,6 +37703,7 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/tiled/white,
 /area/cynosure/science/d2/hallway)
 "rKh" = (
@@ -38005,6 +38108,7 @@
 /obj/structure/grille,
 /obj/structure/window/reinforced/full,
 /obj/machinery/ai_status_display,
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/plating,
 /area/cynosure/medical/d2/treatment)
 "rTT" = (
@@ -40600,13 +40704,6 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/security/d2/hallway)
-"tmC" = (
-/obj/structure/sign/directions/security/seceqp{
-	dir = 1;
-	pixel_y = 5
-	},
-/turf/wall,
-/area/cynosure/security/d2/restroom)
 "tmJ" = (
 /obj/structure/railing{
 	dir = 1
@@ -41504,8 +41601,8 @@
 /obj/effect/floor_decal/corner/black/full,
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	use_power = 1;
-	id_tag = "co2_in"
+	id_tag = "co2_in";
+	use_power = 1
 	},
 /turf/floor/reinforced/carbon_dioxide,
 /area/cynosure/engineering/d2/atmospherics)
@@ -41607,6 +41704,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/tiled/steel_grid,
 /area/cynosure/hallway/d2/civilian)
 "tJR" = (
@@ -42265,6 +42363,7 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled/dark,
 /area/cynosure/hallway/d2/west)
 "uaS" = (
@@ -42277,16 +42376,11 @@
 /turf/floor/tiled/old_tile/blue,
 /area/cynosure/hallway/d2/arrivals_cryo)
 "uaT" = (
-/obj/machinery/power/smes/buildable{
-	input_attempt = 1;
-	input_level = 300000;
-	output_level = 200000;
-	RCon_tag = "Solar - Northeast"
-	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 /obj/effect/floor_decal/industrial/warning,
+/obj/machinery/power/smes/buildable/preset/cynosure/solar_east,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/solar_east)
 "ubo" = (
@@ -43077,9 +43171,6 @@
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/command/d2/upload)
 "uwU" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 5
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
@@ -43148,17 +43239,10 @@
 /turf/floor/tiled/techfloor,
 /area/cynosure/command/d2/upload)
 "uAd" = (
-/obj/machinery/power/smes/buildable{
-	charge = 2e+07;
-	input_attempt = 1;
-	input_level = 750000;
-	output_attempt = 1;
-	output_level = 750000;
-	RCon_tag = "Reactor - Main"
-	},
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/machinery/power/smes/buildable/preset/cynosure/engine_main,
 /turf/floor/plating,
 /area/cynosure/engineering/d2/reactor_power)
 "uAg" = (
@@ -43832,6 +43916,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled,
 /area/cynosure/security/d2/hallway)
 "uSF" = (
@@ -44020,6 +44105,7 @@
 /area/cynosure/maintenance/d2/medbay_south)
 "uWO" = (
 /obj/effect/floor_decal/industrial/warning/corner,
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/command/d2/upload)
 "uWY" = (
@@ -44047,6 +44133,11 @@
 	},
 /turf/floor/plating,
 /area/cynosure/science/d2/xenobiology)
+"uXX" = (
+/obj/structure/flora/bush/sparsegrass,
+/obj/machinery/network/relay/wall_mounted/west,
+/turf/floor/fake_grass,
+/area/cynosure/crew/d2/park)
 "uYd" = (
 /obj/machinery/navbeacon/patrol{
 	location = "PK1";
@@ -44292,6 +44383,7 @@
 	icon_state = "pipe-c";
 	dir = 1
 	},
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled,
 /area/cynosure/security/d2/hallway)
 "ves" = (
@@ -44320,6 +44412,12 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/hallway/d2/south)
+"vey" = (
+/obj/effect/floor_decal/borderfloor,
+/obj/effect/floor_decal/corner/brown/border,
+/obj/machinery/network/relay/wall_mounted/south,
+/turf/floor/tiled,
+/area/cynosure/cargo/d2/cargo_bay)
 "veA" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -44506,6 +44604,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/structure/network_cable,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/kitchen)
 "vhq" = (
@@ -45498,15 +45597,10 @@
 /turf/floor/tiled/steel_dirty,
 /area/surface/outside/plains/station)
 "vDZ" = (
-/obj/machinery/power/smes/buildable{
-	charge = 2e+06;
-	input_attempt = 1;
-	output_attempt = 1;
-	RCon_tag = "Substation - Arrivals"
-	},
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
+/obj/machinery/power/smes/buildable/preset/cynosure/substation/arrivals,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/arrivals)
 "vEc" = (
@@ -46110,8 +46204,8 @@
 	external_pressure_bound = 100;
 	external_pressure_bound_default = 0;
 	initialize_directions = 1;
-	use_power = 1;
-	id_tag = "cooling_out"
+	id_tag = "cooling_out";
+	use_power = 1
 	},
 /turf/floor/reinforced/supermatter_core,
 /area/cynosure/engineering/d2/reactor)
@@ -46871,8 +46965,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	use_power = 1;
-	id_tag = "air_in"
+	id_tag = "air_in";
+	use_power = 1
 	},
 /turf/floor/reinforced/airmix,
 /area/cynosure/engineering/d2/atmospherics)
@@ -46951,8 +47045,8 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	use_power = 1;
-	id_tag = "n2o_in"
+	id_tag = "n2o_in";
+	use_power = 1
 	},
 /turf/floor/reinforced/n20,
 /area/cynosure/engineering/d2/atmospherics)
@@ -47304,6 +47398,7 @@
 	name = "Powernet Sensor - Arrivals";
 	id_tag = "Arrivals Subgrid"
 	},
+/obj/machinery/network/relay/wall_mounted/north,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/arrivals)
 "wCW" = (
@@ -47451,6 +47546,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/hallway)
 "wHD" = (
@@ -47718,6 +47814,7 @@
 /area/cynosure/hallway/d2/civilian)
 "wNW" = (
 /obj/effect/floor_decal/industrial/warning/corner,
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled/dark,
 /area/cynosure/hallway/d2/north)
 "wOb" = (
@@ -48407,14 +48504,6 @@
 /turf/floor/tiled/dark,
 /area/cynosure/security/d2/interrogation)
 "xas" = (
-/obj/machinery/power/smes/buildable{
-	charge = 2e+06;
-	input_attempt = 1;
-	input_level = 100000;
-	output_attempt = 1;
-	output_level = 200000;
-	RCon_tag = "Reactor - Core"
-	},
 /obj/structure/cable/cyan{
 	icon_state = "0-8"
 	},
@@ -48424,6 +48513,7 @@
 	pixel_x = 24;
 	id_tag = "engine_electrical_maintenance"
 	},
+/obj/machinery/power/smes/buildable/preset/cynosure/engine_loopback,
 /turf/floor/plating,
 /area/cynosure/engineering/d2/reactor_power)
 "xay" = (
@@ -48761,6 +48851,11 @@
 	},
 /turf/floor/tiled/neutral,
 /area/cynosure/science/d2/exploration_prep)
+"xml" = (
+/obj/structure/flora/bush/sparsegrass,
+/obj/machinery/network/relay/wall_mounted/east,
+/turf/floor/fake_grass,
+/area/cynosure/crew/d2/park)
 "xmn" = (
 /obj/machinery/power/breakerbox/activated{
 	RCon_tag = "Civilian Substation Bypass"
@@ -49709,6 +49804,7 @@
 /obj/effect/floor_decal/corner/purple/bordercorner{
 	dir = 4
 	},
+/obj/machinery/network/relay/wall_mounted/east,
 /turf/floor/tiled/white,
 /area/cynosure/science/d2/hallway)
 "xKP" = (
@@ -49742,8 +49838,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	use_power = 1;
-	id_tag = "air_in"
+	id_tag = "air_in";
+	use_power = 1
 	},
 /turf/floor/reinforced/oxygen,
 /area/cynosure/engineering/d2/atmospherics)
@@ -50595,8 +50691,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	use_power = 1;
-	id_tag = "n2_in"
+	id_tag = "n2_in";
+	use_power = 1
 	},
 /turf/floor/reinforced/nitrogen,
 /area/cynosure/engineering/d2/atmospherics)
@@ -50891,6 +50987,7 @@
 /obj/structure/sign/level/ground{
 	pixel_y = -32
 	},
+/obj/machinery/network/relay/wall_mounted/south,
 /turf/floor/tiled/monotile,
 /area/cynosure/engineering/d2/hallway)
 "yjU" = (
@@ -74581,7 +74678,7 @@ nCe
 nCe
 hJJ
 ihg
-rHf
+iRk
 qXW
 fwU
 gdR
@@ -78617,7 +78714,7 @@ oZO
 qpj
 dWF
 fzQ
-kAY
+lHo
 xZL
 oph
 vMG
@@ -80807,7 +80904,7 @@ nOA
 xfp
 oow
 vhL
-egk
+vey
 mCs
 plP
 plP
@@ -81342,7 +81439,7 @@ mVg
 mVg
 qHl
 mVg
-gkB
+pCn
 vhL
 dZZ
 qvl
@@ -82186,7 +82283,7 @@ pHY
 vHV
 vag
 mjW
-gPH
+gdG
 lWA
 iHN
 aqn
@@ -84847,7 +84944,7 @@ lUL
 jmQ
 lUL
 lUL
-oqM
+uXX
 sYq
 oqM
 sYq
@@ -84867,7 +84964,7 @@ aTA
 sYq
 oqM
 sYq
-oqM
+uXX
 pfh
 pfh
 wlg
@@ -87256,7 +87353,7 @@ faC
 dda
 cWP
 cFE
-spy
+fkS
 bHw
 bHw
 fpB
@@ -88072,12 +88169,12 @@ eJn
 spy
 cFz
 jFv
-ilu
+uwU
 xLG
 hOm
 cFz
 aMf
-pTC
+egv
 qMT
 bwp
 xzt
@@ -88343,7 +88440,7 @@ eJn
 gdn
 ocy
 tMK
-ndX
+uwU
 fin
 uxZ
 ocy
@@ -88968,8 +89065,8 @@ nCe
 nCe
 nCe
 nCe
-dbE
-mNw
+nYk
+dnW
 jHl
 cVX
 kqh
@@ -89177,7 +89274,7 @@ nnu
 wVy
 rbM
 miX
-bzH
+aFJ
 mQx
 pCy
 oWK
@@ -89239,7 +89336,7 @@ nCe
 nCe
 nCe
 nCe
-dbE
+nYk
 mNw
 hpn
 vbd
@@ -89509,8 +89606,8 @@ aqn
 aqn
 nCe
 nCe
-wir
-ivI
+aKj
+cew
 mNw
 lMe
 qVW
@@ -89725,7 +89822,7 @@ kgP
 jmY
 dNE
 pfh
-oqM
+xml
 sYq
 oqM
 sYq
@@ -89745,7 +89842,7 @@ stD
 sYq
 oqM
 sYq
-oqM
+gLZ
 rif
 rif
 giV
@@ -89780,7 +89877,7 @@ aqn
 aqn
 aqn
 aqn
-dbE
+nYk
 mXY
 mNw
 tQG
@@ -90051,7 +90148,7 @@ aqn
 aqn
 wzX
 fIk
-dbE
+nYk
 mXY
 mXY
 iZC
@@ -90322,7 +90419,7 @@ idj
 idj
 pxh
 pxh
-ivI
+cew
 mXY
 mXY
 qfd
@@ -93519,7 +93616,7 @@ wnv
 jwF
 fdd
 pfj
-lyK
+fdW
 lyK
 exG
 jtd
@@ -94894,7 +94991,7 @@ qcf
 woy
 fIH
 eet
-wlT
+eXW
 agk
 juK
 qcM
@@ -96228,7 +96325,7 @@ jPI
 xoo
 aeD
 liB
-lyK
+fEp
 xGi
 jFP
 fyx
@@ -96484,7 +96581,7 @@ qFo
 gMD
 tjZ
 drF
-tmC
+wkY
 wkY
 xss
 wkY
@@ -98938,7 +99035,7 @@ fsk
 rYk
 lyK
 eEj
-uCe
+pBV
 mFU
 mFU
 mFU
