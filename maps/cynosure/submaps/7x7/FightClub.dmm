@@ -19,37 +19,37 @@
 /turf/floor/plating,
 /area/template_noop)
 "m" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/effect/decal/cleanable/blood,
 /turf/floor/plating,
 /area/template_noop)
 "u" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/plating,
 /area/template_noop)
 "y" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/plating,
 /area/template_noop)
 "z" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/plating,
 /area/template_noop)
 "C" = (
 /turf/wall/concrete/reinforced,
 /area/template_noop)
 "D" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/plating,
 /area/template_noop)
 "F" = (
@@ -111,10 +111,10 @@
 /turf/floor/plating,
 /area/template_noop)
 "W" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood,
@@ -125,16 +125,16 @@
 /turf/floor/plating,
 /area/template_noop)
 "Y" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/plating,
 /area/template_noop)
 "Z" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/plating,

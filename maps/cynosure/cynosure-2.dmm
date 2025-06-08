@@ -627,10 +627,10 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/machinery/light/small{
@@ -822,8 +822,8 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
 	},
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -884,7 +884,7 @@
 /area/cynosure/hallway/d2/arrivals)
 "ayX" = (
 /obj/structure/stairs/long/north,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled/dark,
@@ -913,11 +913,11 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/atmospherics)
 "aBW" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/machinery/light,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -1598,13 +1598,13 @@
 	},
 /obj/structure/lattice,
 /obj/machinery/door/firedoor/border_only,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/structure/cable{
@@ -1667,7 +1667,7 @@
 /turf/floor/tiled/techmaint,
 /area/cynosure/outpost/xenofauna)
 "aRo" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled/techfloor,
@@ -1698,10 +1698,10 @@
 	},
 /obj/structure/lattice,
 /obj/machinery/door/firedoor/border_only,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/cable{
@@ -2077,7 +2077,7 @@
 /turf/floor/tiled/techfloor,
 /area/cynosure/command/d2/ai_entrance)
 "aZV" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/tiled/dark,
@@ -2468,10 +2468,10 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 5
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -2624,7 +2624,7 @@
 /area/cynosure/medical/d2/recovery)
 "blo" = (
 /obj/structure/stairs/long,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/tiled/techfloor,
@@ -2662,7 +2662,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -3564,7 +3564,7 @@
 /turf/wall/concrete/reinforced,
 /area/cynosure/medical/d2/hallway)
 "bIc" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/structure/sign/level/ground{
@@ -3922,7 +3922,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled/techfloor/grid,
@@ -4349,7 +4349,7 @@
 /obj/effect/floor_decal/corner/green/border{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/tiled,
@@ -5903,7 +5903,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/mud/water/deep,
@@ -6077,10 +6077,10 @@
 /obj/structure/disposalpipe/down{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/lattice,
@@ -8074,10 +8074,10 @@
 /turf/floor/tiled/white,
 /area/cynosure/medical/d2/operatingB)
 "dRY" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/cable/green{
@@ -8102,7 +8102,7 @@
 "dSx" = (
 /obj/structure/ladder,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/plating,
@@ -9177,7 +9177,7 @@
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/atmospherics)
 "euD" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/tiled/techfloor,
@@ -9466,10 +9466,10 @@
 /turf/floor/wood,
 /area/cynosure/crew/d2/cafeteria)
 "eBp" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/zpipe/down/supply{
@@ -9595,7 +9595,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/plain,
@@ -9922,7 +9922,7 @@
 /area/cynosure/crew/d2/cafeteria)
 "eKt" = (
 /obj/structure/stairs/long,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled/white,
@@ -13220,7 +13220,7 @@
 /obj/effect/floor_decal/steeldecal/steel_decals4{
 	dir = 6
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/tiled/white,
 /area/cynosure/science/d2/hallway)
 "goF" = (
@@ -13568,13 +13568,13 @@
 /area/cynosure/maintenance/d2/kitchen)
 "gwH" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/cable{
@@ -14294,7 +14294,7 @@
 /area/cynosure/maintenance/substation/d2/civilian)
 "gLQ" = (
 /obj/structure/stairs/long/east,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/tiled/dark,
@@ -15298,10 +15298,10 @@
 "hoR" = (
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/structure/cable/green{
 	icon_state = "32-8"
 	},
@@ -15511,7 +15511,7 @@
 /obj/effect/floor_decal/techfloor/hole/right{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/tiled/techfloor/grid,
@@ -15778,7 +15778,7 @@
 /turf/floor/tiled/white,
 /area/cynosure/security/d2/forensics_lab)
 "hAV" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/hallway/d2/north)
 "hBc" = (
@@ -17358,7 +17358,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -18348,10 +18348,10 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water/deep,
@@ -18743,7 +18743,7 @@
 /turf/floor/plating,
 /area/cynosure/hallway/d2/elevator_west)
 "jfS" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -19052,7 +19052,7 @@
 /area/surface/outside/station/reactorpond)
 "jnC" = (
 /obj/structure/stairs/long,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled/techfloor,
@@ -19517,7 +19517,7 @@
 /obj/structure/cable/green{
 	icon_state = "32-4"
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -20581,7 +20581,7 @@
 /turf/floor/plating,
 /area/cynosure/engineering/d2/reactor)
 "jWN" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -20924,7 +20924,7 @@
 /obj/effect/floor_decal/corner/green/bordercorner2{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled,
@@ -20935,7 +20935,7 @@
 	},
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/structure/lattice,
 /obj/structure/disposalpipe/up,
 /turf/open,
@@ -21266,7 +21266,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/mud/water/deep,
 /area/surface/outside/station/reactorpond)
 "klk" = (
@@ -21610,10 +21610,10 @@
 /turf/floor/tiled/white,
 /area/cynosure/science/d2/misc)
 "kvK" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/disposalpipe/up{
@@ -21747,7 +21747,7 @@
 /area/cynosure/medical/d2/emt_bay)
 "kxM" = (
 /obj/structure/stairs/long/east,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/tiled/dark,
@@ -21869,7 +21869,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 5
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/mud/water/deep,
@@ -23120,7 +23120,7 @@
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/lobby)
 "lhT" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/machinery/conveyor{
 	dir = 8;
 	id_tag = "packageSort1"
@@ -23174,7 +23174,7 @@
 /turf/wall/r_wall,
 /area/cynosure/security/d2/lobby)
 "ljV" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = -24
@@ -23185,7 +23185,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -23253,13 +23253,13 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 5
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/mud/water/deep,
@@ -23332,7 +23332,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -23357,7 +23357,6 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d2/civilian)
 "lpT" = (
-/obj/machinery/atmospherics/valve/open,
 /obj/structure/cable/cyan{
 	icon_state = "1-2"
 	},
@@ -23370,6 +23369,7 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/visible/green,
 /turf/floor/plating,
 /area/cynosure/engineering/d2/reactor)
 "lpV" = (
@@ -24091,7 +24091,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/mud/water/deep,
 /area/surface/outside/station/reactorpond)
 "lGu" = (
@@ -24585,7 +24585,7 @@
 /turf/floor/plating,
 /area/cynosure/command/d2/ai_entrance)
 "lQT" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/tiled/dark,
@@ -26087,7 +26087,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water/deep,
@@ -26556,7 +26556,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/effect/floor_decal/spline/plain,
 /turf/floor/mud/water/deep,
 /area/surface/outside/station/reactorpond)
@@ -26780,10 +26780,10 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -27175,7 +27175,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/plain,
@@ -27345,7 +27345,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water/deep,
@@ -27461,7 +27461,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water/deep,
@@ -28242,11 +28242,11 @@
 /turf/floor/tiled,
 /area/cynosure/crew/d2/park)
 "nAa" = (
-/obj/machinery/atmospherics/pipe/simple/visible/green,
 /obj/structure/extinguisher_cabinet{
 	dir = 4;
 	pixel_x = -29
 	},
+/obj/machinery/atmospherics/valve,
 /turf/floor/plating,
 /area/cynosure/engineering/d2/reactor)
 "nAp" = (
@@ -28305,14 +28305,11 @@
 /area/cynosure/engineering/d2/hallway)
 "nBh" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/emitter{
-	dir = 4;
-	state = 2;
-	anchored = 1;
-	id_tag = "ReactorEmitter"
-	},
 /obj/structure/cable/cyan{
 	icon_state = "0-8"
+	},
+/obj/machinery/emitter/anchored{
+	dir = 4
 	},
 /turf/floor/plating,
 /area/cynosure/engineering/d2/reactor)
@@ -29426,7 +29423,7 @@
 /obj/structure/cable/cyan{
 	icon_state = "1-4"
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -29560,7 +29557,7 @@
 /turf/wall,
 /area/cynosure/medical/d2/hallway)
 "ode" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled/dark,
@@ -30165,8 +30162,8 @@
 /obj/structure/cable/green{
 	icon_state = "16-0"
 	},
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/zpipe/up/supply,
@@ -33558,10 +33555,10 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -33600,7 +33597,7 @@
 /turf/floor/tiled/steel_grid,
 /area/cynosure/cargo/d2/cargo_bay)
 "pPr" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -34119,7 +34116,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/tiled/white,
 /area/cynosure/science/d2/hallway)
 "qfd" = (
@@ -34145,7 +34142,7 @@
 /obj/effect/floor_decal/techfloor/hole{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled/techfloor/grid,
@@ -35640,7 +35637,7 @@
 /turf/floor/barren,
 /area/cynosure/hallway/d2/arrivals)
 "qIj" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/structure/sign/level/ground{
@@ -35725,7 +35722,7 @@
 /turf/floor/tiled/dark,
 /area/cynosure/command/d2/hos_office)
 "qKp" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/hallway/d2/elevator_west)
 "qKr" = (
@@ -35801,13 +35798,13 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water/deep,
@@ -35848,13 +35845,13 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/mud/water/deep,
 /area/surface/outside/station/reactorpond)
 "qPk" = (
@@ -35931,7 +35928,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water/deep,
@@ -36283,8 +36280,8 @@
 "qXG" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/lattice,
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/structure/cable{
@@ -36337,11 +36334,11 @@
 /turf/floor/carpet,
 /area/cynosure/security/d2/forensics)
 "qYz" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -36378,10 +36375,10 @@
 /area/cynosure/science/d2/exploration_garage)
 "rav" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/structure/cable{
 	icon_state = "16-0"
 	},
@@ -36822,7 +36819,7 @@
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/structure/cable/green{
@@ -36831,7 +36828,7 @@
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/structure/disposalpipe/up{
 	dir = 4
 	},
@@ -37489,7 +37486,7 @@
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers,
 /obj/machinery/atmospherics/pipe/zpipe/up/supply,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
@@ -38051,7 +38048,7 @@
 /area/cynosure/maintenance/substation/d2/security)
 "rRO" = (
 /obj/structure/stairs/long/north,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/tiled,
@@ -39070,7 +39067,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -40137,8 +40134,8 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 5
 	},
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -40705,11 +40702,11 @@
 /turf/floor/tiled,
 /area/cynosure/security/d2/hallway)
 "tmJ" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/structure/cable/green,
@@ -41023,7 +41020,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/tiled/techfloor/grid,
@@ -41608,7 +41605,7 @@
 /area/cynosure/engineering/d2/atmospherics)
 "tIX" = (
 /obj/structure/stairs/long,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled/dark,
@@ -42385,7 +42382,7 @@
 /area/cynosure/maintenance/d2/solar_east)
 "ubo" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/machinery/conveyor{
 	dir = 8;
 	id_tag = "packageSort1"
@@ -42879,7 +42876,7 @@
 /obj/effect/floor_decal/corner/green/border{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled,
@@ -43149,9 +43146,9 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/effect/floor_decal/spline/plain,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water/deep,
@@ -43373,7 +43370,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 5
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/effect/floor_decal/spline/plain,
 /turf/floor/mud/water/deep,
 /area/surface/outside/station/reactorpond)
@@ -44479,7 +44476,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 5
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -44687,7 +44684,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/effect/floor_decal/spline/plain,
 /turf/floor/mud/water/deep,
 /area/surface/outside/station/reactorpond)
@@ -45117,10 +45114,10 @@
 /obj/structure/cable/green{
 	icon_state = "16-0"
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/machinery/alarm{
@@ -45501,10 +45498,10 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -45627,7 +45624,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -45810,7 +45807,7 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 5
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water/deep,
@@ -46360,7 +46357,7 @@
 /turf/floor/plating,
 /area/cynosure/medical/d2/recovery)
 "vYX" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled,
@@ -46491,7 +46488,7 @@
 /area/cynosure/hallway/d2/south)
 "wcF" = (
 /obj/structure/stairs/long/west,
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/tiled/freezer,
 /area/cynosure/crew/d2/pool)
 "wcG" = (
@@ -46567,8 +46564,8 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
 	},
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/mud/water/deep,
@@ -47116,7 +47113,7 @@
 /turf/floor/tiled/steel_grid,
 /area/cynosure/security/d2/locker)
 "wwF" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/tiled/freezer,
 /area/cynosure/crew/d2/pool)
 "wxg" = (
@@ -47490,7 +47487,7 @@
 /obj/effect/floor_decal/corner/green/bordercorner2{
 	dir = 5
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/tiled,
@@ -47603,7 +47600,7 @@
 /turf/floor/tiled/hydro,
 /area/cynosure/crew/d2/hydroponics)
 "wIU" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/cable{
@@ -47919,10 +47916,10 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -47947,13 +47944,13 @@
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
 	dir = 4
@@ -48073,7 +48070,7 @@
 /turf/floor/wood,
 /area/cynosure/crew/d2/library)
 "wRs" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/structure/sign/level/ground{
@@ -48724,10 +48721,10 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/spline/plain{
@@ -48833,10 +48830,10 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/effect/floor_decal/spline/plain{
 	dir = 6
 	},
@@ -48867,11 +48864,11 @@
 	icon_state = "32-4"
 	},
 /obj/structure/lattice,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/machinery/door/firedoor/border_only,
@@ -49100,10 +49097,10 @@
 /area/cynosure/cargo/d2/delivery)
 "xtG" = (
 /obj/structure/lattice,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/atmospherics/pipe/zpipe/down/supply{
 	dir = 4
@@ -50364,7 +50361,7 @@
 /obj/structure/cable/cyan{
 	icon_state = "16-0"
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/structure/cable/cyan{
 	icon_state = "0-8"
 	},
@@ -50375,7 +50372,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/plating,
@@ -50444,7 +50441,7 @@
 /area/cynosure/science/d2/locker)
 "xWG" = (
 /obj/structure/stairs/long/north,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/tiled,
@@ -50878,10 +50875,10 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 5
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/effect/floor_decal/spline/plain{
 	dir = 10
 	},

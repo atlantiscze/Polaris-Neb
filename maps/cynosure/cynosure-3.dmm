@@ -344,10 +344,10 @@
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/security/d3/hallway)
 "anj" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/engineering/d2/reactor)
 "anD" = (
@@ -842,10 +842,10 @@
 	},
 /obj/structure/lattice,
 /obj/machinery/door/firedoor/border_only,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -1724,10 +1724,10 @@
 /obj/machinery/atmospherics/pipe/zpipe/down/supply{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/cable/green{
@@ -2003,10 +2003,10 @@
 /turf/floor/plating,
 /area/cynosure/command/d3/rd_office)
 "bwO" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -2387,7 +2387,7 @@
 /turf/wall,
 /area/cynosure/security/d3/stairwell)
 "bHm" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -2968,7 +2968,7 @@
 /turf/floor/tiled/white,
 /area/cynosure/medical/d3/hallway)
 "caY" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -3070,10 +3070,10 @@
 /turf/floor/tiled/techfloor,
 /area/cynosure/security/d3/prison)
 "cfz" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -3255,7 +3255,7 @@
 	},
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/structure/disposalpipe/down,
 /turf/open,
 /area/cynosure/maintenance/d3/cargo)
@@ -4615,10 +4615,10 @@
 /turf/floor/plating,
 /area/cynosure/science/d3/generic_lab)
 "djH" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -5792,7 +5792,7 @@
 /turf/wall/concrete/reinforced,
 /area/cynosure/security/d3/hallway)
 "dWP" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/surface/outside/plains/station/snd)
 "dYd" = (
@@ -5984,7 +5984,7 @@
 /turf/floor/plating,
 /area/cynosure/command/d3/meeting)
 "eeI" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -6157,8 +6157,8 @@
 /turf/open,
 /area/cynosure/engineering/d2/reactor)
 "erp" = (
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -7013,7 +7013,7 @@
 /turf/floor/wood,
 /area/cynosure/command/d3/meeting)
 "eTe" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -7034,13 +7034,13 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/west_stairwell)
 "eUh" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/hallway/d3/west_stairwell)
 "eUC" = (
@@ -7708,10 +7708,10 @@
 /turf/floor/tiled/white,
 /area/cynosure/medical/d3/virology)
 "fsY" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -7811,7 +7811,7 @@
 /turf/floor/tiled,
 /area/cynosure/engineering/d3/access)
 "fxw" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -7985,7 +7985,7 @@
 /turf/floor/tiled/steel_grid,
 /area/cynosure/security/d3/prison)
 "fCT" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/machinery/alarm{
@@ -8431,7 +8431,7 @@
 /turf/floor/tiled,
 /area/cynosure/engineering/d3/reactor_monitor)
 "fUB" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -8488,7 +8488,7 @@
 /turf/floor/tiled,
 /area/cynosure/engineering/d3/hallway)
 "fVU" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -8544,8 +8544,8 @@
 /turf/floor/tiled,
 /area/cynosure/cargo/d3/office)
 "fWH" = (
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -8849,10 +8849,10 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/civilian)
 "gdP" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/engineering/d2/reactor)
 "gdX" = (
@@ -9024,10 +9024,10 @@
 /turf/floor/tiled/dark,
 /area/cynosure/hallway/d3/east)
 "giR" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -9646,7 +9646,7 @@
 /turf/floor/plating,
 /area/cynosure/engineering/d3/eva_storage)
 "gFT" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -10002,10 +10002,10 @@
 /turf/floor/tiled/techfloor,
 /area/cynosure/hallway/d3/east)
 "gOZ" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/structure/disposalpipe/down{
 	dir = 4
 	},
@@ -10837,7 +10837,7 @@
 /turf/floor/tiled/white,
 /area/cynosure/science/d3/hallway)
 "hmc" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -11461,8 +11461,8 @@
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/science/d3/robotics)
 "hOs" = (
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/structure/cable/cyan{
@@ -11849,10 +11849,10 @@
 /turf/wall,
 /area/cynosure/command/d3/meeting)
 "hYU" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -11915,10 +11915,10 @@
 /turf/floor/plating,
 /area/cynosure/security/d3/equipment)
 "iai" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/command/d3/ai_core)
 "iaD" = (
@@ -12727,7 +12727,7 @@
 /turf/floor/tiled,
 /area/cynosure/security/d3/cell_hallway)
 "iEe" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -13370,7 +13370,7 @@
 /turf/floor/tiled/dark,
 /area/cynosure/engineering/d3/eva_storage)
 "iTu" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -13420,11 +13420,11 @@
 /area/cynosure/hallway/d3/west)
 "iUe" = (
 /obj/structure/lattice,
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/structure/cable{
@@ -13544,10 +13544,10 @@
 /turf/wall/r_wall,
 /area/cynosure/maintenance/substation/d3/command)
 "iXX" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/surface/outside/plains/station/snd)
 "iYk" = (
@@ -13672,7 +13672,7 @@
 /turf/floor/plating,
 /area/cynosure/hallway/d3/west_bridge)
 "jbK" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -13929,7 +13929,7 @@
 /turf/floor/tiled/white,
 /area/cynosure/medical/d3/patient_wing)
 "jjB" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -14462,7 +14462,7 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/command)
 "jvB" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -15827,10 +15827,10 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d3/security)
 "kqP" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/machinery/camera/network/engineering{
 	dir = 5;
 	c_tag = "ENG - Stairwell Upper"
@@ -16606,7 +16606,7 @@
 	},
 /obj/structure/lattice,
 /obj/machinery/door/firedoor/border_only,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/zpipe/down/supply{
@@ -16724,7 +16724,7 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/west)
 "lki" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -17762,7 +17762,7 @@
 /turf/floor/tiled/white,
 /area/cynosure/science/d3/robotics)
 "mdo" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -19361,13 +19361,13 @@
 /turf/wall/r_wall,
 /area/cynosure/hallway/d3/east)
 "nmd" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -19413,7 +19413,7 @@
 /turf/floor/tiled/white,
 /area/cynosure/medical/d3/office)
 "nno" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/structure/window/reinforced{
@@ -19509,13 +19509,13 @@
 /turf/floor/tiled/techmaint,
 /area/cynosure/security/d3/armory)
 "npe" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -19671,13 +19671,13 @@
 /turf/floor/tiled,
 /area/cynosure/engineering/d3/locker_room)
 "nur" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
 /area/cynosure/hallway/d3/west_stairwell)
 "nuC" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -20402,10 +20402,10 @@
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/security/d3/armory_tactical)
 "nZe" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -20696,7 +20696,7 @@
 	},
 /area/cynosure/cargo/d3/office)
 "oor" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/hallway/d3/civilian)
 "oot" = (
@@ -20782,7 +20782,7 @@
 /turf/floor/tiled,
 /area/cynosure/crew/d3/art_storage)
 "osR" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -21123,7 +21123,7 @@
 /turf/floor/plating,
 /area/cynosure/security/d3/cell_hallway)
 "oAn" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/machinery/firealarm{
@@ -21492,7 +21492,7 @@
 /turf/wall,
 /area/cynosure/crew/d3/holodeck_control)
 "oQm" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -21527,10 +21527,10 @@
 /turf/floor/plating,
 /area/cynosure/hallway/d3/east)
 "oQK" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -22309,8 +22309,8 @@
 /turf/floor/plating,
 /area/cynosure/crew/d3/holodeck_control)
 "prY" = (
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -22326,10 +22326,10 @@
 /turf/floor/tiled/steel_grid,
 /area/cynosure/hallway/d3/east)
 "pty" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/crew/d3/holodeck_control)
 "ptO" = (
@@ -22405,8 +22405,8 @@
 /turf/wall,
 /area/cynosure/maintenance/substation/d3/research)
 "pyc" = (
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/open,
@@ -22882,10 +22882,10 @@
 /turf/floor/tiled,
 /area/cynosure/cargo/d3/office)
 "pNA" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -23169,10 +23169,10 @@
 /turf/floor/plating,
 /area/cynosure/security/d3/hallway)
 "pXG" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -23589,10 +23589,10 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/command)
 "qil" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -23875,7 +23875,7 @@
 /turf/floor/plating,
 /area/cynosure/hallway/d3/dormitory)
 "quR" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/structure/cable/cyan{
@@ -23998,10 +23998,10 @@
 /turf/wall/r_wall,
 /area/cynosure/crew/d3/dormC)
 "qzI" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -24293,9 +24293,9 @@
 /turf/floor/plating,
 /area/cynosure/medical/d3/patientA)
 "qKE" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/structure/lattice,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -24328,8 +24328,8 @@
 /turf/floor/tiled/monotile,
 /area/cynosure/medical/d3/virology)
 "qKU" = (
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -24342,7 +24342,7 @@
 /turf/floor/carpet/blue3,
 /area/cynosure/medical/d3/psych)
 "qLR" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/machinery/light,
@@ -24961,7 +24961,7 @@
 /turf/open,
 /area/cynosure/science/d3/hallway)
 "riP" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -25150,7 +25150,7 @@
 /turf/floor/tiled/dark,
 /area/cynosure/crew/d3/eva_storage)
 "rtS" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -25464,7 +25464,7 @@
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/command/d3/ai_core)
 "rJi" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/machinery/light{
@@ -26146,7 +26146,7 @@
 /obj/machinery/atmospherics/pipe/zpipe/down/supply{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -26751,7 +26751,7 @@
 /turf/floor/tiled/white,
 /area/cynosure/medical/d3/virology)
 "sCn" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/command/d3/ai_core)
 "sDi" = (
@@ -26777,10 +26777,10 @@
 /turf/floor/tiled/white,
 /area/cynosure/medical/d3/patient_wing)
 "sDX" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/surface/outside/plains/station/snd)
 "sEo" = (
@@ -26831,10 +26831,10 @@
 /turf/unsimulated/mask,
 /area/cynosure/cargo/d3/office)
 "sFW" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -26898,10 +26898,10 @@
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/disposalpipe/down{
@@ -27136,7 +27136,7 @@
 /turf/floor/tiled,
 /area/cynosure/crew/d3/art_storage)
 "sNV" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -28569,7 +28569,7 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/west)
 "tGx" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/crew/d3/holodeck_control)
 "tGL" = (
@@ -28691,10 +28691,10 @@
 /turf/floor/carpet/blue3,
 /area/cynosure/medical/d3/psych)
 "tNl" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/science/d3/hallway)
 "tNt" = (
@@ -28712,7 +28712,7 @@
 /turf/floor/tiled/freezer,
 /area/cynosure/engineering/d3/restroom)
 "tNH" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -29344,10 +29344,10 @@
 /turf/floor/tiled/white,
 /area/cynosure/medical/d3/virology)
 "uiq" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -29561,7 +29561,7 @@
 /turf/floor/wood,
 /area/cynosure/command/d3/union)
 "usA" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -29635,7 +29635,7 @@
 /turf/floor/tiled,
 /area/cynosure/engineering/d3/locker_room)
 "uwi" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/yellow/bordercorner{
@@ -29817,10 +29817,10 @@
 	},
 /obj/structure/lattice,
 /obj/machinery/door/firedoor/border_only,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
@@ -30293,10 +30293,10 @@
 /turf/floor/tiled,
 /area/cynosure/security/d3/hallway)
 "uTa" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -30614,10 +30614,10 @@
 /turf/floor/tiled/techfloor,
 /area/cynosure/security/d3/prison)
 "vdW" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -31676,10 +31676,10 @@
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/command/d3/ai_core)
 "vTu" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
@@ -31815,7 +31815,7 @@
 /turf/floor/tiled,
 /area/cynosure/cargo/d3/office)
 "vYK" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/engineering/d2/reactor)
 "waj" = (
@@ -31957,7 +31957,7 @@
 /turf/floor/tiled/monofloor,
 /area/cynosure/hallway/d3/west)
 "wiF" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -32063,7 +32063,7 @@
 /turf/floor/wood,
 /area/cynosure/command/d3/meeting)
 "wnk" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,
@@ -32561,7 +32561,7 @@
 /turf/floor/wood,
 /area/cynosure/command/d3/meeting)
 "wDZ" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/machinery/light/small/no_nightshift,
@@ -33947,7 +33947,7 @@
 /turf/floor/tiled/white,
 /area/cynosure/medical/d3/hallway)
 "xpQ" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -34256,7 +34256,7 @@
 /turf/floor/tiled/techmaint,
 /area/cynosure/engineering/d3/access)
 "xzd" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/hallway/d3/skybridge)
 "xzL" = (
@@ -34521,10 +34521,10 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/skybridge)
 "xJS" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/open,
 /area/cynosure/command/d3/ai_core)
 "xJT" = (
@@ -34707,11 +34707,11 @@
 	icon_state = "32-4"
 	},
 /obj/structure/lattice,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/open,
@@ -34894,10 +34894,10 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d3/command)
 "xUQ" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/open,

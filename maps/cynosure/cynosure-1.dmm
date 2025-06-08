@@ -669,10 +669,10 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
@@ -773,10 +773,10 @@
 /obj/machinery/atmospherics/pipe/zpipe/up/supply{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -2204,8 +2204,8 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/plating,
@@ -3710,10 +3710,10 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/research_north)
 "iK" = (
@@ -5573,7 +5573,7 @@
 /area/cynosure/hallway/d1/east)
 "mG" = (
 /obj/structure/stairs/long/east,
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/tiled/steel_grid,
 /area/cynosure/science/d1/hallway)
 "mH" = (
@@ -6431,11 +6431,11 @@
 /obj/structure/cable/green{
 	icon_state = "0-8"
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -6657,7 +6657,7 @@
 "pn" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/light,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/tiled,
@@ -7169,7 +7169,7 @@
 /turf/floor/tiled/dark,
 /area/cynosure/hallway/d1/west)
 "qu" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/tiled/steel_grid,
 /area/cynosure/science/d1/hallway)
 "qv" = (
@@ -8204,10 +8204,10 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/cable/green{
@@ -9430,10 +9430,10 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/security)
 "vy" = (
@@ -9598,7 +9598,7 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/engineering_south)
 "vS" = (
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/tiled/dark,
 /area/cynosure/hallway/d1/east_stairwell)
 "vT" = (
@@ -11003,7 +11003,7 @@
 /area/cynosure/hallway/d1/east)
 "yX" = (
 /obj/structure/stairs/long/west,
-/obj/structure/railing,
+/obj/structure/railing/mapped,
 /turf/floor/tiled/dark,
 /area/cynosure/hallway/d1/east_stairwell)
 "yY" = (
@@ -11758,7 +11758,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/effect/floor_decal/steeldecal/steel_decals4{
@@ -12254,7 +12254,7 @@
 	dir = 1;
 	c_tag = "ENG - Stairwell Lower"
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/floor/tiled,
@@ -13906,8 +13906,8 @@
 /area/cynosure/maintenance/construction/d1/bar)
 "FJ" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/railing,
-/obj/structure/railing{
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/structure/cable{
@@ -15249,10 +15249,10 @@
 	icon_state = "16-0"
 	},
 /obj/structure/cable/green,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /turf/floor/plating,
@@ -15627,7 +15627,7 @@
 /area/cynosure/hallway/d1/west_elevator)
 "Kc" = (
 /obj/structure/stairs/long,
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/tiled/dark,
@@ -17653,13 +17653,13 @@
 /obj/structure/cable/green{
 	icon_state = "16-0"
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/zpipe/up/supply{
@@ -17986,7 +17986,7 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/incinerator)
 "Ph" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/floor/tiled/dark,
@@ -18624,10 +18624,10 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/engineering_south)
 "QB" = (
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -21598,7 +21598,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/railing{
+/obj/structure/railing/mapped{
 	dir = 1
 	},
 /obj/structure/cable{
