@@ -67,38 +67,7 @@
 	)
 
 	/*
-	// Networks that will show up as options in the camera monitor program
-	station_networks = list(
-		NETWORK_CARGO,
-		NETWORK_CIRCUITS,
-		NETWORK_CIVILIAN,
-		NETWORK_COMMAND,
-		NETWORK_ENGINE,
-		NETWORK_ENGINEERING,
-		NETWORK_BASEMENT_FLOOR,
-		NETWORK_GROUND_FLOOR,
-		NETWORK_SECOND_FLOOR,
-		NETWORK_MEDICAL,
-		NETWORK_MINE,
-		NETWORK_RESEARCH,
-		NETWORK_RESEARCH_OUTPOST,
-		NETWORK_ROBOTS,
-		NETWORK_PRISON,
-		NETWORK_SECURITY,
-		NETWORK_TELECOM
-	)
 
-	// Camera networks that exist, but don't show on regular camera monitors.
-	secondary_networks = list(
-		NETWORK_ERT,
-		NETWORK_MERCENARY,
-		NETWORK_THUNDER,
-		NETWORK_COMMUNICATORS,
-		NETWORK_ALARM_ATMOS,
-		NETWORK_ALARM_POWER,
-		NETWORK_ALARM_FIRE,
-		NETWORK_SUPPLY
-	)
 	usable_email_tlds = list("freemail.nt")
 	allowed_spawns = list(
 		"Arrivals Shuttle",
@@ -194,7 +163,7 @@
 		/datum/map_template/surface/wilderness/deep
 	)
 	return 1
-
+*/
 /datum/map/cynosure/get_map_info()
 	. = list()
 	. +=  "[full_name] is a a cutting-edge anomaly research facility on the frozen garden world of Sif, jewel of the Vir system.<br>"
@@ -203,7 +172,7 @@
 	. +=  "Humanity already stands on the precipice of a technological singularity that few are ready to face, and the winds of change whip at their backs.<br>"
 	. +=  "On the edge of Sif's Anomalous Region, NanoTrasen seeks to exploit new phenomena stirred by the Incursion... That's where you come in."
 	return jointext(., "<br>")
-
+/*
 // Skybox Settings
 /datum/skybox_settings/cynosure
 	icon_state = "dyable"

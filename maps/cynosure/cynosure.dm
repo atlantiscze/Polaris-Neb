@@ -91,7 +91,6 @@
 	#include "cynosure-4.dmm"
 	#include "cynosure-5.dmm"
 	#include "cynosure-6.dmm"
-	#include "cynosure-7.dmm"
 
 	//#include "submaps/_cynosure_submaps.dm"
 
