@@ -1387,17 +1387,3 @@
 
 /area/surface/wilderness/shack
 	name = "Wilderness Shack"
-
-
-
-// TODO: Go through areas below and remove unused ones!
-
-
-//Planetside
-
-/*
-/obj/abstract/airlock_helper/atmos/chamber_pump
-/obj/abstract/airlock_helper/sensor/chamber_sensor
-/obj/abstract/airlock_helper/door/int_door
-/obj/abstract/airlock_helper/door/ext_door
-*/
