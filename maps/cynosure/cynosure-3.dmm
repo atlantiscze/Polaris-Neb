@@ -5688,10 +5688,10 @@
 /turf/floor/tiled/techmaint,
 /area/cynosure/command/d3/ce_office)
 "dWt" = (
-/obj/machinery/atmospherics/valve/digital,
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/valve/digital/open,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d3/command)
 "dWx" = (

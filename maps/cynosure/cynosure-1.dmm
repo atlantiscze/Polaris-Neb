@@ -4465,15 +4465,6 @@
 	},
 /turf/floor/tiled/old_cargo/gray,
 /area/cynosure/outpost/xenoarch/anomalous_lab)
-"kv" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 8
-	},
-/turf/wall/r_wall,
-/area/cynosure/science/d1/toxins_mixing)
 "kw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /obj/effect/floor_decal/borderfloor/corner{
@@ -4642,9 +4633,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/effect/floor_decal/steeldecal/steel_decals3{
 	dir = 8
@@ -4665,6 +4653,9 @@
 	dir = 10
 	},
 /obj/machinery/hologram/holopad,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
 /turf/floor/tiled/old_cargo/white,
 /area/cynosure/science/d1/toxins_mixing)
 "kP" = (
@@ -5981,9 +5972,6 @@
 /turf/floor/tiled/steel_dirty,
 /area/cynosure/maintenance/d1/medbay_south)
 "nJ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
 	},
@@ -6283,15 +6271,6 @@
 	},
 /turf/floor/tiled/white,
 /area/cynosure/outpost/xenoarch/hallway)
-"oA" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 8
-	},
-/turf/wall/r_wall,
-/area/cynosure/science/d1/toxins_mixing)
 "oB" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 8
@@ -8093,11 +8072,11 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/security)
 "sz" = (
-/obj/machinery/atmospherics/valve/digital,
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/valve/digital/open,
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/research_south)
 "sB" = (
@@ -9875,7 +9854,7 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/incinerator)
 "wy" = (
-/obj/machinery/atmospherics/valve/digital,
+/obj/machinery/atmospherics/valve/digital/open,
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/mining)
 "wz" = (
@@ -12003,11 +11982,11 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d1/center)
 "Bg" = (
-/obj/machinery/atmospherics/valve/digital,
 /obj/machinery/alarm{
 	dir = 8;
 	pixel_x = 22
 	},
+/obj/machinery/atmospherics/valve/digital/open,
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/medbay_south)
 "Bh" = (
@@ -13415,14 +13394,11 @@
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/science/d1/toxins_mixing)
 "Ez" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
 	},
 /turf/floor/tiled/old_tile/white,
 /area/cynosure/science/d1/toxins_mixing)
@@ -13672,9 +13648,6 @@
 /turf/floor/plating,
 /area/cynosure/outpost/xenoarch/entrance)
 "Fe" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
 /obj/machinery/atmospherics/binary/pump{
 	dir = 8
 	},
@@ -14553,9 +14526,6 @@
 /turf/floor/tiled/steel_grid,
 /area/cynosure/outpost/xenoarch/anomalous_storage)
 "Hw" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
 /obj/machinery/atmospherics/valve{
 	dir = 4
 	},
@@ -17165,11 +17135,11 @@
 	},
 /area/cynosure/cargo/d1/mining_outside)
 "NH" = (
-/obj/machinery/atmospherics/unary/tank/oxygen{
-	dir = 8
-	},
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
 	},
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/maintenance/d1/incinerator)
@@ -17232,9 +17202,6 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/security)
 "NN" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
 /obj/machinery/atmospherics/tvalve/bypass{
 	dir = 4
 	},
@@ -18042,9 +18009,7 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/bar)
 "Po" = (
-/obj/machinery/atmospherics/trinary/mixer{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/simple/visible,
 /turf/floor/tiled/old_cargo/gray,
 /area/cynosure/maintenance/d1/incinerator)
 "Pp" = (
@@ -19639,9 +19604,6 @@
 /turf/wall/concrete,
 /area/cynosure/engineering/d1/tech_storage)
 "SM" = (
-/obj/machinery/atmospherics/unary/tank/phoron{
-	dir = 8
-	},
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/maintenance/d1/incinerator)
 "SO" = (
@@ -47326,7 +47288,7 @@ oG
 VF
 oG
 HV
-gP
+vW
 gP
 Wl
 LV
@@ -49209,9 +49171,9 @@ rt
 nh
 Kh
 ZA
-oA
+nl
 tB
-kv
+nl
 ZA
 my
 sQ

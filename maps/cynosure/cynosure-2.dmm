@@ -21867,11 +21867,11 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/valve/digital,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/valve/digital/open,
 /turf/floor/plating,
 /area/cynosure/maintenance/substation/d2/engineering)
 "kDP" = (
@@ -33248,7 +33248,7 @@
 /turf/floor/tiled,
 /area/cynosure/security/d2/briefing)
 "pIj" = (
-/obj/machinery/atmospherics/valve/digital{
+/obj/machinery/atmospherics/valve/digital/open{
 	dir = 4
 	},
 /turf/floor/plating,
@@ -37622,8 +37622,8 @@
 /turf/floor/plating,
 /area/cynosure/engineering/d2/atmospherics)
 "rLy" = (
-/obj/machinery/atmospherics/valve/digital,
 /obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/machinery/atmospherics/valve/digital/open,
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/engineering)
 "rLA" = (
