@@ -91,8 +91,7 @@
 		access_research,
 		access_xenobiology,
 		access_xenoarch,
-		access_explorer,
-		access_xenofauna
+		access_hydroponics
 	)
 	minimal_access = list(
 		access_tox,
@@ -100,8 +99,7 @@
 		access_research,
 		access_xenoarch,
 		access_xenobiology,
-		access_explorer,
-		access_xenofauna
+		access_hydroponics
 	)
 	alt_titles = list(
 		"Xenobiologist",
