@@ -927,7 +927,7 @@
 /area/cynosure/maintenance/d1/mining
 	name = "\improper Basement - Mining Maintenance"
 	icon_state = "maintenance_mining"
-	req_access = list(access_maint_tunnels)
+	req_access = list(access_maint_tunnels, access_mining)
 
 /area/cynosure/maintenance/d1/southwest_estorage
 	name = "\improper Basement - Southwest Emergency Storage"
@@ -942,12 +942,12 @@
 /area/cynosure/maintenance/d1/research_south
 	name = "\improper Basement - Research Maintenance South"
 	icon_state = "maintenance_research_south"
-	req_access = list(access_maint_tunnels)
+	req_access = list(access_maint_tunnels, access_research)
 
 /area/cynosure/maintenance/d1/research_north
 	name = "\improper Basement - Research Maintenance North"
 	icon_state = "maintenance_research_north"
-	req_access = list(access_maint_tunnels)
+	req_access = list(access_maint_tunnels, access_research)
 
 /area/cynosure/maintenance/d1/bar
 	name = "\improper Basement - Bar Maintenance"
@@ -972,17 +972,17 @@
 /area/cynosure/maintenance/d1/security
 	name = "\improper Basement - Security Maintenance"
 	icon_state = "maintenance_security_north"
-	req_access = list(access_maint_tunnels)
+	req_access = list(access_maint_tunnels, access_security)
 
 /area/cynosure/maintenance/d1/medbay_south
 	name = "\improper Basement - Medbay Maintenance South"
 	icon_state = "maintenance_medical_south"
-	req_access = list(access_maint_tunnels)
+	req_access = list(access_maint_tunnels, access_medical)
 
 /area/cynosure/maintenance/d1/medbay_north
 	name = "\improper Basement - Medbay Maintenance North"
 	icon_state = "maintenance_medical_north"
-	req_access = list(access_maint_tunnels)
+	req_access = list(access_maint_tunnels, access_medical)
 
 /area/cynosure/maintenance/d2/chapel
 	name = "\improper Ground Floor - Chapel Maintenance"
@@ -1002,12 +1002,12 @@
 /area/cynosure/maintenance/d2/medbay_north
 	name = "\improper Ground Floor - Medbay Maintenance North"
 	icon_state = "maintenance_medical_north"
-	req_access = list(access_maint_tunnels)
+	req_access = list(access_maint_tunnels, access_medical)
 
 /area/cynosure/maintenance/d2/medbay_south
 	name = "\improper Ground Floor - Medbay Maintenance South"
 	icon_state = "maintenance_medical_south"
-	req_access = list(access_maint_tunnels)
+	req_access = list(access_maint_tunnels, access_medical)
 
 /area/cynosure/maintenance/d2/solar_east
 	name = "\improper Ground Floor - East Solar Array"
@@ -1022,7 +1022,7 @@
 /area/cynosure/maintenance/d2/kitchen
 	name = "\improper Ground Floor - Kitchen Maintenance"
 	icon_state = "maintenance_central_south"
-	req_access = list(access_maint_tunnels)
+	req_access = list(access_maint_tunnels, access_kitchen)
 
 /area/cynosure/maintenance/d2/atmospherics
 	name = "\improper Ground Floor - Atmospherics Maintenance"
