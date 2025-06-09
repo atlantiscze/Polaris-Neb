@@ -56,6 +56,7 @@
 	_input_maxed = TRUE
 	_output_maxed = TRUE
 	_output_on = TRUE
+	uncreated_component_parts = list()
 
 /obj/machinery/power/smes/buildable/preset/cynosure/engine_main
 	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 4)
@@ -123,6 +124,9 @@
 
 /obj/machinery/power/smes/buildable/preset/cynosure/substation/arrivals
 	RCon_tag = "Substation - Arrivals"
+	_fully_charged = TRUE
+	_input_on = TRUE
+	_output_on = TRUE
 
 /obj/machinery/power/smes/buildable/preset/cynosure/substation/civilian
 	RCon_tag = "Substation - Civilian"

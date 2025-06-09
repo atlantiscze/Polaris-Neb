@@ -901,6 +901,9 @@
 	name = "\improper Second Floor - Research Maintenance"
 	icon_state = "maintenance_research_north"
 
+/area/cynosure/maintenance/d3/evac
+	name = "\improper Second Floor - Escape Pod B Dock"
+
 /area/cynosure/maintenance/construction/d1/genetics
 	name = "\improper Basement - Genetics Construction Area"
 	icon_state = "maintenance_construction"
@@ -1402,6 +1405,26 @@
 
 
 
+// SHUTTLES - These are already finished
+/area/shuttle/cynosure
+	icon_state = "shuttle2"
+
+/area/shuttle/cynosure/supply
+	name = "\improper Supply Shuttle"
+
+/area/shuttle/cynosure/arrival
+	name = "\improper Arrival Shuttle"
+
+/area/shuttle/cynosure/escape_shuttle
+	name = "\improper Emergency Shuttle"
+
+/area/shuttle/cynosure/escape_pod_A
+	name = "\improper Large Escape Pod A"
+
+/area/shuttle/cynosure/escape_pod_B
+	name = "\improper Large Escape Pod B"
+
+
 // SHUTTLES - TODO: Some shuttles still need to be converted to the new shuttle system
 /area/shuttle/exploration
 	requires_power = 1
@@ -1416,44 +1439,6 @@
 /area/shuttle/exploration/cargo
 	name = "\improper NTC Calvera Cargo and Engine Room"
 
-/area/shuttle/large_escape_pod1
-	name = "\improper Large Escape Pod One"
-
-/area/shuttle/large_escape_pod1/station
-	icon_state = "shuttle2"
-	base_turf = /turf/floor/plating/airless
-
-/area/shuttle/large_escape_pod1/centcom
-	icon_state = "shuttle"
-
-/area/shuttle/large_escape_pod1/transit
-	icon_state = "shuttle"
-
-/area/shuttle/large_escape_pod2
-	name = "\improper Large Escape Pod Two"
-
-/area/shuttle/large_escape_pod2/station
-	icon_state = "shuttle2"
-	base_turf = /turf/floor/plating/airless
-
-/area/shuttle/large_escape_pod2/centcom
-	icon_state = "shuttle"
-
-/area/shuttle/large_escape_pod2/transit
-	icon_state = "shuttle"
-
-/area/shuttle/arrival
-	name = "\improper Arrival Shuttle"
-	icon_state = "shuttle"
-
-/area/shuttle/escape
-	name = "\improper Emergency Shuttle"
-	icon_state = "shuttle"
-
-/area/shuttle/escape/centcom
-	name = "\improper Emergency Shuttle"
-	icon_state = "shuttle"
-	dynamic_lighting = 0
 
 // Centcom Transport Shuttle
 /area/shuttle/transport1/centcom
