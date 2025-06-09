@@ -57,9 +57,7 @@
 		access_kitchen
 	)
 	minimal_access = list(
-		access_hydroponics,
-		access_bar,
-		access_kitchen
+		access_bar
 	)
 	minimal_access = list(access_bar)
 	alt_titles = list("Barista")
