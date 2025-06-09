@@ -51,6 +51,14 @@
 	emergency_shuttle_leaving_dock = "The Emergency Shuttle has left the station. Estimate %ETA% until the shuttle docks at %dock_name%."
 	emergency_shuttle_called_message = "An emergency evacuation shuttle has been called. It will arrive at Cynosure departures pad in approximately %ETA%."
 	emergency_shuttle_recall_message = "The emergency shuttle has been recalled."
+	emergency_shuttle_called_sound = 'sound/AI/shuttlecalled.ogg'
+	command_report_sound = 'sound/AI/commandreport.ogg'
+	grid_check_sound = 'sound/AI/poweroff.ogg'
+	grid_restored_sound = 'sound/AI/poweron.ogg'
+	meteor_detected_sound = 'sound/AI/meteors.ogg'
+	radiation_detected_sound = 'sound/AI/radiation.ogg'
+	space_time_anomaly_sound = 'sound/AI/spanomalies.ogg'
+	unidentified_lifesigns_sound = 'sound/AI/aliens.ogg'
 
 	default_telecomms_channels = list(
 		COMMON_FREQUENCY_DATA,
@@ -67,6 +75,7 @@
 	)
 
 	default_law_type = /datum/ai_laws/nanotrasen
+	evac_controller_type = /datum/evacuation_controller/shuttle
 
 	/*
 

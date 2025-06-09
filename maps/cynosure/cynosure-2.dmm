@@ -450,7 +450,7 @@
 	dir = 8
 	},
 /turf/floor/plating,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "apb" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -664,7 +664,7 @@
 /obj/machinery/light,
 /obj/effect/floor_decal/milspec_sterile/green/half,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "avb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1454,8 +1454,8 @@
 	dir = 8;
 	volume_rate = 700;
 	power_rating = 30000;
-	id_tag = "cooling_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "cooling_in"
 	},
 /turf/floor/reinforced/supermatter_core,
 /area/cynosure/engineering/d2/reactor)
@@ -4255,7 +4255,7 @@
 	dir = 8
 	},
 /turf/floor/plating,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "caH" = (
 /obj/structure/table/marble,
 /obj/effect/floor_decal/spline/plain{
@@ -4737,7 +4737,7 @@
 	dir = 4
 	},
 /turf/wall/shuttle/dark/no_join,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "cpc" = (
 /obj/structure/table/marble,
 /obj/effect/floor_decal/spline/plain{
@@ -5218,7 +5218,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/blue,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "cGc" = (
 /obj/structure/closet/secure_closet/explorer,
 /obj/structure/window/reinforced,
@@ -5272,7 +5272,7 @@
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
 	dir = 8;
 	pixel_x = 24;
-	id_tag = "large_escape_pod_1_berth";
+	id_tag = "cynosure_escape_pod_A";
 	tag_door = "large_escape_pod_1_berth_hatch"
 	},
 /turf/floor/tiled,
@@ -5809,7 +5809,7 @@
 	dir = 1
 	},
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "cTl" = (
 /obj/machinery/vending/engivend{
 	dir = 8
@@ -7338,7 +7338,7 @@
 	dir = 1
 	},
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "dCe" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -9121,7 +9121,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/blue,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "evz" = (
 /obj/structure/sign/directions/stairs_up{
 	dir = 5;
@@ -12858,7 +12858,7 @@
 	dir = 1
 	},
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "giQ" = (
 /obj/structure/table/steel_reinforced,
 /obj/structure/window/reinforced{
@@ -14443,7 +14443,7 @@
 /area/cynosure/hallway/d2/civilian)
 "gTs" = (
 /turf/wall/ocp_wall,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "gTA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -16826,7 +16826,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/blue,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "iih" = (
 /obj/machinery/holosign/bar{
 	id_tag = "baropen"
@@ -17192,7 +17192,7 @@
 	},
 /obj/effect/floor_decal/milspec/color/blue,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "itt" = (
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -23513,13 +23513,13 @@
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
 	pixel_x = -26;
 	pixel_y = -26;
-	id_tag = "large_escape_pod_1";
+	id_tag = "escape_pod_A";
 	tag_door = "large_escape_pod_1_hatch"
 	},
-/obj/effect/shuttle_landmark/cynosure/large_escape_pod1/station,
 /obj/effect/floor_decal/milspec/color/blue,
+/obj/effect/shuttle_landmark/cynosure/escape_pod_A/station,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "lyg" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -27806,9 +27806,6 @@
 /obj/machinery/network/relay/wall_mounted/west,
 /turf/floor/tiled/freezer,
 /area/cynosure/crew/d2/kitchen)
-"nvX" = (
-/turf/floor/concrete,
-/area/shuttle/arrival)
 "nwe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -27946,7 +27943,7 @@
 	},
 /obj/effect/floor_decal/milspec_sterile/green/half,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "nzB" = (
 /obj/item/stool/bar/padded,
 /turf/floor/tiled,
@@ -28576,11 +28573,9 @@
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/hallway)
 "nNy" = (
-/obj/effect/shuttle_landmark/cynosure/escape/station{
-	docking_controller = "escape_shuttle"
-	},
+/obj/effect/shuttle_landmark/cynosure/escape_shuttle/station,
 /turf/floor/concrete,
-/area/shuttle/escape)
+/area/surface/outside/plains/station)
 "nNG" = (
 /obj/machinery/door/window/northright{
 	name = "Range Access"
@@ -28935,7 +28930,7 @@
 "nUW" = (
 /obj/effect/floor_decal/milspec/color/blue,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "nVk" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -29617,7 +29612,7 @@
 /area/cynosure/crew/d2/park)
 "olk" = (
 /turf/wall/titanium,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "omw" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/full,
@@ -31193,8 +31188,8 @@
 	external_pressure_bound_default = 0;
 	internal_pressure_bound_default = 2000;
 	pressure_checks_default = 2;
-	id_tag = "air_out";
-	use_power = 1
+	use_power = 1;
+	id_tag = "air_out"
 	},
 /turf/floor/reinforced/airmix,
 /area/cynosure/engineering/d2/atmospherics)
@@ -32384,7 +32379,7 @@
 	docking_controller = "arrivals_shuttle"
 	},
 /turf/floor/concrete,
-/area/shuttle/arrival)
+/area/surface/outside/plains/station)
 "psP" = (
 /turf/wall/concrete/reinforced,
 /area/cynosure/maintenance/d2/west_stairwell)
@@ -32778,7 +32773,7 @@
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
 	pixel_x = -4;
 	pixel_y = 20;
-	id_tag = "escape_shuttle";
+	id_tag = "cynosure_escape_shuttle";
 	tag_door = "cynosure_evac_dock"
 	},
 /turf/floor/tiled,
@@ -32955,8 +32950,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	id_tag = "waste_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "waste_in"
 	},
 /turf/floor/reinforced,
 /area/cynosure/engineering/d2/atmospherics)
@@ -33927,7 +33922,7 @@
 	dir = 1
 	},
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "qio" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -35713,8 +35708,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	id_tag = "tox_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "tox_in"
 	},
 /turf/floor/reinforced/phoron,
 /area/cynosure/engineering/d2/atmospherics)
@@ -36331,7 +36326,7 @@
 	dir = 1
 	},
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "rko" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 8
@@ -41125,8 +41120,8 @@
 /obj/effect/floor_decal/corner/black/full,
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	id_tag = "co2_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "co2_in"
 	},
 /turf/floor/reinforced/carbon_dioxide,
 /area/cynosure/engineering/d2/atmospherics)
@@ -41456,7 +41451,7 @@
 /obj/structure/shuttle/window,
 /obj/structure/grille,
 /turf/floor/shuttle,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "tOC" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -41772,7 +41767,7 @@
 	},
 /obj/effect/floor_decal/milspec_sterile/green/half,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "uay" = (
 /obj/structure/table/glass,
 /obj/structure/cable/green{
@@ -44907,7 +44902,7 @@
 	},
 /obj/effect/floor_decal/milspec_sterile/green/half,
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "vAb" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -44936,9 +44931,6 @@
 	},
 /turf/floor/plating,
 /area/cynosure/maintenance/d2/chapel)
-"vBC" = (
-/turf/floor/concrete,
-/area/shuttle/escape)
 "vBD" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -45392,7 +45384,7 @@
 	dir = 1
 	},
 /turf/floor/tiled/milspec/sterile,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "vLZ" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -45671,8 +45663,8 @@
 	external_pressure_bound = 100;
 	external_pressure_bound_default = 0;
 	initialize_directions = 1;
-	id_tag = "cooling_out";
-	use_power = 1
+	use_power = 1;
+	id_tag = "cooling_out"
 	},
 /turf/floor/reinforced/supermatter_core,
 /area/cynosure/engineering/d2/reactor)
@@ -46418,8 +46410,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	id_tag = "air_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "air_in"
 	},
 /turf/floor/reinforced/airmix,
 /area/cynosure/engineering/d2/atmospherics)
@@ -46498,8 +46490,8 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	id_tag = "n2o_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "n2o_in"
 	},
 /turf/floor/reinforced/n20,
 /area/cynosure/engineering/d2/atmospherics)
@@ -49269,8 +49261,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	id_tag = "air_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "air_in"
 	},
 /turf/floor/reinforced/oxygen,
 /area/cynosure/engineering/d2/atmospherics)
@@ -50067,7 +50059,7 @@
 	dir = 8
 	},
 /turf/floor/plating,
-/area/shuttle/large_escape_pod1/station)
+/area/shuttle/cynosure/escape_pod_A)
 "yag" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -50122,8 +50114,8 @@
 	},
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	id_tag = "n2_in";
-	use_power = 1
+	use_power = 1;
+	id_tag = "n2_in"
 	},
 /turf/floor/reinforced/nitrogen,
 /area/cynosure/engineering/d2/atmospherics)
@@ -76575,22 +76567,22 @@ nCe
 nCe
 cei
 gjW
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 gjW
 gjW
@@ -76846,25 +76838,25 @@ nCe
 nCe
 cei
 gjW
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 qKS
 nCe
@@ -77117,26 +77109,26 @@ nCe
 nCe
 cei
 gjW
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 qKS
 nCe
 nCe
@@ -77387,27 +77379,27 @@ nCe
 nCe
 nCe
 cei
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 qKS
 nCe
 nCe
@@ -77658,27 +77650,27 @@ nCe
 nCe
 nCe
 cei
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 qKS
 nCe
 nCe
@@ -77929,27 +77921,27 @@ nCe
 nCe
 nCe
 cei
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 qKS
 nCe
 nCe
@@ -78200,27 +78192,27 @@ nCe
 nCe
 nCe
 cei
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 qKS
 nCe
 nCe
@@ -78471,27 +78463,27 @@ nCe
 nCe
 nCe
 cei
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 qKS
 nCe
 nCe
@@ -78743,26 +78735,26 @@ nCe
 nCe
 cei
 gjW
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 qKS
 nCe
 nCe
@@ -79014,25 +79006,25 @@ nCe
 nCe
 cei
 gjW
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 nNy
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 qKS
 nCe
@@ -79285,22 +79277,22 @@ nCe
 nCe
 cei
 gjW
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
-vBC
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 jFo
 dNY
 hAR
@@ -83354,19 +83346,19 @@ gjW
 gjW
 gjW
 gjW
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 gjW
 gjW
@@ -83623,21 +83615,21 @@ ilk
 gjW
 gjW
 gjW
-nvX
-nvX
-nvX
-nvX
+gjW
+gjW
+gjW
+gjW
 psJ
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 gjW
 gjW
@@ -83893,23 +83885,23 @@ nCe
 ilk
 gjW
 gjW
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 gjW
 qKS
@@ -84164,23 +84156,23 @@ nCe
 ilk
 gjW
 gjW
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 gjW
 qKS
@@ -84435,23 +84427,23 @@ nCe
 ilk
 gjW
 gjW
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 gjW
 qKS
@@ -84706,23 +84698,23 @@ nCe
 ilk
 gjW
 gjW
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 gjW
 qKS
@@ -84977,23 +84969,23 @@ nCe
 ilk
 gjW
 gjW
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 gjW
 qKS
@@ -85249,21 +85241,21 @@ ilk
 gjW
 gjW
 gjW
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 gjW
 gjW
@@ -85522,19 +85514,19 @@ gjW
 gjW
 gjW
 gjW
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
-nvX
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
+gjW
 gjW
 gjW
 gjW

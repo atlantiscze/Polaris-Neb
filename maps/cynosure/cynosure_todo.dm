@@ -325,7 +325,6 @@ event2 system and event overrides from Polaris Cyno
 /area/holodeck/source_chess
 /area/skipjack_station/start
 /area/shuttle/trade
-/area/shuttle/supply
 /area/shuttle/syndicate_elite/mothership
 /area/centcom/suppy
 /area/centcom/creed
