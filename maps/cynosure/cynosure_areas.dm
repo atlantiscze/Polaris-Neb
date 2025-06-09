@@ -526,7 +526,7 @@
 /area/cynosure/engineering/d1/drone_fabrication
 	name = "\improper Basement - Drone Fabrication"
 	icon_state = "engineering_drone"
-	req_access = list(access_engine)
+	req_access = list(access_engine_equip, access_robotics)
 
 /area/cynosure/engineering/d2/atmospherics
 	name = "\improper Ground Floor - Atmospherics"
@@ -562,7 +562,7 @@
 /area/cynosure/engineering/d2/reactor_hallway
 	name = "\improper Ground Floor - Reactor Hallway"
 	icon_state = "engineering_hallway_engine"
-	req_access = list(access_engine)
+	req_access = list(access_engine_equip)
 
 /area/cynosure/engineering/d2/reactor
 	name = "\improper Ground Floor - Reactor Room"
