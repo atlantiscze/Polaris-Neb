@@ -6351,7 +6351,7 @@
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 4
 	},
-/obj/machinery/light/small/flicker{
+/obj/machinery/light/small{
 	dir = 4
 	},
 /turf/floor/tiled/steel_dirty,
@@ -9235,7 +9235,7 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
 	},
-/obj/machinery/light/small/no_nightshift,
+/obj/machinery/light/small,
 /obj/effect/floor_decal/rust,
 /turf/floor/barren,
 /area/cynosure/medical/d1/hallway)
@@ -12431,7 +12431,7 @@
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 10
 	},
-/obj/machinery/light/small/no_nightshift{
+/obj/machinery/light/small{
 	dir = 1
 	},
 /turf/floor/barren,
@@ -16439,7 +16439,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/light/small/no_nightshift,
+/obj/machinery/light/small,
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/medbay_north)
 "Mb" = (

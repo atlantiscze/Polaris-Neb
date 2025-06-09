@@ -110,7 +110,7 @@
 	landmark_tag = "escape_pod_B_station"
 	docking_controller = "cynosure_escape_pod_B"
 	base_area = /area/surface/outside/station/roof
-	base_turf = /turf/floor/hull
+	base_turf = /turf/floor/plating
 
 
 

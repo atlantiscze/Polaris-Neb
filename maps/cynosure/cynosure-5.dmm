@@ -1437,7 +1437,7 @@
 /area/skipjack_station)
 "bXb" = (
 /obj/structure/chair/shuttle,
-/obj/machinery/light/no_nightshift{
+/obj/machinery/light{
 	dir = 8
 	},
 /obj/effect/floor_decal/milspec/color/white,
@@ -2919,7 +2919,7 @@
 /turf/wall/shuttle/dark/no_join,
 /area/shuttle/cynosure/arrival)
 "dZT" = (
-/obj/machinery/light/no_nightshift,
+/obj/machinery/light,
 /obj/effect/floor_decal/milspec/color/blue,
 /obj/effect/floor_decal/milspec/color/white/half,
 /obj/effect/floor_decal/steeldecal/steel_decals_central5{
@@ -3243,6 +3243,14 @@
 /obj/item/chems/syringe,
 /turf/floor/shuttle/white,
 /area/skipjack_station/start)
+"etQ" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	pixel_y = 22;
+	id_tag = "centcom_escape_pod_B";
+	tag_door = "large_escape_pod_2_recovery_hatch"
+	},
+/turf/floor/shuttle/yellow,
+/area/centcom/evac)
 "eup" = (
 /obj/machinery/recharge_station,
 /turf/unsimulated/floor{
@@ -3796,7 +3804,7 @@
 /obj/structure/table,
 /obj/random/maintenance/clean,
 /obj/random/maintenance/clean,
-/obj/machinery/light/no_nightshift,
+/obj/machinery/light,
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/sterile,
 /area/shuttle/cynosure/arrival)
@@ -6194,7 +6202,7 @@
 /area/shuttle/cynosure/escape_shuttle)
 "irx" = (
 /obj/structure/chair/shuttle,
-/obj/machinery/light/no_nightshift{
+/obj/machinery/light{
 	dir = 4
 	},
 /obj/effect/floor_decal/milspec/color/white,
@@ -9441,14 +9449,6 @@
 /obj/item/baton/loaded,
 /turf/unsimulated/floor/dark,
 /area/tdome/tdome2)
-"mqd" = (
-/obj/machinery/embedded_controller/radio/simple_docking_controller{
-	pixel_y = 22;
-	id_tag = "centcom_escape_pod_B";
-	tag_door = "large_escape_pod_2_recovery_hatch"
-	},
-/turf/floor/shuttle/yellow,
-/area/centcom/evac)
 "mqp" = (
 /obj/structure/table/laminate,
 /obj/structure/flora/pottedplant/large{
@@ -10211,7 +10211,7 @@
 	},
 /area/centcom/command)
 "nol" = (
-/obj/machinery/light/no_nightshift{
+/obj/machinery/light{
 	dir = 1
 	},
 /obj/effect/floor_decal/milspec/color/blue,
@@ -10544,15 +10544,6 @@
 /obj/effect/floor_decal/corner/brown/border,
 /turf/floor/tiled/white,
 /area/centcom/bar)
-"nRy" = (
-/obj/machinery/door/airlock/external{
-	name = "Recovery Shuttle Dock 02";
-	icon_state = "door_locked";
-	locked = 1;
-	id_tag = "large_escape_pod_2_recovery_hatch"
-	},
-/turf/floor/shuttle/yellow,
-/area/centcom/evac)
 "nRZ" = (
 /obj/structure/crematorium{
 	name = "Object Deletorinator";
@@ -14341,6 +14332,15 @@
 	},
 /turf/unsimulated/floor/dark,
 /area/centcom/security)
+"stL" = (
+/obj/machinery/door/airlock/external{
+	name = "Recovery Shuttle Dock 02";
+	icon_state = "door_locked";
+	locked = 1;
+	id_tag = "large_escape_pod_2_recovery_hatch"
+	},
+/turf/floor/shuttle/yellow,
+/area/centcom/evac)
 "stR" = (
 /obj/effect/floor_decal/corner/red/full{
 	dir = 8
@@ -15258,6 +15258,14 @@
 	},
 /turf/unsimulated/floor/dark,
 /area/centcom/security)
+"tzQ" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	pixel_y = 22;
+	id_tag = "large_escape_pod_1_recovery";
+	tag_door = "large_escape_pod_1_recovery_hatch"
+	},
+/turf/floor/shuttle/yellow,
+/area/centcom/evac)
 "tBS" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -15316,7 +15324,7 @@
 /area/centcom/evac)
 "tDS" = (
 /obj/structure/chair/shuttle,
-/obj/machinery/light/no_nightshift{
+/obj/machinery/light{
 	dir = 1
 	},
 /turf/floor/tiled/milspec/sterile,
@@ -16427,7 +16435,7 @@
 /turf/unsimulated/floor/white,
 /area/centcom/medical)
 "uTx" = (
-/obj/machinery/light/no_nightshift{
+/obj/machinery/light{
 	dir = 1
 	},
 /obj/effect/floor_decal/milspec/color/red,
@@ -16840,7 +16848,7 @@
 	desc = "It's actually a possum inside the box piloting the shuttle but don't tell anyone.";
 	icon_state = "message_server_o_off"
 	},
-/obj/machinery/light/no_nightshift{
+/obj/machinery/light{
 	dir = 1
 	},
 /obj/effect/floor_decal/milspec/color/red,
@@ -17720,14 +17728,6 @@
 /obj/item/clothing/glasses/sunglasses/sechud/goggles,
 /turf/unsimulated/floor/techfloor/gray,
 /area/centcom/specops)
-"wGY" = (
-/obj/machinery/embedded_controller/radio/simple_docking_controller{
-	pixel_y = 22;
-	id_tag = "large_escape_pod_1_recovery";
-	tag_door = "large_escape_pod_1_recovery_hatch"
-	},
-/turf/floor/shuttle/yellow,
-/area/centcom/evac)
 "wHb" = (
 /obj/machinery/door/blast/regular{
 	name = "Ready Room";
@@ -18353,7 +18353,7 @@
 /obj/machinery/computer/shuttle_control/emergency{
 	dir = 1
 	},
-/obj/machinery/light/no_nightshift,
+/obj/machinery/light,
 /obj/effect/floor_decal/milspec/color/white,
 /turf/floor/tiled/milspec/dark,
 /area/shuttle/cynosure/escape_shuttle)
@@ -43990,7 +43990,7 @@ akY
 akY
 clW
 xtc
-nRy
+stL
 mWp
 aro
 xtc
@@ -44247,7 +44247,7 @@ akY
 akY
 akY
 xtc
-mqd
+etQ
 mWp
 aro
 rYe
@@ -48102,7 +48102,7 @@ akY
 akY
 akY
 xtc
-wGY
+tzQ
 mWp
 aro
 xtc
