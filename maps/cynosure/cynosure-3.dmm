@@ -72,18 +72,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/floor/wood,
 /area/cynosure/command/d3/sa_office)
-"afd" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/surface/outside/station/roof)
 "afs" = (
 /obj/structure/table,
 /obj/effect/floor_decal/borderfloorwhite{
@@ -196,7 +184,7 @@
 /turf/floor/tiled/techmaint,
 /area/cynosure/security/d3/cell_hallway)
 "ahf" = (
-/obj/machinery/light/no_nightshift{
+/obj/machinery/light{
 	dir = 1
 	},
 /obj/structure/chair/shuttle,
@@ -3170,8 +3158,7 @@
 	},
 /obj/machinery/power/apc{
 	name = "south bump";
-	pixel_y = -24;
-	nightshift_setting = 2
+	pixel_y = -24
 	},
 /obj/machinery/light_switch{
 	dir = 1;
@@ -3287,15 +3274,6 @@
 	},
 /turf/floor/carpet/blue,
 /area/cynosure/command/d3/iaa)
-"ckl" = (
-/obj/structure/cable/green{
-	icon_state = "1-4"
-	},
-/obj/effect/catwalk_plated,
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/surface/outside/station/roof)
 "ckn" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -3722,7 +3700,7 @@
 /area/cynosure/crew/d3/vacant)
 "cBH" = (
 /obj/effect/floor_decal/rust,
-/obj/machinery/light/small/no_nightshift{
+/obj/machinery/light/small{
 	dir = 1
 	},
 /turf/floor/tiled{
@@ -3923,18 +3901,6 @@
 	},
 /turf/floor/tiled/white,
 /area/cynosure/medical/d3/patientB)
-"cKO" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/cynosure/maintenance/d3/evac)
 "cLp" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Science Roof Access";
@@ -3988,12 +3954,6 @@
 	},
 /turf/floor/tiled/old_cargo/gray,
 /area/cynosure/science/d3/mech_bay)
-"cNd" = (
-/obj/effect/catwalk_plated,
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/surface/outside/station/roof)
 "cNj" = (
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/eva)
@@ -5820,15 +5780,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/floor/plating,
 /area/cynosure/maintenance/d3/cargo)
-"dZd" = (
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/cynosure/maintenance/d3/evac)
 "eaD" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -6421,6 +6372,15 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/engineering/d3/access)
+"eyS" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/obj/effect/catwalk_plated,
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/cynosure/maintenance/d3/evac)
 "eza" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -7686,8 +7646,7 @@
 /obj/machinery/power/apc{
 	name = "west bump";
 	dir = 8;
-	pixel_x = -24;
-	nightshift_setting = 2
+	pixel_x = -24
 	},
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 10
@@ -8181,26 +8140,6 @@
 	},
 /turf/floor/tiled/techmaint,
 /area/cynosure/security/d3/stairwell)
-"fJl" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 1
-	},
-/obj/machinery/power/apc{
-	name = "north bump";
-	dir = 1;
-	pixel_y = 24
-	},
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/cynosure/maintenance/d3/evac)
 "fJC" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/floor/tiled/old_tile/gray,
@@ -8523,6 +8462,23 @@
 	},
 /turf/open,
 /area/cynosure/hallway/d3/skybridge)
+"fWY" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
+	pixel_y = 24;
+	id_tag = "cynosure_escape_pod_B";
+	tag_door = "large_escape_pod_2_hatchext"
+	},
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/cynosure/maintenance/d3/evac)
 "fXe" = (
 /obj/effect/floor_decal/borderfloor/corner,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9608,6 +9564,12 @@
 "gEU" = (
 /turf/wall/r_wall,
 /area/cynosure/command/d3/ai_core)
+"gFd" = (
+/obj/effect/catwalk_plated,
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/cynosure/maintenance/d3/evac)
 "gFF" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -10131,16 +10093,6 @@
 "gSv" = (
 /turf/wall/concrete,
 /area/cynosure/science/d3/hallway)
-"gTf" = (
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/cynosure/maintenance/d3/evac)
 "gTh" = (
 /obj/structure/table,
 /obj/effect/floor_decal/borderfloor{
@@ -10175,13 +10127,6 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/engineering/d2/reactor_hallway)
-"gTX" = (
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped,
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/surface/outside/station/roof)
 "gUe" = (
 /obj/machinery/smartfridge/sheets/persistent_lossy,
 /turf/wall/r_wall,
@@ -10849,6 +10794,18 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/engineering/d3/hallway)
+"hoi" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/surface/outside/station/roof)
 "hoQ" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -14505,6 +14462,15 @@
 /obj/machinery/computer/arcade,
 /turf/floor/tiled,
 /area/cynosure/security/d3/prison)
+"jyg" = (
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/obj/effect/catwalk_plated,
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/surface/outside/station/roof)
 "jyL" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -15643,18 +15609,6 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/west)
-"kiC" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/surface/outside/station/roof)
 "kiS" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/borderfloor{
@@ -15758,6 +15712,12 @@
 "kmT" = (
 /turf/wall/concrete/reinforced,
 /area/cynosure/hallway/d3/civilian)
+"knw" = (
+/obj/effect/catwalk_plated,
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/surface/outside/station/roof)
 "kny" = (
 /turf/wall/r_wall,
 /area/cynosure/command/d3/iaa)
@@ -16405,15 +16365,6 @@
 	},
 /turf/floor/tiled/monotile,
 /area/cynosure/command/d3/bridge)
-"kUf" = (
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/surface/outside/station/roof)
 "kUD" = (
 /turf/wall/r_wall,
 /area/cynosure/security/d3/cell_hallway)
@@ -16634,16 +16585,6 @@
 	},
 /turf/open,
 /area/cynosure/maintenance/d3/eva)
-"lfY" = (
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/surface/outside/station/roof)
 "lhj" = (
 /obj/machinery/vending/fitness,
 /obj/effect/floor_decal/spline/plain{
@@ -17388,6 +17329,18 @@
 "lNK" = (
 /turf/unsimulated/mask,
 /area/cynosure/engineering/d3/hallway)
+"lNM" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/surface/outside/station/roof)
 "lNV" = (
 /obj/structure/flora/pottedplant/flower,
 /turf/floor/carpet/blue3,
@@ -18388,13 +18341,6 @@
 	},
 /turf/floor/plating,
 /area/cynosure/science/d3/workshop)
-"mBW" = (
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped,
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/cynosure/maintenance/d3/evac)
 "mCl" = (
 /obj/structure/chair/comfy/brown{
 	dir = 4
@@ -19067,12 +19013,6 @@
 "mVy" = (
 /turf/wall/r_wall,
 /area/cynosure/cargo/d3/restroom)
-"mVW" = (
-/obj/effect/catwalk_plated,
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/cynosure/maintenance/d3/evac)
 "mWt" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -19108,6 +19048,15 @@
 	},
 /turf/floor/tiled/techmaint,
 /area/cynosure/hallway/d3/civilian)
+"mXO" = (
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/surface/outside/station/roof)
 "mXT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /obj/effect/floor_decal/borderfloor{
@@ -19386,6 +19335,18 @@
 "nlm" = (
 /turf/wall/r_wall,
 /area/cynosure/hallway/d3/east)
+"nlO" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/cynosure/maintenance/d3/evac)
 "nmd" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -20054,6 +20015,13 @@
 	},
 /turf/floor/tiled/white,
 /area/cynosure/science/d3/generic_lab)
+"nGN" = (
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped,
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/surface/outside/station/roof)
 "nHk" = (
 /obj/structure/disposalpipe/sortjunction/flipped{
 	name = "CMO Office";
@@ -22421,15 +22389,6 @@
 	},
 /turf/floor/plating,
 /area/cynosure/crew/d3/holodeck_control)
-"pzA" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 1
-	},
-/obj/effect/catwalk_plated,
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/cynosure/maintenance/d3/evac)
 "pzI" = (
 /obj/structure/chair{
 	dir = 8
@@ -22627,6 +22586,26 @@
 	},
 /turf/floor/tiled/white,
 /area/cynosure/command/d3/rd_office)
+"pGd" = (
+/obj/effect/floor_decal/spline/plain{
+	dir = 1
+	},
+/obj/machinery/power/apc{
+	name = "north bump";
+	dir = 1;
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/cynosure/maintenance/d3/evac)
 "pGE" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 4
@@ -24633,6 +24612,19 @@
 	},
 /turf/floor/plating,
 /area/cynosure/maintenance/d3/eva)
+"qWk" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/turf/floor/tiled,
+/area/cynosure/hallway/d3/east)
 "qXc" = (
 /turf/wall,
 /area/cynosure/security/d3/riot_control)
@@ -24960,6 +24952,13 @@
 	},
 /turf/open,
 /area/cynosure/engineering/d2/reactor)
+"rjE" = (
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped,
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/cynosure/maintenance/d3/evac)
 "rkh" = (
 /turf/wall/r_wall,
 /area/cynosure/crew/d3/art_storage)
@@ -25779,6 +25778,16 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/east)
+"rWp" = (
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/cynosure/maintenance/d3/evac)
 "rXP" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -25923,14 +25932,22 @@
 	},
 /turf/floor/tiled/white,
 /area/cynosure/medical/d3/patient_wing)
+"saY" = (
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/catwalk_plated,
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/surface/outside/station/roof)
 "sbp" = (
 /obj/structure/cable/cyan{
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/super/critical{
 	name = "south bump";
-	pixel_y = -24;
-	nightshift_setting = 2
+	pixel_y = -24
 	},
 /obj/machinery/light_switch{
 	dir = 1;
@@ -26329,7 +26346,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/light/small/no_nightshift{
+/obj/machinery/light/small{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -26423,7 +26440,7 @@
 /obj/effect/floor_decal/corner/orange/border{
 	dir = 6
 	},
-/obj/machinery/light/small/no_nightshift{
+/obj/machinery/light/small{
 	dir = 4
 	},
 /turf/floor/tiled/dark,
@@ -27182,21 +27199,6 @@
 	},
 /turf/floor/tiled/techmaint,
 /area/cynosure/crew/d3/vacant)
-"sPh" = (
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/surface/outside/station/roof)
 "sPt" = (
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/red/border,
@@ -27260,19 +27262,6 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/security/d3/equipment)
-"sQy" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/floor/tiled,
-/area/cynosure/hallway/d3/east)
 "sQK" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -27549,8 +27538,7 @@
 /obj/machinery/power/apc{
 	name = "north bump";
 	dir = 1;
-	pixel_y = 24;
-	nightshift_setting = 2
+	pixel_y = 24
 	},
 /obj/machinery/light_switch{
 	pixel_x = 12;
@@ -29266,7 +29254,7 @@
 	},
 /obj/effect/floor_decal/industrial/warning/dust/corner,
 /obj/effect/floor_decal/rust,
-/obj/machinery/light/small/no_nightshift,
+/obj/machinery/light/small,
 /turf/floor/tiled{
 	icon_state = "steel_dirty"
 	},
@@ -29416,6 +29404,16 @@
 /obj/structure/window/reinforced/full,
 /turf/floor/plating,
 /area/cynosure/security/d3/prison)
+"ujn" = (
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/surface/outside/station/roof)
 "ujs" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -29605,23 +29603,6 @@
 "utm" = (
 /turf/wall,
 /area/cynosure/engineering/d3/restroom)
-"utu" = (
-/obj/effect/floor_decal/spline/plain{
-	dir = 1
-	},
-/obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
-	pixel_y = 24;
-	id_tag = "cynosure_escape_pod_B";
-	tag_door = "large_escape_pod_2_hatchext"
-	},
-/obj/effect/catwalk_plated,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/cynosure/maintenance/d3/evac)
 "uug" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -30954,15 +30935,6 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/hallway/d3/west)
-"vsA" = (
-/obj/effect/floor_decal/industrial/warning/dust{
-	dir = 4
-	},
-/obj/effect/catwalk_plated,
-/turf/floor/hull{
-	is_outside = 1
-	},
-/area/surface/outside/station/roof)
 "vsO" = (
 /obj/effect/floor_decal/borderfloor/corner{
 	dir = 1
@@ -31757,6 +31729,21 @@
 "vVy" = (
 /turf/wall/concrete/reinforced,
 /area/cynosure/security/d3/riot_control)
+"vVD" = (
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/surface/outside/station/roof)
 "vWR" = (
 /obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -32291,7 +32278,7 @@
 /turf/floor/plating,
 /area/cynosure/security/d3/riot_control)
 "wtg" = (
-/obj/machinery/light/small/no_nightshift{
+/obj/machinery/light/small{
 	dir = 1
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
@@ -32602,7 +32589,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/obj/machinery/light/small/no_nightshift,
+/obj/machinery/light/small,
 /turf/open,
 /area/cynosure/command/d3/ai_core)
 "wEo" = (
@@ -32799,6 +32786,15 @@
 	},
 /turf/floor/tiled/dark,
 /area/cynosure/hallway/d3/east)
+"wIR" = (
+/obj/effect/catwalk_plated,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/floor/hull{
+	is_outside = 1
+	},
+/area/cynosure/maintenance/d3/evac)
 "wJe" = (
 /obj/structure/sign/warning/radioactive,
 /turf/wall/r_wall,
@@ -33809,7 +33805,7 @@
 /obj/item/chems/ivbag,
 /obj/item/chems/ivbag,
 /obj/item/chems/ivbag,
-/obj/machinery/light/no_nightshift,
+/obj/machinery/light,
 /obj/effect/floor_decal/milspec_sterile/green/half,
 /turf/floor/tiled/milspec/sterile,
 /area/shuttle/cynosure/escape_pod_B)
@@ -34093,8 +34089,7 @@
 	},
 /obj/machinery/power/apc{
 	name = "south bump";
-	pixel_y = -24;
-	nightshift_setting = 2
+	pixel_y = -24
 	},
 /obj/effect/floor_decal/borderfloor{
 	dir = 10
@@ -65214,9 +65209,9 @@ nsL
 qlH
 wss
 hBB
-utu
-dZd
-gTf
+fWY
+wIR
+rWp
 dUH
 dUH
 dUH
@@ -65485,9 +65480,9 @@ nsL
 nsL
 szd
 cRp
-pzA
-mVW
-mBW
+eyS
+gFd
+rjE
 dUH
 dUH
 dUH
@@ -65756,13 +65751,13 @@ nsL
 pwt
 oHb
 cRp
-pzA
-mVW
-mVW
-kUf
-kUf
-kUf
-lfY
+eyS
+gFd
+gFd
+mXO
+mXO
+mXO
+ujn
 dUH
 dUH
 gae
@@ -66027,13 +66022,13 @@ nsL
 xmu
 wss
 hBB
-fJl
-cKO
-cKO
-kiC
-kiC
-ckl
-gTX
+pGd
+nlO
+nlO
+hoi
+hoi
+jyg
+nGN
 dUH
 dUH
 gae
@@ -66303,8 +66298,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 jLK
@@ -66574,8 +66569,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 mxn
@@ -66845,8 +66840,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 jLK
@@ -67116,8 +67111,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 gae
@@ -67387,8 +67382,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 gae
@@ -67658,8 +67653,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 tJU
@@ -67929,8 +67924,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 eAk
@@ -68200,8 +68195,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 qXg
@@ -68471,8 +68466,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 eAk
@@ -68742,8 +68737,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 tJU
@@ -69013,8 +69008,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 dUH
@@ -69284,8 +69279,8 @@ ddU
 ddU
 ddU
 dUH
-afd
-gTX
+lNM
+nGN
 dUH
 dUH
 dUH
@@ -69555,14 +69550,14 @@ ddU
 ddU
 ddU
 dUH
-afd
-cNd
-kUf
-kUf
-kUf
-kUf
-kUf
-kUf
+lNM
+knw
+mXO
+mXO
+mXO
+mXO
+mXO
+mXO
 lIs
 lIs
 uwO
@@ -69826,14 +69821,14 @@ ddU
 ddU
 ddU
 dUH
-sPh
-kiC
-kiC
-kiC
-kiC
-kiC
-ckl
-cNd
+vVD
+hoi
+hoi
+hoi
+hoi
+hoi
+jyg
+knw
 lIs
 uwO
 uwO
@@ -70103,8 +70098,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 usO
 uwO
 uwO
@@ -70374,8 +70369,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 del
 uwO
 uwO
@@ -70645,8 +70640,8 @@ dUH
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 usO
 uwO
 uwO
@@ -70916,8 +70911,8 @@ nfV
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 lIs
 uwO
 uwO
@@ -71187,8 +71182,8 @@ nfV
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 lIs
 uwO
 uwO
@@ -71458,8 +71453,8 @@ oJF
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 usO
 uwO
 uwO
@@ -71729,8 +71724,8 @@ jua
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 del
 uwO
 uwO
@@ -72000,8 +71995,8 @@ oJF
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 usO
 uwO
 uwO
@@ -72271,8 +72266,8 @@ nfV
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 lIs
 uwO
 uwO
@@ -72542,8 +72537,8 @@ nfV
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 lIs
 uwO
 uwO
@@ -72813,8 +72808,8 @@ dFl
 dUH
 dUH
 dUH
-afd
-cNd
+lNM
+knw
 usO
 uwO
 uwO
@@ -73085,7 +73080,7 @@ dUH
 dUH
 rfP
 tlG
-vsA
+saY
 ePE
 uwO
 uwO
@@ -74981,7 +74976,7 @@ bLI
 rWd
 gMa
 rWd
-sQy
+qWk
 vHc
 gMa
 gMa
