@@ -62,7 +62,7 @@
 	#include "cynosure_levels.dm"
 	#include "cynosure_elevator.dm"
 	#include "cynosure_presets.dm"
-	//#include "cynosure_shuttles.dm"
+	#include "cynosure_shuttles.dm"
 	#include "cynosure_todo.dm"
 
 	#include "loadout/loadout_accessories.dm"

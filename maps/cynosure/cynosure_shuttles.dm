@@ -1,5 +1,123 @@
-//Cynosure Shuttles
+// Cynosure Shuttles
+// Supply shuttle
+/datum/shuttle/autodock/ferry/supply/cargo
+	name = "Supply"
+	location = 1
+	warmup_time = 10
+	move_time = 120
+	shuttle_area = /area/shuttle/cynosure/supply
+	dock_target = "supply_shuttle"
+	waypoint_offsite = "supply_offsite"
+	waypoint_station = "supply_station"
+	//landmark_transition
+	ceiling_type = /turf/floor/reinforced
+	flags = SHUTTLE_FLAGS_PROCESS | SHUTTLE_FLAGS_SUPPLY | SHUTTLE_FLAGS_NO_CODE
 
+/obj/effect/shuttle_landmark/cynosure/supply_offsite
+	name = "Centcom Supply Depot"
+	landmark_tag = "supply_offsite"
+	base_area = /area/centcom/command
+	base_turf = /turf/floor
+
+/obj/effect/shuttle_landmark/cynosure/supply_station
+	name = "Station"
+	landmark_tag = "supply_station"
+	docking_controller = "cargo_bay"
+	base_area = /area/surface/outside/plains/station
+	base_turf = /turf/floor/tiled/asteroid_steel
+
+
+// Emergency shuttle
+/datum/shuttle/autodock/ferry/emergency/escape_shuttle
+	name = "Escape Shuttle"
+	warmup_time = 10
+	location = 1
+	dock_target = "escape_shuttle"
+	shuttle_area = /area/shuttle/cynosure/escape_shuttle
+	waypoint_offsite = "escape_shuttle_start"
+	waypoint_station = "escape_shuttle_station"
+	landmark_transition = "escape_shuttle_transit"
+	flags = SHUTTLE_FLAGS_PROCESS | SHUTTLE_FLAGS_NO_CODE
+
+/obj/effect/shuttle_landmark/cynosure/escape_shuttle/start
+	landmark_tag = "escape_shuttle_start"
+	docking_controller = "centcom_escape_dock"
+	base_area = /area/space
+	base_turf = /turf/space
+
+/obj/effect/shuttle_landmark/cynosure/escape_shuttle/transit
+	landmark_tag = "escape_shuttle_transit"
+
+/obj/effect/shuttle_landmark/cynosure/escape_shuttle/station
+	landmark_tag = "escape_shuttle_station"
+	docking_controller = "cynosure_escape_shuttle"
+	base_area = /area/surface/outside/plains/station
+	base_turf = /turf/floor/concrete
+
+
+// Large Escape Pod A (Xenoarch Outpost)
+/datum/shuttle/autodock/ferry/escape_pod/escape_pod_A
+	name = "Large Escape Pod A"
+	warmup_time = 10
+	location = 0
+	dock_target = "escape_pod_A"
+	shuttle_area = /area/shuttle/cynosure/escape_pod_A
+	waypoint_offsite = "escape_pod_A_start"
+	waypoint_station = "escape_pod_A_station"
+	arming_controller = "cynosure_escape_pod_A"
+	landmark_transition = "escape_pod_A_transit"
+	flags = SHUTTLE_FLAGS_PROCESS | SHUTTLE_FLAGS_NO_CODE
+
+/obj/effect/shuttle_landmark/cynosure/escape_pod_A/start
+	landmark_tag = "escape_pod_A_start"
+	docking_controller = "centcom_escape_pod_A"
+	base_area = /area/space
+	base_turf = /turf/space
+
+/obj/effect/shuttle_landmark/cynosure/escape_pod_A/transit
+	landmark_tag = "escape_pod_A_transit"
+
+/obj/effect/shuttle_landmark/cynosure/escape_pod_A/station
+	landmark_tag = "escape_pod_A_station"
+	docking_controller = "cynosure_escape_pod_A"
+	base_area = /area/surface/outside/plains/station
+	base_turf = /turf/floor/concrete
+
+
+// Large Escape Pod B (Roof)
+/datum/shuttle/autodock/ferry/escape_pod/escape_pod_B
+	name = "Large Escape Pod B"
+	warmup_time = 10
+	location = 0
+	dock_target = "escape_pod_B"
+	shuttle_area = /area/shuttle/cynosure/escape_pod_B
+	waypoint_offsite = "escape_pod_B_start"
+	waypoint_station = "escape_pod_B_station"
+	arming_controller = "cynosure_escape_pod_B"
+	landmark_transition = "escape_pod_B_transit"
+	flags = SHUTTLE_FLAGS_PROCESS | SHUTTLE_FLAGS_NO_CODE
+
+/obj/effect/shuttle_landmark/cynosure/escape_pod_B/start
+	landmark_tag = "escape_pod_B_start"
+	docking_controller = "centcom_escape_pod_B"
+	base_area = /area/space
+	base_turf = /turf/space
+
+/obj/effect/shuttle_landmark/cynosure/escape_pod_B/transit
+	landmark_tag = "escape_pod_B_transit"
+
+/obj/effect/shuttle_landmark/cynosure/escape_pod_B/station
+	landmark_tag = "escape_pod_B_station"
+	docking_controller = "cynosure_escape_pod_B"
+	base_area = /area/surface/outside/station/roof
+	base_turf = /turf/floor/plating
+
+
+
+
+// TODO: Fix all remaining shuttles
+
+/*
 // Arrivals Shuttle
 /datum/shuttle/autodock/ferry/arrivals/cynosure
 	name = "Arrivals"
@@ -24,27 +142,7 @@
 
 // Cargo shuttle.
 
-/datum/shuttle/autodock/ferry/supply/cargo
-	name = "Supply"
-	location = FERRY_LOCATION_OFFSITE
-	warmup_time = 10
-	shuttle_area = /area/shuttle/supply
-	landmark_offsite = "supply_offsite"
-	landmark_station = "supply_station"
-	docking_controller_tag = "supply_shuttle"
-	ceiling_type = /turf/floor/reinforced
-	flags = SHUTTLE_FLAGS_PROCESS|SHUTTLE_FLAGS_SUPPLY
 
-/obj/effect/shuttle_landmark/cynosure/supply_offsite
-	name = "Centcom Supply Depot"
-	landmark_tag = "supply_offsite"
-	base_area = /area/centcom/command
-	base_turf = /turf/floor
-
-/obj/effect/shuttle_landmark/cynosure/supply_station
-	name = "Station"
-	landmark_tag = "supply_station"
-	docking_controller = "cargo_bay"
 
 //Transport
 
@@ -212,7 +310,6 @@
 /obj/machinery/computer/shuttle_control/multi/mercenary
 	name = "mercenary ship control console"
 	shuttle_tag = "Mercenary"
-	req_access = list(access_syndicate)
 
 /datum/shuttle/autodock/multi/mercenary
 	name = "Mercenary"
@@ -259,126 +356,6 @@
 	arrival_message = "Attention, unknown shuttle is approaching Cynosure Station."
 	departure_message = "Attention, unknown shuttle is departing Cynosure Station."
 
-//Escape Pods
-
-/datum/shuttle/autodock/ferry/emergency/centcom
-	name = "Escape"
-	location = FERRY_LOCATION_OFFSITE
-	warmup_time = 10
-	shuttle_area = /area/shuttle/escape/centcom
-	landmark_offsite = "escape_offsite"
-	landmark_station = "escape_station"
-	landmark_transition = "escape_transit";
-	docking_controller_tag = "escape_shuttle"
-	ceiling_type = /turf/floor/reinforced
-	move_time = SHUTTLE_TRANSIT_DURATION_RETURN
-
-/obj/effect/shuttle_landmark/cynosure/escape/offsite
-	name = "Centcom"
-	landmark_tag = "escape_offsite"
-	docking_controller = "centcom_dock"
-	base_area = /area/space
-	base_turf = /turf/space
-
-/obj/effect/shuttle_landmark/cynosure/escape/station
-	name = "Cynosure Departures Pad"
-	landmark_tag = "escape_station"
-	docking_controller = "escape_dock"
-	base_turf = /turf/floor/concrete
-
-/obj/effect/shuttle_landmark/cynosure/escape/transit
-	landmark_tag = "escape_transit"
-
-// Escape Pods - Save me from typing this eight billion times
-#define ESCAPE_POD(NUMBER) \
-/datum/shuttle/autodock/ferry/escape_pod/escape_pod##NUMBER { \
-	name = "Escape Pod " + #NUMBER; \
-	location = FERRY_LOCATION_STATION; \
-	warmup_time = 0; \
-	shuttle_area = /area/shuttle/escape_pod##NUMBER/station; \
-	docking_controller_tag = "escape_pod_" + #NUMBER; \
-	landmark_station = "escape_pod_"+ #NUMBER +"_station"; \
-	landmark_offsite = "escape_pod_"+ #NUMBER +"_offsite"; \
-	landmark_transition = "escape_pod_"+ #NUMBER +"_transit"; \
-	move_time = SHUTTLE_TRANSIT_DURATION_RETURN; \
-} \
-/obj/effect/shuttle_landmark/cynosure/escape_pod##NUMBER/station { \
-	name = "Station"; \
-	landmark_tag = "escape_pod_"+ #NUMBER +"_station"; \
-	docking_controller = "escape_pod_"+ #NUMBER +"_berth"; \
-	base_area = /area/space; \
-	base_turf = /turf/floor/plating/airless; \
-} \
-/obj/effect/shuttle_landmark/cynosure/escape_pod##NUMBER/offsite { \
-	name = "Recovery"; \
-	landmark_tag = "escape_pod_"+ #NUMBER +"_offsite"; \
-	docking_controller = "escape_pod_"+ #NUMBER +"_recovery"; \
-} \
-/obj/effect/shuttle_landmark/cynosure/escape_pod##NUMBER/transit { \
-	landmark_tag = "escape_pod_"+ #NUMBER +"_transit"; \
-	landmark_flags = LANDMARK_CREATES_SAFE_SITE; \
-}
-
-ESCAPE_POD(1)
-
-#undef ESCAPE_POD
-
-// Large Escape Pod 1
-/datum/shuttle/autodock/ferry/escape_pod/large_escape_pod1
-	name = "Large Escape Pod 1"
-	location = FERRY_LOCATION_STATION
-	warmup_time = 0
-	shuttle_area = /area/shuttle/large_escape_pod1/station
-	landmark_station = "large_escape_pod1_station"
-	landmark_offsite = "large_escape_pod1_offsite"
-	landmark_transition = "large_escape_pod1_transit"
-	docking_controller_tag = "large_escape_pod_1"
-	move_time = SHUTTLE_TRANSIT_DURATION_RETURN
-
-/obj/effect/shuttle_landmark/cynosure/large_escape_pod1/station
-	name = "Station"
-	landmark_tag = "large_escape_pod1_station"
-	docking_controller = "large_escape_pod_1_berth"
-	base_area = /area/surface/outpost/research/xenoarcheology/surface
-	base_turf = /turf/floor/concrete
-
-/obj/effect/shuttle_landmark/cynosure/large_escape_pod1/offsite
-	name = "Recovery"
-	landmark_tag = "large_escape_pod1_offsite"
-	docking_controller = "large_escape_pod_1_recovery"
-
-/obj/effect/shuttle_landmark/cynosure/large_escape_pod1/transit
-	landmark_tag = "large_escape_pod1_transit"
-	landmark_flags = LANDMARK_CREATES_SAFE_SITE
-
-// Large Escape Pod 2
-/datum/shuttle/autodock/ferry/escape_pod/large_escape_pod2
-	name = "Large Escape Pod 2"
-	location = FERRY_LOCATION_STATION
-	warmup_time = 0
-	shuttle_area = /area/shuttle/large_escape_pod2/station
-	landmark_station = "large_escape_pod2_station"
-	landmark_offsite = "large_escape_pod2_offsite"
-	landmark_transition = "large_escape_pod2_transit"
-	docking_controller_tag = "large_escape_pod_2"
-	move_time = SHUTTLE_TRANSIT_DURATION_RETURN
-
-/obj/effect/shuttle_landmark/cynosure/large_escape_pod2/station
-	name = "Station"
-	landmark_tag = "large_escape_pod2_station"
-	docking_controller = "large_escape_pod_2_berth"
-	base_area = /area/surface/station/hallway/primary/secondfloor/east
-	base_turf = /turf/floor/plating/airless
-
-/obj/effect/shuttle_landmark/cynosure/large_escape_pod2/offsite
-	name = "Recovery"
-	landmark_tag = "large_escape_pod2_offsite"
-	docking_controller = "large_escape_pod_2_recovery"
-
-/obj/effect/shuttle_landmark/cynosure/large_escape_pod2/transit
-	landmark_tag = "large_escape_pod2_transit"
-	landmark_flags = LANDMARK_CREATES_SAFE_SITE
-
 //Cynosure Station Docks
 
 /obj/effect/shuttle_landmark/cynosure/pads/pad3
@@ -409,24 +386,9 @@ ESCAPE_POD(1)
 	landmark_tag = "nav_wilderness"
 	base_area = /area/surface/outside/wilderness/deep
 	base_turf = /turf/floor/dirt
-
-//Tcomms Sat Docks
-
-/obj/effect/shuttle_landmark/cynosure/tcomms/dock
-	name = "Telecommunications Satellite - Dock"
-	landmark_tag = "nav_telecomm_dockarm"
-	docking_controller = "tcomdock_airlock"
-	base_area = /area/space
-	base_turf = /turf/space
-
-/obj/effect/shuttle_landmark/cynosure/tcomms/solars
-	name = "Telecommunications Satellite - Solars"
-	landmark_tag = "nav_telecomm_solars"
-	base_area = /area/space
-	base_turf = /turf/space
-
+*/
 // Explorer Shuttle
-
+/*
 /datum/shuttle/autodock/overmap/explorer_shuttle
 	name = "NTC Calvera"
 	warmup_time = 0
@@ -450,61 +412,4 @@ ESCAPE_POD(1)
 	name = "takeoff and landing console"
 	shuttle_tag = "NTC Calvera"
 	req_access = list(access_explorer)
-
-/*
-// Compile in the map for CI testing if we're testing compileability of all the maps
-#if MAP_TEST
-#include "generic_shuttle.dmm"
-#endif
-
-// Map template for spawning the shuttle
-/datum/map_template/om_ships/hybrid
-    name = "OM Ship - Generic Shuttle"
-    desc = "A small privately-owned vessel."
-    mappath = 'generic_shuttle.dmm'
-    annihilate = TRUE
-
-// The shuttle's area(s)
-/area/shuttle/generic_shuttle/eng
-    name = "\improper Private Vessel - Engineering"
-    icon_state = "shuttle2"
-    requires_power = 1
-
-/area/shuttle/generic_shuttle/gen
-    name = "\improper Private Vessel - General"
-    icon_state = "shuttle2"
-    requires_power = 1
-
-// The shuttle's 'shuttle' computer
-/obj/machinery/computer/shuttle_control/explore/generic_shuttle
-    name = "short jump console"
-    shuttle_tag = "Private Vessel"
-    req_access = list(access_pilot)
-
-// A shuttle lateloader landmark
-/obj/effect/shuttle_landmark/shuttle_initializer/generic_shuttle
-    name = "Origin - Private Vessel"
-    base_area = /area/space
-    base_turf = /turf/space
-    landmark_tag = "omship_spawn_generic_shuttle"
-    shuttle_type = /datum/shuttle/autodock/overmap/generic_shuttle
-
-// The 'shuttle'
-/datum/shuttle/autodock/overmap/generic_shuttle
-    name = "Private Vessel"
-    current_location = "omship_spawn_generic_shuttle"
-    docking_controller_tag = "generic_shuttle_docker"
-    shuttle_area = list(/area/shuttle/generic_shuttle/eng, /area/shuttle/generic_shuttle/gen)
-    defer_initialisation = TRUE //We're not loaded until an admin does it
-
-// The 'ship'
-/obj/effect/overmap/visitable/ship/landable/generic_shuttle
-    scanner_name = "Private Vessel"
-    scanner_desc = @{"[i]Registration[/i]: PRIVATE
-[i]Class[/i]: Small Shuttle
-[i]Transponder[/i]: Transmitting (CIV), non-hostile
-[b]Notice[/b]: Small private vessel"}
-    vessel_mass = 1000
-    vessel_size = SHIP_SIZE_TINY
-    shuttle = "Private Vessel"
 */
