@@ -21,6 +21,9 @@
 
 /area/cynosure/
 	name = "Do Not Use"
+	icon = 'cynosure_areas.dmi'
+	icon_state = "cynosure"
+	secure = TRUE
 	holomap_color = HOLOMAP_AREACOLOR_BASE
 	ambience = AMBIENCE_GENERIC
 
@@ -137,6 +140,8 @@
 
 /area/cynosure/security/d2/restroom
 	name = "\improper Ground Floor - Security Restroom"
+	icon_state = "security_wc"
+	override_unlock = TRUE
 
 /area/cynosure/security/d2/firing_range
 	name = "\improper Ground Floor - Firing Range"
@@ -152,6 +157,9 @@
 
 /area/cynosure/security/d3/prison
 	name = "\improper Second Floor - Prison Wing"
+	icon_state = "security_prison"
+	area_flags = AREA_FLAG_PRISON
+	secure = FALSE //prisoners can't go away, but they are allowed to use bathroom without adding extra areas
 
 /area/cynosure/security/d3/hallway
 	name = "\improper Second Floor - Security Hallway"
@@ -223,6 +231,8 @@
 
 /area/cynosure/medical/d2/operating_observation
 	name = "\improper Ground Floor - Operation Observation Room"
+	icon_state = "medical_surgery_observation"
+	override_unlock = TRUE
 
 /area/cynosure/medical/d3/virology
 	name = "\improper Second Floor - Virology"
@@ -249,6 +259,8 @@
 
 /area/cynosure/medical/d3/restroom
 	name = "\improper Second Floor - Medbay Restroom"
+	icon_state = "medical_wc"
+	override_unlock = TRUE
 
 /area/cynosure/medical/d3/locker
 	name = "\improper Second Floor - Medbay Locker Room"
@@ -282,6 +294,8 @@
 
 /area/cynosure/science/d2/restroom
 	name = "\improper Ground Floor - Research Restroom"
+	icon_state = "research_restroom"
+	override_unlock = TRUE
 
 /area/cynosure/science/d2/locker
 	name = "\improper Ground Floor - Research Locker Room"
@@ -352,6 +366,8 @@
 
 /area/cynosure/engineering/d2/lobby
 	name = "\improper Ground Floor - Engineering Lobby"
+	icon_state = "engineering_lobby"
+	req_access = list()
 
 /area/cynosure/engineering/d2/monitoring
 	name = "\improper Ground Floor - Engineering Monitoring Room"
@@ -388,6 +404,8 @@
 
 /area/cynosure/engineering/d3/restroom
 	name = "\improper Second Floor - Engineering Restroom"
+	icon_state = "engineering_wc"
+	override_unlock = TRUE
 
 /area/cynosure/engineering/d3/overlook
 	name = "\improper Second Floor - Engineering Foyer Overlook"
@@ -441,6 +459,8 @@
 
 /area/cynosure/cargo/d3/restroom
 	name = "\improper Second Floor - Cargo Restroom"
+	icon_state = "cargo_wc"
+	override_unlock = TRUE
 
 /area/cynosure/cargo/d3/foyer
 	name = "\improper Second Floor - Cargo Foyer"
@@ -807,6 +827,8 @@
 
 /area/cynosure/outpost/xenoarch/restroom
 	name = "\improper Xenoarchaeology Outpost - Restroom"
+	icon_state = "research_restroom"
+	override_unlock = TRUE
 
 /area/cynosure/outpost/xenoarch/entrance
 	name = "\improper Xenoarchaeology Outpost - Entrance"
