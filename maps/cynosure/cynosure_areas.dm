@@ -159,17 +159,14 @@
 /area/cynosure/security/d2/processing
 	name = "\improper Ground Floor - Security Processing"
 	icon_state = "security_processing"
-	req_access = list(access_security)
 
 /area/cynosure/security/d2/lobby
 	name = "\improper Ground Floor - Security Lobby"
 	icon_state = "security_reception"
-	req_access = list(access_security)
 
 /area/cynosure/security/d2/hallway
 	name = "\improper Ground Floor - Security Hallway"
 	icon_state = "security_brig"
-	req_access = list(access_security)
 
 /area/cynosure/security/d2/forensics
 	name = "\improper Ground Floor - Forensics Office"
@@ -184,17 +181,14 @@
 /area/cynosure/security/d2/briefing
 	name = "\improper Ground Floor - Security Briefing Room"
 	icon_state = "security_briefing"
-	req_access = list(access_security)
 
 /area/cynosure/security/d2/secondary_storage
 	name = "\improper Ground Floor - Secondary Security Storage"
 	icon_state = "security_equipment"
-	req_access = list(access_security)
 
 /area/cynosure/security/d2/locker
 	name = "\improper Ground Floor - Security Locker Room"
 	icon_state = "security_lockerroom"
-	req_access = list(access_security)
 
 /area/cynosure/security/d2/restroom
 	name = "\improper Ground Floor - Security Restroom"
@@ -203,12 +197,10 @@
 /area/cynosure/security/d2/firing_range
 	name = "\improper Ground Floor - Firing Range"
 	icon_state = "security_firerange"
-	req_access = list(access_security)
 
 /area/cynosure/security/d2/interrogation
 	name = "\improper Ground Floor - Interrogation Room"
 	icon_state = "security_inter"
-	req_access = list(access_security)
 
 /area/cynosure/security/d3/riot_control
 	name = "\improper Second Floor - Riot Control"
@@ -218,7 +210,6 @@
 /area/cynosure/security/d3/cell_hallway
 	name = "\improper Second Floor - Cell Hallway"
 	icon_state = "security_brig_cell"
-	req_access = list(access_security)
 
 /area/cynosure/security/d3/prison
 	name = "\improper Second Floor - Prison Wing"
@@ -228,12 +219,10 @@
 /area/cynosure/security/d3/hallway
 	name = "\improper Second Floor - Security Hallway"
 	icon_state = "security_brig"
-	req_access = list(access_security)
 
 /area/cynosure/security/d3/stairwell
 	name = "\improper Second Floor - Security Stairwell"
 	icon_state = "security_brig_stairs"
-	req_access = list(access_security)
 
 /area/cynosure/security/d3/warden
 	name = "\improper Second Floor - Warden's Office"
@@ -272,22 +261,18 @@
 /area/cynosure/medical/d1/hallway
 	name = "\improper Basement - Medbay Hallway"
 	icon_state = "medical_hallway_main"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d1/secondary_storage
 	name = "\improper Basement - Medbay Secondary Storage"
 	icon_state = "medical_storage"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d2/emt_bay
 	name = "\improper Ground Floor - EMT Bay"
 	icon_state = "medical_paramedic"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d2/reception
 	name = "\improper Ground Floor - Medbay Reception"
 	icon_state = "medical_reception"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d2/chemistry
 	name = "\improper Ground Floor - Chemistry"
@@ -297,7 +282,6 @@
 /area/cynosure/medical/d2/treatment
 	name = "\improper Ground Floor - Medbay Treatment Centre"
 	icon_state = "medical_treatment"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d2/primary_storage
 	name = "\improper Ground Floor - Medbay Primary Storage"
@@ -307,17 +291,14 @@
 /area/cynosure/medical/d2/hallway
 	name = "\improper Ground Floor - Medbay Hallway"
 	icon_state = "medical_hallway_main"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d2/cloning
 	name = "\improper Ground Floor - Cloning Laboratory"
 	icon_state = "medical_cloning"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d2/recovery
 	name = "\improper Ground Floor - Medbay Recovery Ward"
 	icon_state = "medical_patient"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d2/surgery_storage
 	name = "\improper Ground Floor - Surgical Storage"
@@ -353,27 +334,22 @@
 /area/cynosure/medical/d3/exam
 	name = "\improper Second Floor - Exam Room"
 	icon_state = "medical_exam"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d3/patientA
 	name = "\improper Second Floor - Patient Room A"
 	icon_state = "medical_patient_isolation_1"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d3/patientB
 	name = "\improper Second Floor - Patient Room B"
 	icon_state = "medical_patient_isolation_2"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d3/hallway
 	name = "\improper Second Floor - Medbay Hallway"
 	icon_state = "medical_hallway_main"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d3/patient_wing
 	name = "\improper Second Floor - Patient Wing"
 	icon_state = "medical_patient"
-	req_access = list(access_medical)
 
 /area/cynosure/medical/d3/restroom
 	name = "\improper Second Floor - Medbay Restroom"
@@ -382,48 +358,42 @@
 /area/cynosure/medical/d3/locker
 	name = "\improper Second Floor - Medbay Locker Room"
 	icon_state = "medical_locker_room"
-	req_access = list(access_medical)
+	req_access = list(access_medical_equip)
 
 /area/cynosure/medical/d3/office
 	name = "\improper Second Floor - Medical Office"
 	icon_state = "medical_office"
-	req_access = list(access_medical)
 
 
 
 // RESEARCH AREAS
 /area/cynosure/science/
 	holomap_color = HOLOMAP_AREACOLOR_SCIENCE
+	req_access = list(access_research)
 
 /area/cynosure/science/d1/testing_site
 	name = "\improper Basement - Testing Site"
 	icon_state = "research_test_site"
-	req_access = list(access_research)
 
 /area/cynosure/science/d1/toxins_testing
 	name = "\improper Basement - Toxins Test Area"
 	icon_state = "research_toxins_test"
-	req_access = list(access_research)
 
 /area/cynosure/science/d1/toxins_launch
 	name = "\improper Basement - Toxins Launch Room"
 	icon_state = "research_toxins_launch"
-	req_access = list(access_research)
 
 /area/cynosure/science/d1/toxins_storage
 	name = "\improper Basement - Toxins Storage"
 	icon_state = "research_toxins_storage"
-	req_access = list(access_research)
 
 /area/cynosure/science/d1/toxins_mixing
 	name = "\improper Basement - Toxins Mixing Room"
 	icon_state = "research_toxins_mix"
-	req_access = list(access_research)
 
 /area/cynosure/science/d1/hallway
 	name = "\improper Basement - Research Hallway"
 	icon_state = "research_hallway"
-	req_access = list(access_research)
 
 /area/cynosure/science/d2/restroom
 	name = "\improper Ground Floor - Research Restroom"
@@ -432,17 +402,14 @@
 /area/cynosure/science/d2/locker
 	name = "\improper Ground Floor - Research Locker Room"
 	icon_state = "research_locker_room"
-	req_access = list(access_research)
 
 /area/cynosure/science/d2/misc
 	name = "\improper Ground Floor - Research Misc Laboratory"
 	icon_state = "research_laboratory"
-	req_access = list(access_research)
 
 /area/cynosure/science/d2/hallway
 	name = "\improper Ground Floor - Research Hallway"
 	icon_state = "research_hallway"
-	req_access = list(access_research)
 
 /area/cynosure/science/d2/xenobiology
 	name = "\improper Ground Floor - Xenobiology Laboratory"
@@ -462,22 +429,18 @@
 /area/cynosure/science/d2/xenoflora
 	name = "\improper Ground Floor - Xenoflora Laboratory"
 	icon_state = "research_xenoflora_lab"
-	req_access = list(access_research)
 
 /area/cynosure/science/d2/xenoflora_isolation
 	name = "\improper Ground Floor - Xenoflora Isolation"
 	icon_state = "research_xenoflora_iso"
-	req_access = list(access_research)
 
 /area/cynosure/science/d3/workshop
 	name = "\improper Second Floor - Research Workshop"
 	icon_state = "research_laboratory"
-	req_access = list(access_research)
 
 /area/cynosure/science/d3/foyer
 	name = "\improper Second Floor - Research Foyer"
 	icon_state = "research_hallway"
-	req_access = list(access_research)
 
 /area/cynosure/science/d3/mech_bay
 	name = "\improper Second Floor - Mech Bay"
@@ -494,12 +457,10 @@
 /area/cynosure/science/d3/generic_lab
 	name = "\improper Second Floor - Generic Laboratory"
 	icon_state = "research_miscellaneous"
-	req_access = list(access_research)
 
 /area/cynosure/science/d3/hallway
 	name = "\improper Second Floor - Research Hallway´"
 	icon_state = "research_hallway"
-	req_access = list(access_research)
 
 
 
@@ -507,11 +468,11 @@
 /area/cynosure/engineering/
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 	ambience = AMBIENCE_ENGINEERING
+	req_access = list(access_engine)
 
 /area/cynosure/engineering/d1/basement_auxiliary
 	name = "\improper Basement - Auxiliary Engineering Station"
 	icon_state = "engineering_auxilary"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d1/tech_storage
 	name = "\improper Basement - Tech Storage"
@@ -521,7 +482,6 @@
 /area/cynosure/engineering/d1/hallway
 	name = "\improper Basement - Engineering Hallway"
 	icon_state = "engineering_hallway_central"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d1/drone_fabrication
 	name = "\improper Basement - Drone Fabrication"
@@ -537,27 +497,22 @@
 /area/cynosure/engineering/d2/lobby
 	name = "\improper Ground Floor - Engineering Lobby"
 	icon_state = "engineering_lobby"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d2/monitoring
 	name = "\improper Ground Floor - Engineering Monitoring Room"
 	icon_state = "engineering_monitor"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d2/workshop
 	name = "\improper Ground Floor - Engineering Workshop"
 	icon_state = "engineering_workshop"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d2/hallway
 	name = "\improper Ground Floor - Engineering Hallway"
 	icon_state = "engineering_hallway_central"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d2/hard_storage
 	name = "\improper Ground Floor - Engineering Hard Storage"
 	icon_state = "engineering_toolstorage"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d2/reactor_hallway
 	name = "\improper Ground Floor - Reactor Hallway"
@@ -592,7 +547,6 @@
 /area/cynosure/engineering/d3/hallway
 	name = "\improper Second Floor - Engineering Hallway"
 	icon_state = "engineering_hallway_central"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d3/restroom
 	name = "\improper Second Floor - Engineering Restroom"
@@ -601,17 +555,14 @@
 /area/cynosure/engineering/d3/overlook
 	name = "\improper Second Floor - Engineering Foyer Overlook"
 	icon_state = "engineering_hallway_west"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d3/eva_hallway
 	name = "\improper Second Floor - Engineering EVA Hallway"
 	icon_state = "engineering_hallway_eva"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d3/eva_storage
 	name = "\improper Second Floor - Engineering EVA Storage"
 	icon_state = "engineering_suits"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d3/locker_room
 	name = "\improper Second Floor - Engineering Locker Room"
@@ -621,7 +572,6 @@
 /area/cynosure/engineering/d3/access
 	name = "\improper Second Floor - Engineering Access"
 	icon_state = "engineering_lobby"
-	req_access = list(access_engine)
 
 /area/cynosure/engineering/d3/reactor_monitor
 	name = "\improper Second Floor - Reactor Monitoring Room"
@@ -633,11 +583,11 @@
 // CARGO AREAS
 /area/cynosure/cargo/
 	holomap_color = HOLOMAP_AREACOLOR_CARGO
+	req_access = list(access_cargo)
 
 /area/cynosure/cargo/d1/mining_locker_room
 	name = "\improper Basement - Mining Locker Room"
 	icon_state = "cargo_mining_locker"
-	req_access = list(access_cargo)
 
 /area/cynosure/cargo/d1/mining_gear_storage
 	name = "\improper Basement - Mining Gear Storage"
@@ -664,17 +614,14 @@
 	description = "Scuff marks scar the floor from the movement of many crates."
 	area_blurb_category = "cargo"
 	icon_state = "cargo_bay"
-	req_access = list(access_cargo)
 
 /area/cynosure/cargo/d2/delivery
 	name = "\improper Ground Floor - Delivery Office"
 	icon_state = "cargo_delivery"
-	req_access = list(access_cargo)
 
 /area/cynosure/cargo/d2/locker
 	name = "\improper Ground Floor - Cargo Locker Room"
 	icon_state = "cargo_locker"
-	req_access = list(access_cargo)
 
 /area/cynosure/cargo/d3/restroom
 	name = "\improper Second Floor - Cargo Restroom"
@@ -683,12 +630,10 @@
 /area/cynosure/cargo/d3/foyer
 	name = "\improper Second Floor - Cargo Foyer"
 	icon_state = "cargo_foyer"
-	req_access = list(access_cargo)
 
 /area/cynosure/cargo/d3/office
 	name = "\improper Second Floor - Cargo Office"
 	icon_state = "cargo_office"
-	req_access = list(access_cargo)
 
 
 
