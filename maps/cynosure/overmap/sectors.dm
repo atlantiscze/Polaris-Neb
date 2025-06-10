@@ -1,16 +1,10 @@
 // Overmap object for Sif, hanging in the void of space
-/obj/effect/overmap/visitable/planet/Sif
+/obj/effect/overmap/visitable/planet/sif
 	name = "Sif"
 	desc = "A cold, Earth-like planet. Cynosure Station is located here."
 	scanner_desc = "The third planet in the Vir system. SCG membership registered 2332. Primary settlement: New Reykjavik. Sensors detect abundant flora and fauna. Atmosphere suitable for human habitation. High activity on communications wavebands."
 	icon_state = "globe2"
 	color = "#3C6269"
-	map_z = list(
-		Z_LEVEL_STATION_ONE,
-		Z_LEVEL_STATION_TWO,
-		Z_LEVEL_STATION_THREE,
-		Z_LEVEL_SURFACE_WILD
-	)
 	base = 1
 	in_space = 0
 	start_x  = 10

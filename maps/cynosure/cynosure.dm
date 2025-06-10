@@ -26,6 +26,7 @@
 	// Must come after borers for compatibility.
 	#include "../../mods/content/psionics/_psionics.dme"
 
+	#include "../../mods/species/vox/_vox.dme"
 	#include "../../mods/species/ascent/_ascent.dme"
 	#include "../../mods/species/drakes/_drakes.dme"
 	#include "../../mods/content/pheromones/_pheromones.dme"

@@ -13,7 +13,6 @@
 		/obj/item/clothing/jumpsuit/head_of_security/corp,
 		/obj/item/clothing/suit/armor/hos/jensen,
 		/obj/item/clothing/suit/armor/hos,
-		/obj/item/cartridge/hos,
 		/obj/item/radio/headset/heads/hos,
 		/obj/item/radio/headset/heads/hos,
 		/obj/item/clothing/glasses/sunglasses/sechud,

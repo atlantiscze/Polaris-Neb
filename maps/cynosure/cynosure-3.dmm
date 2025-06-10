@@ -303,7 +303,7 @@
 /obj/structure/sign/calendar{
 	pixel_y = 32
 	},
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "ala" = (
 /obj/structure/disposalpipe/segment{
@@ -2139,10 +2139,10 @@
 /obj/effect/floor_decal/corner_oldtile/red{
 	dir = 5
 	},
-/obj/item/box/shotgunshells,
-/obj/item/box/shotgunshells,
-/obj/item/box/shotgunammo,
-/obj/item/box/shotgunammo,
+/obj/item/box/ammo/shotgunshells,
+/obj/item/box/ammo/shotgunshells,
+/obj/item/box/ammo/shotgunammo,
+/obj/item/box/ammo/shotgunammo,
 /obj/item/ammo_magazine/m45,
 /obj/item/ammo_magazine/m45,
 /obj/item/ammo_magazine/m45,
@@ -3282,7 +3282,7 @@
 /obj/structure/chair{
 	dir = 4
 	},
-/turf/floor/carpet/bcarpet,
+/turf/floor/carpet/blue,
 /area/surface/station/command/internalaffairs)
 "ckn" = (
 /obj/machinery/door/firedoor/border_only,
@@ -3576,7 +3576,7 @@
 "cwu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/floor/carpet/bcarpet,
+/turf/floor/carpet/blue,
 /area/surface/station/command/internalaffairs)
 "cxe" = (
 /obj/effect/floor_decal/borderfloor{
@@ -5951,7 +5951,7 @@
 /turf/open,
 /area/surface/station/engineering/reactor_monitoring)
 "efC" = (
-/turf/wall/thull,
+/turf/wall,
 /area/shuttle/large_escape_pod2/station)
 "ehf" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -7533,7 +7533,7 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "fom" = (
 /obj/machinery/sleeper{
@@ -8072,7 +8072,7 @@
 /turf/floor/tiled,
 /area/surface/station/park/skybridge)
 "fFt" = (
-/turf/floor/carpet/bcarpet,
+/turf/floor/carpet/blue,
 /area/surface/station/command/internalaffairs)
 "fFK" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -9719,7 +9719,7 @@
 "gGW" = (
 /obj/structure/shuttle/window,
 /obj/structure/grille,
-/turf/wall/shuttle/plating,
+/turf/floor/plating,
 /area/shuttle/large_escape_pod2/station)
 "gHg" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -10093,20 +10093,20 @@
 /obj/effect/floor_decal/corner_oldtile/red{
 	dir = 9
 	},
-/obj/item/box/flashshells,
-/obj/item/box/beanbags{
+/obj/item/box/ammo/flashshells,
+/obj/item/box/ammo/beanbags{
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/obj/item/box/beanbags{
+/obj/item/box/ammo/beanbags{
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/obj/item/box/stunshells{
+/obj/item/box/ammo/stunshells{
 	pixel_x = 4;
 	pixel_y = 4
 	},
-/obj/item/box/stunshells{
+/obj/item/box/ammo/stunshells{
 	pixel_x = 4;
 	pixel_y = 4
 	},
@@ -10381,7 +10381,6 @@
 /obj/machinery/computer/modular/telescreen/preset/security{
 	desc = "Big Brother is watching.";
 	name = "Brig Monitor";
-	network = list("Prison");
 	pixel_y = 26
 	},
 /obj/effect/floor_decal/borderfloor{
@@ -11400,7 +11399,7 @@
 	icon_state = "frame";
 	pixel_y = -32
 	},
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "hNy" = (
 /obj/structure/rack,
@@ -11572,7 +11571,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/floor/carpet/bcarpet,
+/turf/floor/carpet/blue,
 /area/surface/station/command/internalaffairs)
 "hSf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -13393,7 +13392,7 @@
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/turf/floor/carpet/bcarpet,
+/turf/floor/carpet/blue,
 /area/surface/station/command/internalaffairs)
 "iTL" = (
 /obj/structure/closet/emcloset,
@@ -14945,7 +14944,7 @@
 	pixel_x = -4;
 	pixel_y = -4
 	},
-/turf/floor/carpet/bcarpet,
+/turf/floor/carpet/blue,
 /area/surface/station/command/internalaffairs)
 "jLj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -16649,7 +16648,7 @@
 /obj/structure/chair/comfy/teal{
 	dir = 8
 	},
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "liY" = (
 /obj/structure/sign/directions/security/brig{
@@ -17200,7 +17199,6 @@
 /obj/machinery/computer/modular/telescreen/preset/security{
 	desc = "Used to monitor the reactor room.";
 	name = "Reactor Monitor";
-	network = list("Engine");
 	pixel_x = -32;
 	pixel_y = -32
 	},
@@ -17356,7 +17354,7 @@
 /area/surface/station/engineering/hallway/snd)
 "lNV" = (
 /obj/structure/flora/pottedplant/flower,
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "lOc" = (
 /obj/structure/cable/green{
@@ -18373,7 +18371,7 @@
 /obj/abstract/landmark/start{
 	name = "Psychiatrist"
 	},
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "mCA" = (
 /turf/wall/r_wall,
@@ -18889,7 +18887,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "mPU" = (
 /obj/random/vendor/food{
@@ -19187,7 +19185,7 @@
 /turf/floor/tiled/dark,
 /area/surface/station/hallway/primary/secondfloor/east)
 "ndO" = (
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "nei" = (
 /obj/machinery/door/firedoor/border_only,
@@ -24277,7 +24275,7 @@
 /area/surface/station/crew_quarters/sleep/Dorm_4)
 "qLx" = (
 /obj/structure/bed/psych,
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "qLR" = (
 /obj/structure/railing{
@@ -25174,7 +25172,7 @@
 /area/surface/station/quartermaster/office)
 "ryO" = (
 /obj/structure/closet/secure_closet/psychiatry,
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "rzL" = (
 /obj/machinery/door/firedoor/glass,
@@ -25474,7 +25472,6 @@
 /obj/machinery/computer/modular/preset/cardslot/command,
 /obj/machinery/computer/modular/telescreen/preset/security{
 	name = "Research Monitor";
-	network = list("Research","Toxins Test Area","Robots","Anomaly Isolation","Research Outpost");
 	pixel_y = 28
 	},
 /turf/floor/tiled/white,
@@ -26037,7 +26034,7 @@
 	pixel_x = -23;
 	pixel_y = -11
 	},
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "sfK" = (
 /obj/structure/cable/green{
@@ -28497,7 +28494,7 @@
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/turf/floor/carpet/bcarpet,
+/turf/floor/carpet/blue,
 /area/surface/station/command/internalaffairs)
 "tGw" = (
 /obj/effect/floor_decal/borderfloor{
@@ -28636,7 +28633,7 @@
 /obj/machinery/camera/network/medbay{
 	c_tag = "MED - Mental Health"
 	},
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "tNl" = (
 /obj/structure/railing{
@@ -29562,7 +29559,7 @@
 /obj/structure/sign/clock{
 	pixel_y = 32
 	},
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "uvJ" = (
 /obj/abstract/map_data{
@@ -30141,7 +30138,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/floor/carpet/bcarpet,
+/turf/floor/carpet/blue,
 /area/surface/station/command/internalaffairs)
 "uQN" = (
 /obj/machinery/firealarm{
@@ -35275,7 +35272,7 @@
 	pixel_x = -6;
 	pixel_y = 3
 	},
-/turf/floor/carpet/sblucarpet,
+/turf/floor/carpet/blue2,
 /area/surface/station/medical/psych)
 "yjJ" = (
 /obj/structure/disposalpipe/segment,
