@@ -78,13 +78,7 @@
 	#include "items/clothing/cyno_permits.dm"
 	#include "items/clothing/cyno_suit.dm"
 	#include "job/outfits.dm"
-
-	#include "job/captain.dm"
-	#include "job/civilian.dm"
-	#include "job/medical.dm"
-	#include "job/science.dm"
-	#include "job/security.dm"
-
+	#include "job/job-overrides.dm"
 	#include "structures/closets/misc.dm"
 	#include "structures/closets/security.dm"
 	#include "turfs/voidcraft.dm"
