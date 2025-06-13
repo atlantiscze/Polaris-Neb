@@ -78,7 +78,7 @@
 	#include "items/clothing/cyno_permits.dm"
 	#include "items/clothing/cyno_suit.dm"
 	#include "job/outfits.dm"
-	#include "job/job-overrides.dm"
+	#include "job/job_overrides.dm"
 	#include "structures/closets/misc.dm"
 	#include "structures/closets/security.dm"
 	#include "turfs/voidcraft.dm"
