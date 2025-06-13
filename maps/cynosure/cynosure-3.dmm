@@ -7930,7 +7930,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/airlock{
-	name = "Visitation Area"
+	name = "Visitation Area";
+	autoset_access = 0
 	},
 /turf/floor/tiled/steel_grid,
 /area/cynosure/security/d3/prison)
@@ -14245,7 +14246,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/airlock/glass{
-	name = "Brig Dormitory"
+	name = "Brig Dormitory";
+	autoset_access = 0
 	},
 /turf/floor/tiled/steel_grid,
 /area/cynosure/security/d3/prison)
@@ -20091,8 +20093,8 @@
 /area/cynosure/command/d3/ai_core)
 "nHR" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	use_power = 1;
-	id_tag = null
+	id_tag = null;
+	use_power = 1
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -23733,7 +23735,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/airlock{
-	name = "Restroom"
+	name = "Restroom";
+	autoset_access = 0
 	},
 /turf/floor/tiled/steel_grid,
 /area/cynosure/security/d3/prison)
@@ -27613,7 +27616,8 @@
 /area/cynosure/science/d3/generic_lab)
 "tet" = (
 /obj/machinery/door/airlock{
-	name = "Unit 1"
+	name = "Unit 1";
+	autoset_access = 0
 	},
 /turf/floor/tiled/steel_grid,
 /area/cynosure/security/d3/prison)

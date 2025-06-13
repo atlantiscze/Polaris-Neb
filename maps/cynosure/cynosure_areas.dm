@@ -217,7 +217,6 @@
 	name = "\improper Second Floor - Prison Wing"
 	icon_state = "security_prison"
 	area_flags = AREA_FLAG_PRISON
-	secure = FALSE //prisoners can't go away, but they are allowed to use bathroom without adding extra areas
 
 /area/cynosure/security/d3/hallway
 	name = "\improper Second Floor - Security Hallway"
