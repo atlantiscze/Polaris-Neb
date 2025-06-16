@@ -135,3 +135,6 @@
 
 /obj/machinery/power/smes/buildable/preset/cynosure/substation/command
 	RCon_tag = "Substation - Command"
+
+/obj/machinery/conveyor/preset/mining_processing
+	id_tag = "mining_processing"

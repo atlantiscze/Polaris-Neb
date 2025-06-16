@@ -595,6 +595,7 @@
 /area/cynosure/cargo/d1/mining_locker_room
 	name = "\improper Basement - Mining Locker Room"
 	icon_state = "cargo_mining_locker"
+	req_access = list(access_mining)
 
 /area/cynosure/cargo/d1/mining_gear_storage
 	name = "\improper Basement - Mining Gear Storage"

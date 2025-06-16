@@ -32,10 +32,7 @@ obj/machinery/station_map : obj/machinery/holomap
 
 // Other stuff to follow up on
 check what `specialfunctions = 4` on door buttons is supposed to do
-remap R&D servers with Neb types
-remap mining machines with Neb types
 reimplement equipment vendors for explo/mining
-map circuitboards back into secure storage
 corgi statue for central hall
 event2 system and event overrides from Polaris Cyno
 */

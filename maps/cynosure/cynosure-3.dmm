@@ -8336,11 +8336,12 @@
 /obj/effect/floor_decal/corner/yellow/border{
 	dir = 4
 	},
-/obj/machinery/computer/air_control/supermatter_core{
-	name = "Engine Cooling Control";
+/obj/machinery/computer/air_control{
+	name = "Reactor Cooling Control";
 	dir = 8;
 	input_tag = "cooling_in";
-	output_tag = "cooling_out"
+	output_tag = "cooling_out";
+	sensor_tag = "engine_sensor"
 	},
 /turf/floor/tiled,
 /area/cynosure/engineering/d3/reactor_monitor)
@@ -29082,7 +29083,8 @@
 	dir = 8
 	},
 /obj/machinery/computer/holodeck_control{
-	dir = 4
+	dir = 4;
+	linkedholodeck_area = /area/holodeck/alphadeck
 	},
 /turf/floor/tiled,
 /area/cynosure/crew/d3/holodeck_control)

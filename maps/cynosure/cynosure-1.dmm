@@ -432,10 +432,14 @@
 /turf/wall/concrete/reinforced,
 /area/cynosure/maintenance/substation/d1/research)
 "aZ" = (
-/obj/machinery/camera/network/mining{
-	dir = 4;
-	c_tag = "CRG - Mining Processing"
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/conveyor/preset/mining_processing,
+/obj/effect/floor_decal/industrial/loading,
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "ba" = (
@@ -861,6 +865,7 @@
 	id_tag = "mining_external"
 	},
 /obj/structure/flaps/airtight,
+/obj/machinery/door/firedoor/border_only,
 /turf/floor/plating,
 /area/cynosure/cargo/d1/mining_refinery)
 "bW" = (
@@ -899,6 +904,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/item/stock_parts/circuitboard/circuit_imprinter,
 /turf/floor/plating,
 /area/cynosure/engineering/d1/tech_storage)
 "bZ" = (
@@ -952,6 +958,13 @@
 	},
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/engineering_south)
+"ce" = (
+/obj/structure/rack,
+/obj/item/stock_parts/circuitboard/teg_turbine,
+/obj/item/stock_parts/circuitboard/teg_turbine,
+/obj/item/stock_parts/circuitboard/teg_turbine/motor,
+/turf/floor/plating,
+/area/cynosure/engineering/d1/tech_storage)
 "cf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1017,6 +1030,15 @@
 /obj/effect/catwalk_plated,
 /turf/floor/plating,
 /area/cynosure/cargo/d1/mining_locker_room)
+"cm" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/floor/tiled/old_tile/gray,
+/area/cynosure/cargo/d1/mining_refinery)
 "cn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1338,6 +1360,13 @@
 "dc" = (
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/medical/d1/morgue)
+"dd" = (
+/obj/machinery/material_processing/unloader{
+	input_turf = 8;
+	output_turf = 4
+	},
+/turf/floor/plating,
+/area/cynosure/cargo/d1/mining_outside)
 "de" = (
 /obj/effect/floor_decal/borderfloor{
 	dir = 1
@@ -1537,6 +1566,8 @@
 /area/cynosure/science/d1/toxins_launch)
 "dC" = (
 /obj/structure/rack,
+/obj/item/stock_parts/circuitboard/shield_generator,
+/obj/item/stock_parts/circuitboard/shield_diffuser,
 /turf/floor/plating,
 /area/cynosure/engineering/d1/tech_storage)
 "dD" = (
@@ -1713,6 +1744,17 @@
 /obj/structure/window/reinforced/full,
 /turf/floor/plating,
 /area/cynosure/hallway/d1/west_stairwell)
+"eb" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/conveyor/preset/mining_processing,
+/obj/effect/floor_decal/industrial/loading,
+/turf/floor/tiled/old_tile/gray,
+/area/cynosure/cargo/d1/mining_refinery)
 "ec" = (
 /obj/structure/hygiene/sink{
 	dir = 8;
@@ -2335,11 +2377,14 @@
 /turf/floor/tiled/techfloor,
 /area/cynosure/command/d1/vault)
 "fw" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id_tag = "mining_internal"
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
 	},
-/turf/floor/plating,
+/obj/machinery/conveyor/preset/mining_processing{
+	icon_state = "conveyor0";
+	dir = 4
+	},
+/turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "fx" = (
 /turf/wall/concrete/reinforced,
@@ -2368,6 +2413,13 @@
 	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/machinery/camera/network/mining{
+	dir = 8;
+	c_tag = "CRG - Mining Processing"
 	},
 /turf/floor/tiled/old_cargo/gray,
 /area/cynosure/cargo/d1/mining_refinery)
@@ -3240,11 +3292,8 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/bar)
 "hI" = (
-/obj/machinery/conveyor{
-	dir = 10;
-	id_tag = "mining_internal"
-	},
-/turf/floor/plating,
+/obj/machinery/material_processing/stacker,
+/turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "hJ" = (
 /obj/machinery/door/firedoor/border_only,
@@ -3643,6 +3692,10 @@
 	},
 /turf/floor/tiled/techfloor/grid,
 /area/cynosure/hallway/d1/west_elevator)
+"iE" = (
+/obj/structure/closet/crate,
+/turf/floor/barren,
+/area/cynosure/cargo/d1/mining_outside)
 "iF" = (
 /turf/wall,
 /area/cynosure/engineering/d1/hallway)
@@ -4778,6 +4831,15 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/rust,
+/obj/structure/cable/green,
+/obj/machinery/power/apc{
+	name = "east bump";
+	dir = 4;
+	pixel_x = 24
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
 /turf/floor/tiled/old_tile/yellow,
 /area/cynosure/cargo/d1/mining_refinery)
 "lj" = (
@@ -4822,6 +4884,13 @@
 	},
 /turf/floor/tiled/white,
 /area/cynosure/outpost/xenoarch/analysis)
+"lp" = (
+/obj/machinery/material_processing/stacker,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/floor/tiled/old_tile/gray,
+/area/cynosure/cargo/d1/mining_refinery)
 "lq" = (
 /obj/machinery/status_display,
 /turf/wall/concrete,
@@ -5692,9 +5761,11 @@
 /turf/floor/tiled/dark,
 /area/cynosure/hallway/d1/center)
 "mY" = (
-/obj/structure/closet/crate,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
 	},
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
@@ -5705,13 +5776,11 @@
 /turf/floor/tiled/techfloor,
 /area/cynosure/science/d1/testing_site)
 "na" = (
-/obj/machinery/disposal/deliveryChute{
-	dir = 4
-	},
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/warning/full,
+/obj/machinery/disposal/deliveryChute,
 /turf/floor/plating,
 /area/cynosure/cargo/d1/mining_refinery)
 "nc" = (
@@ -5731,11 +5800,10 @@
 /turf/floor/tiled,
 /area/cynosure/hallway/d1/east_stairwell)
 "nd" = (
-/obj/machinery/conveyor{
-	dir = 1;
-	id_tag = "mining_internal"
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
-/turf/floor/plating,
+/turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "ne" = (
 /obj/effect/floor_decal/borderfloor,
@@ -5837,15 +5905,18 @@
 /turf/floor/tiled/eris,
 /area/cynosure/outpost/xenoarch/restroom)
 "no" = (
-/obj/structure/flaps/airtight,
 /obj/machinery/ai_status_display{
 	pixel_y = -32
 	},
-/obj/machinery/conveyor{
-	dir = 8;
-	id_tag = "mining_internal"
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
-/turf/floor/plating,
+/obj/machinery/light,
+/obj/machinery/conveyor/preset/mining_processing{
+	icon_state = "conveyor0";
+	dir = 4
+	},
+/turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "np" = (
 /obj/structure/flaps/airtight,
@@ -6600,6 +6671,10 @@
 /area/cynosure/medical/d1/morgue)
 "pl" = (
 /obj/effect/floor_decal/industrial/warning/full,
+/obj/machinery/conveyor{
+	dir = 4;
+	id_tag = "mining_external"
+	},
 /turf/floor/plating,
 /area/cynosure/cargo/d1/mining_refinery)
 "pm" = (
@@ -6941,24 +7016,6 @@
 	},
 /turf/floor/tiled/white,
 /area/cynosure/science/d1/hallway)
-"qb" = (
-/obj/structure/cable/green{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc{
-	name = "north bump";
-	dir = 1;
-	pixel_y = 24
-	},
-/obj/machinery/light_switch{
-	pixel_x = 12;
-	pixel_y = 24
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals_central7{
-	dir = 1
-	},
-/turf/floor/tiled/old_tile/gray,
-/area/cynosure/cargo/d1/mining_refinery)
 "qd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -7516,9 +7573,6 @@
 	dir = 8;
 	pixel_x = 22
 	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "rl" = (
@@ -7909,6 +7963,16 @@
 	},
 /turf/floor/tiled/white,
 /area/cynosure/science/d1/hallway)
+"sb" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/conveyor/preset/mining_processing,
+/turf/floor/tiled/old_tile/gray,
+/area/cynosure/cargo/d1/mining_refinery)
 "sc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -8068,6 +8132,16 @@
 /obj/machinery/atmospherics/valve/digital/open,
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/research_south)
+"sA" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/obj/machinery/conveyor_switch/oneway{
+	id_tag = "mining_processing";
+	convdir = 1
+	},
+/turf/floor/tiled/old_tile/gray,
+/area/cynosure/cargo/d1/mining_refinery)
 "sB" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/grille,
@@ -8294,12 +8368,6 @@
 	},
 /turf/floor/tiled,
 /area/cynosure/hallway/d1/west_elevator)
-"sT" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/floor/tiled/old_tile/gray,
-/area/cynosure/cargo/d1/mining_refinery)
 "sU" = (
 /turf/floor/tiled/steel_grid,
 /area/cynosure/hallway/d1/west_stairwell)
@@ -8439,8 +8507,12 @@
 /turf/floor/tiled/dark,
 /area/cynosure/science/d1/hallway)
 "tk" = (
-/obj/effect/floor_decal/industrial/warning/full,
-/turf/floor/tiled/dark,
+/obj/machinery/fabricator/industrial,
+/turf/floor/tiled/old_tile/gray,
+/area/cynosure/cargo/d1/mining_refinery)
+"tn" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "to" = (
 /obj/structure/closet/hydrant{
@@ -8561,11 +8633,11 @@
 /turf/floor/tiled/white,
 /area/cynosure/outpost/xenoarch/entrance)
 "tA" = (
-/obj/machinery/conveyor{
-	dir = 6;
-	id_tag = "mining_internal"
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
-/turf/floor/plating,
+/obj/structure/closet/crate,
+/turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "tB" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -10600,9 +10672,6 @@
 /turf/floor/tiled/steel_grid,
 /area/cynosure/science/d1/toxins_storage)
 "yr" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
@@ -11079,10 +11148,7 @@
 /turf/floor/tiled/dark,
 /area/cynosure/hallway/d1/east)
 "zl" = (
-/turf/floor/plating{
-	icon_state = "asteroidplating2";
-	is_outside = 0
-	},
+/turf/floor/plating,
 /area/cynosure/cargo/d1/mining_outside)
 "zm" = (
 /turf/floor/barren,
@@ -11434,9 +11500,12 @@
 /turf/floor/tiled/neutral,
 /area/cynosure/outpost/xenoarch/hallway)
 "Ad" = (
-/obj/machinery/conveyor_switch/oneway{
-	id_tag = "mining_internal";
-	convdir = -1
+/obj/machinery/material_processing/smeltery{
+	input_turf = 1;
+	output_turf = 2
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
@@ -12334,12 +12403,6 @@
 /obj/effect/catwalk_plated/dark,
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/research_north)
-"BY" = (
-/obj/machinery/conveyor{
-	id_tag = "mining_north"
-	},
-/turf/floor/plating,
-/area/cynosure/cargo/d1/mining_refinery)
 "BZ" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -13029,6 +13092,13 @@
 "DF" = (
 /turf/floor/tiled/white,
 /area/cynosure/outpost/xenoarch/entrance)
+"DG" = (
+/obj/item/caution/cone,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/floor/barren,
+/area/surface/cave/explored/normal)
 "DH" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -13609,6 +13679,16 @@
 /obj/item/integrated_circuit_printer,
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/research_south)
+"Fa" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/conveyor/preset/mining_processing,
+/turf/floor/tiled/old_tile/gray,
+/area/cynosure/cargo/d1/mining_refinery)
 "Fc" = (
 /obj/item/box/lights/tubes,
 /turf/floor/plating,
@@ -14307,11 +14387,10 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/medbay_north)
 "GO" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id_tag = "mining_internal"
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4
 	},
-/turf/floor/plating,
+/turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "GP" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
@@ -14434,12 +14513,16 @@
 /turf/floor/tiled/steel_grid,
 /area/cynosure/outpost/xenoarch/analysis)
 "Ho" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
 /obj/effect/floor_decal/steeldecal/steel_decals4,
 /obj/effect/floor_decal/steeldecal/steel_decals4{
 	dir = 10
+	},
+/obj/structure/cable/green{
+	icon_state = "2-4"
+	},
+/obj/machinery/light_switch{
+	pixel_x = 22;
+	pixel_y = 18
 	},
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
@@ -15254,9 +15337,6 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/research_south)
 "Jq" = (
-/obj/effect/floor_decal/industrial/loading{
-	dir = 8
-	},
 /obj/effect/floor_decal/rust,
 /obj/item/radio/intercom{
 	pixel_y = 20
@@ -15429,6 +15509,11 @@
 	dir = 1;
 	c_tag = "ENG - Secure Technical Storage"
 	},
+/obj/item/stock_parts/circuitboard/account_database,
+/obj/item/stock_parts/circuitboard/acl,
+/obj/item/stock_parts/circuitboard/relay/wall_mounted,
+/obj/item/stock_parts/circuitboard/relay,
+/obj/item/stock_parts/circuitboard/router,
 /turf/floor/tiled/techfloor,
 /area/cynosure/engineering/d1/tech_storage)
 "JN" = (
@@ -15573,6 +15658,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
 /turf/floor/tiled/old_cargo/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "Kf" = (
@@ -15611,6 +15699,9 @@
 /obj/machinery/meter,
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/science/d1/toxins_mixing)
+"Ki" = (
+/turf/floor/tiled/old_tile/gray,
+/area/cynosure/cargo/d1/mining_refinery)
 "Kk" = (
 /obj/effect/floor_decal/rust,
 /turf/floor/tiled/steel_dirty,
@@ -15738,6 +15829,13 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/item/stock_parts/capacitor,
+/obj/item/stock_parts/capacitor,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/manipulator,
+/obj/item/stock_parts/manipulator,
+/obj/item/stock_parts/manipulator,
 /turf/floor/plating,
 /area/cynosure/engineering/d1/tech_storage)
 "Kz" = (
@@ -17107,10 +17205,7 @@
 	dir = 4;
 	id_tag = "mining_external"
 	},
-/turf/floor/plating{
-	icon_state = "asteroidplating2";
-	is_outside = 0
-	},
+/turf/floor/plating,
 /area/cynosure/cargo/d1/mining_outside)
 "NH" = (
 /obj/machinery/light/small{
@@ -17371,6 +17466,9 @@
 /obj/effect/floor_decal/steeldecal/steel_decals4,
 /obj/effect/floor_decal/steeldecal/steel_decals4{
 	dir = 10
+	},
+/obj/structure/cable/green{
+	icon_state = "1-2"
 	},
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
@@ -17794,6 +17892,9 @@
 	pixel_x = 24
 	},
 /obj/effect/floor_decal/industrial/warning,
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
 /turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "OY" = (
@@ -18054,6 +18155,19 @@
 	},
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/medbay_north)
+"Px" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/conveyor/preset/mining_processing{
+	icon_state = "conveyor0";
+	dir = 4
+	},
+/turf/floor/tiled/old_tile/gray,
+/area/cynosure/cargo/d1/mining_refinery)
 "Py" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/yellow{
 	dir = 8
@@ -18244,12 +18358,11 @@
 /turf/floor/plating,
 /area/cynosure/maintenance/d1/mining)
 "PR" = (
-/obj/structure/flaps/airtight,
-/obj/machinery/conveyor{
-	dir = 4;
-	id_tag = "mining_internal"
+/obj/machinery/light{
+	dir = 1
 	},
-/turf/floor/plating,
+/obj/structure/closet/crate,
+/turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "PS" = (
 /obj/effect/floor_decal/borderfloorwhite,
@@ -18351,6 +18464,7 @@
 	pixel_x = 4;
 	pixel_y = -5
 	},
+/obj/item/stock_parts/circuitboard/breaker,
 /turf/floor/plating,
 /area/cynosure/engineering/d1/tech_storage)
 "Qd" = (
@@ -18802,10 +18916,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/catwalk,
-/turf/floor/plating{
-	icon_state = "asteroidplating2";
-	is_outside = 0
-	},
+/turf/floor/plating,
 /area/cynosure/cargo/d1/mining_outside)
 "Rf" = (
 /turf/wall/concrete,
@@ -21619,6 +21730,7 @@
 /obj/item/stock_parts/circuitboard/robotics{
 	pixel_y = -3
 	},
+/obj/item/stock_parts/circuitboard/teleporter,
 /turf/floor/tiled/techfloor,
 /area/cynosure/engineering/d1/tech_storage)
 "XA" = (
@@ -21714,10 +21826,14 @@
 /turf/floor/tiled/techfloor,
 /area/cynosure/science/d1/testing_site)
 "XL" = (
-/obj/machinery/door/firedoor/border_only,
-/obj/structure/grille,
-/obj/structure/window/reinforced/full,
-/turf/floor/plating,
+/obj/machinery/material_processing/compressor{
+	input_turf = 1;
+	output_turf = 2
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/floor/tiled/old_tile/gray,
 /area/cynosure/cargo/d1/mining_refinery)
 "XM" = (
 /obj/structure/sign/warning/caution,
@@ -22328,10 +22444,6 @@
 	},
 /turf/floor/tiled/dark,
 /area/cynosure/outpost/xenoarch/anomalous_storage)
-"Zm" = (
-/obj/structure/closet/crate,
-/turf/floor/tiled/old_tile/gray,
-/area/cynosure/cargo/d1/mining_refinery)
 "Zn" = (
 /obj/structure/table/bench/padded,
 /obj/effect/floor_decal/borderfloor/corner,
@@ -45133,7 +45245,7 @@ RQ
 RQ
 RQ
 Jk
-Mi
+DG
 Jk
 gD
 rx
@@ -46496,7 +46608,7 @@ NG
 YO
 dn
 rx
-rx
+iE
 lw
 Jk
 RQ
@@ -47034,7 +47146,7 @@ LP
 rV
 xx
 xJ
-NG
+dd
 Bo
 jB
 rx
@@ -47846,11 +47958,11 @@ bS
 kI
 Fi
 hc
-BY
+hc
 hI
-nd
-nd
-pl
+Ki
+Ki
+cm
 nd
 nd
 tA
@@ -48119,12 +48231,12 @@ LQ
 hc
 hc
 GO
+Ki
+Ki
+eb
 XL
-XL
-NY
-XL
-XL
-pl
+sb
+Px
 NY
 RQ
 RQ
@@ -48389,12 +48501,12 @@ Yp
 fR
 jA
 hc
-GO
-NY
-qb
+Ki
+Ki
+Ki
 aZ
 Ad
-NY
+Fa
 fw
 NY
 RQ
@@ -48661,12 +48773,12 @@ wp
 bx
 hc
 PR
-XL
+Ki
 yr
 Ke
 mY
-XL
-fw
+sA
+lp
 NY
 RQ
 RQ
@@ -48932,11 +49044,11 @@ pD
 nS
 wZ
 tk
-XL
-sT
+Ki
+Ki
 SW
-Zm
-XL
+Ki
+tn
 no
 NY
 RQ
@@ -66816,7 +66928,7 @@ hN
 hN
 yT
 Ck
-dC
+ce
 DR
 Bs
 tT
