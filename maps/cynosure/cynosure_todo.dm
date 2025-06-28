@@ -322,9 +322,9 @@ event2 system and event overrides from Polaris Cyno
 /obj/machinery/door/firedoor/glass
 /obj/machinery/door/firedoor/multi_tile
 
-/obj/machinery/door/blast/gate
-/obj/machinery/door/blast/gate/thin
-/obj/machinery/door/blast/gate/thin/open
+///obj/machinery/door/blast/gate
+///obj/machinery/door/blast/gate/thin
+///obj/machinery/door/blast/gate/thin/open
 
 /obj/machinery/door/airlock/uranium
 /obj/machinery/door/airlock/voidcraft
