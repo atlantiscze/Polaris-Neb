@@ -166,7 +166,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Prison Lockdown";
 	dir = 8;
 	pixel_x = 25;
@@ -468,14 +468,14 @@
 	pixel_y = -4;
 	id_tag = "cmodoor"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Medbay Lockdown";
 	dir = 8;
 	pixel_x = -6;
 	pixel_y = 4;
 	id_tag = "medbayquar"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Virology Lockdown Control";
 	dir = 8;
 	pixel_x = 6;
@@ -1412,7 +1412,7 @@
 /obj/effect/floor_decal/industrial/danger{
 	dir = 1
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Emergency Access";
 	dir = 8;
 	pixel_x = 24;
@@ -1847,7 +1847,7 @@
 /obj/effect/floor_decal/steeldecal/steel_decals_central7{
 	dir = 1
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Atmospherics Lockdown";
 	pixel_x = 12;
 	pixel_y = 34;
@@ -2639,7 +2639,7 @@
 /obj/item/radio/intercom{
 	pixel_y = 20
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Cell 2 Door";
 	pixel_x = -6;
 	pixel_y = 36;
@@ -7349,7 +7349,7 @@
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/machinery/cell_charger,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Mech Bay Door Control";
 	dir = 1;
 	pixel_y = -24;
@@ -7426,7 +7426,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Cell 1 Door";
 	pixel_x = -6;
 	pixel_y = 36;
@@ -11562,7 +11562,7 @@
 	dir = 5
 	},
 /obj/machinery/computer/prisoner,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Security Lockdown";
 	pixel_x = -6;
 	pixel_y = 26;
@@ -12838,14 +12838,14 @@
 /area/cynosure/crew/d3/art_storage)
 "iIE" = (
 /obj/structure/table/reinforced,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Reactor Monitoring Room Shutters";
 	dir = 8;
 	pixel_x = 5;
 	pixel_y = -4;
 	id_tag = "ReactorBlast"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Reactor Core Blast Doors";
 	desc = "A remote control-switch for the reactor charging port.";
 	dir = 8;
@@ -12993,7 +12993,7 @@
 /area/cynosure/cargo/d3/office)
 "iKZ" = (
 /obj/structure/catwalk,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Reactor Cooling Pond Viewport Shutters";
 	dir = 8;
 	pixel_x = 24;
@@ -14082,7 +14082,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Emergency Access";
 	dir = 1;
 	pixel_y = -24;
@@ -14936,14 +14936,14 @@
 /obj/abstract/landmark/start{
 	name = "Site Manager"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Site Manager Lockdown";
 	dir = 8;
 	pixel_x = 38;
 	pixel_y = 7;
 	id_tag = "captainlockdown"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Command Lockdown";
 	dir = 8;
 	pixel_x = 38;
@@ -21581,7 +21581,7 @@
 	pixel_y = 1;
 	id_tag = "IAflash"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Visitation Shutters";
 	dir = 4;
 	pixel_x = 25;
@@ -21854,7 +21854,7 @@
 /area/cynosure/medical/d3/locker)
 "pcD" = (
 /obj/structure/table/reinforced,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Biohazard Shutter Control";
 	dir = 1;
 	pixel_x = 6;
@@ -25948,7 +25948,7 @@
 	pixel_x = -12;
 	pixel_y = -24
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "AI Core Blast Door Control";
 	dir = 1;
 	pixel_x = 13;
@@ -26966,13 +26966,13 @@
 	dir = 1
 	},
 /obj/structure/table/reinforced,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Command Lockdown";
 	pixel_x = -6;
 	pixel_y = 24;
 	id_tag = "commandlockdown"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Operations Lockdown";
 	pixel_x = 6;
 	pixel_y = 24;
@@ -32164,21 +32164,21 @@
 "woW" = (
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/blue/border,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Atmospherics Lockdown";
 	dir = 1;
 	pixel_x = 6;
 	pixel_y = -24;
 	id_tag = "atmoslockdown"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Engineering Lockdown";
 	dir = 1;
 	pixel_x = -6;
 	pixel_y = -24;
 	id_tag = "englockdown"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Reactor Ventillatory Control";
 	desc = "A remote control-switch for the exterior vent port.";
 	dir = 1;
@@ -33746,7 +33746,7 @@
 	dir = 5;
 	c_tag = "MED - Virology West"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Virology Lockdown Control";
 	dir = 4;
 	pixel_x = -36;
@@ -34871,7 +34871,7 @@
 "xTY" = (
 /obj/structure/table,
 /obj/item/sticky_pad/random,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Cargo Lockdown";
 	dir = 8;
 	pixel_x = -4;

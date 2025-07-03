@@ -6,6 +6,9 @@
 	layer = UNDER_JUNK_LAYER
 	w_class = ITEMSIZE_NORMAL
 	directional_offset = @'{"NORTH":{"y":0}, "SOUTH":{"y":0}, "EAST":{"x":0}, "WEST":{"x":0}}'
+
+/obj/structure/sign/directions
+	directional_offset = @'{"NORTH":{"y":0}, "SOUTH":{"y":0}, "EAST":{"x":0}, "WEST":{"x":0}}'
 /*
 /obj/structure/sign/ex_act(severity)
 	qdel(src)

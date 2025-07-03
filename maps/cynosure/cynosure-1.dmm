@@ -3812,7 +3812,7 @@
 	pixel_y = 34;
 	id_tag = "Incinerator"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Incinerator Vent Control";
 	pixel_y = 24;
 	id_tag = "disvent"
@@ -5741,7 +5741,7 @@
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Isolation Shutters";
 	pixel_y = 24;
 	id_tag = "isob"
@@ -5749,7 +5749,7 @@
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 1
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Isolation Room Vent";
 	pixel_y = 36;
 	id_tag = "ventisob"
@@ -10895,7 +10895,7 @@
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Isolation Shutters";
 	pixel_y = 24;
 	id_tag = "isoa"
@@ -10903,7 +10903,7 @@
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 1
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Isolation Room Vent";
 	pixel_y = 36;
 	id_tag = "ventisoa"
@@ -11584,7 +11584,7 @@
 	locked = 1;
 	id_tag = "elevator_SCI_access"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Elevator Hatch Release";
 	dir = 1;
 	pixel_y = -24;
@@ -12705,12 +12705,12 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Isolation Shutters";
 	pixel_y = 24;
 	id_tag = "isoc"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Isolation Room Vent";
 	pixel_y = 36;
 	id_tag = "ventisoc"
@@ -14598,7 +14598,7 @@
 	pixel_x = -34;
 	id_tag = "mixingsparker"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Mixing Room Vent Control";
 	dir = 4;
 	pixel_x = -24;

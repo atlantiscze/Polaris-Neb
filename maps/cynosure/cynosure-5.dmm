@@ -2537,7 +2537,7 @@
 	},
 /area/wizard_station)
 "dAl" = (
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "warehouse control";
 	dir = 8;
 	pixel_x = 30;
@@ -3586,19 +3586,19 @@
 /turf/floor/shuttle/black,
 /area/shuttle/merchant/home)
 "eWJ" = (
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Thunderdome Access";
 	pixel_x = 6;
 	pixel_y = -24;
 	id_tag = "crescent_thunderdome"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "VIP Shuttle Access";
 	pixel_x = 6;
 	pixel_y = -34;
 	id_tag = "crescent_vip_shuttle"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Crescent Checkpoint Access";
 	pixel_x = -6;
 	pixel_y = -24;
@@ -4479,7 +4479,7 @@
 /turf/floor/shuttle/voidcraft/dark,
 /area/syndicate_station/start)
 "gba" = (
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "warehouse control";
 	dir = 4;
 	pixel_x = -30;
@@ -7703,7 +7703,7 @@
 /turf/unsimulated/floor/techfloor/gray,
 /area/centcom/specops)
 "kkf" = (
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Shop Shutters";
 	dir = 1;
 	pixel_y = -26;
@@ -7754,7 +7754,7 @@
 /area/syndicate_station)
 "knl" = (
 /obj/structure/table/laminate/reinforced,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Spec Ops Ready Room";
 	pixel_y = 15;
 	id_tag = "CREED"
@@ -7913,7 +7913,7 @@
 /turf/floor/plating,
 /area/shuttle/administration/centcom)
 "kxT" = (
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "remote shutter control";
 	dir = 8;
 	pixel_x = 30;
@@ -9531,7 +9531,7 @@
 /area/shuttle/merchant/home)
 "mwS" = (
 /obj/structure/table/laminate/reinforced,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Mech Storage";
 	id_tag = "ASSAULT"
 	},
@@ -9866,7 +9866,7 @@
 	pixel_x = -1;
 	pixel_y = 3
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "remote shutter control";
 	dir = 1;
 	pixel_y = -25;
@@ -12317,7 +12317,7 @@
 /turf/floor/holofloor/carpet,
 /area/holodeck/source_courtroom)
 "qhn" = (
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "remote shutter control";
 	dir = 8;
 	pixel_x = 30;
@@ -12600,7 +12600,7 @@
 /area/shuttle/response_ship/start)
 "qzF" = (
 /obj/structure/table/steel_reinforced,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "remote shutter control";
 	dir = 8;
 	pixel_x = 30;
@@ -13566,7 +13566,7 @@
 	base_turf = /turf/space;
 	landmark_tag = "syndie_start"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "ship lockdown control";
 	dir = 4;
 	pixel_x = -25;
@@ -14394,7 +14394,7 @@
 	},
 /area/centcom/bar)
 "syp" = (
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "remote shutter control";
 	dir = 4;
 	pixel_x = -25;
@@ -14646,7 +14646,7 @@
 /turf/unsimulated/wall,
 /area/skipjack_station)
 "sNA" = (
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "remote shutter control";
 	dir = 8;
 	pixel_x = 25;
@@ -15096,7 +15096,7 @@
 /area/shuttle/cynosure/arrival)
 "trt" = (
 /obj/structure/table/steel_reinforced,
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "remote shutter control";
 	dir = 8;
 	id_tag = "syndieshutters"
@@ -15376,7 +15376,7 @@
 /obj/structure/chair/office/dark{
 	dir = 8
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "Security Doors";
 	desc = "A remote control switch for port-side blast doors.";
 	pixel_x = -25;
@@ -18899,7 +18899,7 @@
 /turf/unsimulated/floor/steel,
 /area/centcom/terminal)
 "xXs" = (
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "remote shutter control";
 	id_tag = "skipjackshutters"
 	},
@@ -19110,7 +19110,7 @@
 	dir = 4;
 	id_tag = "ninja_shuttle_pump"
 	},
-/obj/machinery/button/alternate{
+/obj/machinery/button/blast_door{
 	name = "ship lockdown control";
 	dir = 4;
 	pixel_x = -25;
